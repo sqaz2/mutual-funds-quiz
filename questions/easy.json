@@ -1,0 +1,632 @@
+[
+    {
+        "question": "What is a mutual fund?",
+        "options": [
+            "A bank savings account",
+            "An investment vehicle pooling money from multiple investors",
+            "A type of stock market insurance",
+            "A government bond"
+        ],
+        "correctAnswer": 1,
+        "correctText": "A mutual fund is an investment vehicle that pools money from multiple investors to invest in a diversified portfolio.",
+        "expertAdvice": "Mutual funds allow small investors to access a diversified portfolio managed by professionals.",
+        "definitions": {
+            "mutual fund": "An investment vehicle that pools money from many investors to purchase securities like stocks and bonds."
+        },
+        "hint": "It's about pooling resources for investing.",
+        "difficulty": 1,
+        "reward": 100
+    },
+    {
+        "question": "What does NAV stand for?",
+        "options": [
+            "Net Asset Value",
+            "New Asset Verification",
+            "National Asset Valuation",
+            "Net Accounting Value"
+        ],
+        "correctAnswer": 0,
+        "correctText": "NAV stands for Net Asset Value, which represents the per-share value of a mutual fund.",
+        "expertAdvice": "NAV is calculated by dividing the total assets of the fund by the number of outstanding shares.",
+        "definitions": {
+            "NAV": "Net Asset Value, the value of one share of the mutual fund."
+        },
+        "hint": "It represents the value per share.",
+        "difficulty": 1,
+        "reward": 100
+    },
+    {
+        "question": "Sample easy question #3?",
+        "options": [
+            "Option A for Q3",
+            "Option B for Q3",
+            "Option C for Q3",
+            "Option D for Q3"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #3.",
+        "expertAdvice": "Expert advice for question #3 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term3": "Definition for term3."
+        },
+        "hint": "Hint for question #3.",
+        "difficulty": 1,
+        "reward": 115
+    },
+    {
+        "question": "Sample easy question #4?",
+        "options": [
+            "Option A for Q4",
+            "Option B for Q4",
+            "Option C for Q4",
+            "Option D for Q4"
+        ],
+        "correctAnswer": 0,
+        "correctText": "This is the correct explanation for question #4.",
+        "expertAdvice": "Expert advice for question #4 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term4": "Definition for term4."
+        },
+        "hint": "Hint for question #4.",
+        "difficulty": 1,
+        "reward": 120
+    },
+    {
+        "question": "Sample easy question #5?",
+        "options": [
+            "Option A for Q5",
+            "Option B for Q5",
+            "Option C for Q5",
+            "Option D for Q5"
+        ],
+        "correctAnswer": 1,
+        "correctText": "This is the correct explanation for question #5.",
+        "expertAdvice": "Expert advice for question #5 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term5": "Definition for term5."
+        },
+        "hint": "Hint for question #5.",
+        "difficulty": 1,
+        "reward": 125
+    },
+    {
+        "question": "Sample easy question #6?",
+        "options": [
+            "Option A for Q6",
+            "Option B for Q6",
+            "Option C for Q6",
+            "Option D for Q6"
+        ],
+        "correctAnswer": 2,
+        "correctText": "This is the correct explanation for question #6.",
+        "expertAdvice": "Expert advice for question #6 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term6": "Definition for term6."
+        },
+        "hint": "Hint for question #6.",
+        "difficulty": 1,
+        "reward": 130
+    },
+    {
+        "question": "Sample easy question #7?",
+        "options": [
+            "Option A for Q7",
+            "Option B for Q7",
+            "Option C for Q7",
+            "Option D for Q7"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #7.",
+        "expertAdvice": "Expert advice for question #7 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term7": "Definition for term7."
+        },
+        "hint": "Hint for question #7.",
+        "difficulty": 1,
+        "reward": 135
+    },
+    {
+        "question": "Sample easy question #8?",
+        "options": [
+            "Option A for Q8",
+            "Option B for Q8",
+            "Option C for Q8",
+            "Option D for Q8"
+        ],
+        "correctAnswer": 0,
+        "correctText": "This is the correct explanation for question #8.",
+        "expertAdvice": "Expert advice for question #8 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term8": "Definition for term8."
+        },
+        "hint": "Hint for question #8.",
+        "difficulty": 1,
+        "reward": 140
+    },
+    {
+        "question": "Sample easy question #9?",
+        "options": [
+            "Option A for Q9",
+            "Option B for Q9",
+            "Option C for Q9",
+            "Option D for Q9"
+        ],
+        "correctAnswer": 1,
+        "correctText": "This is the correct explanation for question #9.",
+        "expertAdvice": "Expert advice for question #9 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term9": "Definition for term9."
+        },
+        "hint": "Hint for question #9.",
+        "difficulty": 1,
+        "reward": 145
+    },
+    {
+        "question": "Sample easy question #10?",
+        "options": [
+            "Option A for Q10",
+            "Option B for Q10",
+            "Option C for Q10",
+            "Option D for Q10"
+        ],
+        "correctAnswer": 2,
+        "correctText": "This is the correct explanation for question #10.",
+        "expertAdvice": "Expert advice for question #10 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term10": "Definition for term10."
+        },
+        "hint": "Hint for question #10.",
+        "difficulty": 1,
+        "reward": 150
+    },
+    {
+        "question": "Sample easy question #11?",
+        "options": [
+            "Option A for Q11",
+            "Option B for Q11",
+            "Option C for Q11",
+            "Option D for Q11"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #11.",
+        "expertAdvice": "Expert advice for question #11 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term11": "Definition for term11."
+        },
+        "hint": "Hint for question #11.",
+        "difficulty": 1,
+        "reward": 155
+    },
+    {
+        "question": "Sample easy question #12?",
+        "options": [
+            "Option A for Q12",
+            "Option B for Q12",
+            "Option C for Q12",
+            "Option D for Q12"
+        ],
+        "correctAnswer": 0,
+        "correctText": "This is the correct explanation for question #12.",
+        "expertAdvice": "Expert advice for question #12 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term12": "Definition for term12."
+        },
+        "hint": "Hint for question #12.",
+        "difficulty": 1,
+        "reward": 160
+    },
+    {
+        "question": "Sample easy question #13?",
+        "options": [
+            "Option A for Q13",
+            "Option B for Q13",
+            "Option C for Q13",
+            "Option D for Q13"
+        ],
+        "correctAnswer": 1,
+        "correctText": "This is the correct explanation for question #13.",
+        "expertAdvice": "Expert advice for question #13 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term13": "Definition for term13."
+        },
+        "hint": "Hint for question #13.",
+        "difficulty": 1,
+        "reward": 165
+    },
+    {
+        "question": "Sample easy question #14?",
+        "options": [
+            "Option A for Q14",
+            "Option B for Q14",
+            "Option C for Q14",
+            "Option D for Q14"
+        ],
+        "correctAnswer": 2,
+        "correctText": "This is the correct explanation for question #14.",
+        "expertAdvice": "Expert advice for question #14 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term14": "Definition for term14."
+        },
+        "hint": "Hint for question #14.",
+        "difficulty": 1,
+        "reward": 170
+    },
+    {
+        "question": "Sample easy question #15?",
+        "options": [
+            "Option A for Q15",
+            "Option B for Q15",
+            "Option C for Q15",
+            "Option D for Q15"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #15.",
+        "expertAdvice": "Expert advice for question #15 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term15": "Definition for term15."
+        },
+        "hint": "Hint for question #15.",
+        "difficulty": 1,
+        "reward": 175
+    },
+    {
+        "question": "Sample easy question #16?",
+        "options": [
+            "Option A for Q16",
+            "Option B for Q16",
+            "Option C for Q16",
+            "Option D for Q16"
+        ],
+        "correctAnswer": 0,
+        "correctText": "This is the correct explanation for question #16.",
+        "expertAdvice": "Expert advice for question #16 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term16": "Definition for term16."
+        },
+        "hint": "Hint for question #16.",
+        "difficulty": 1,
+        "reward": 180
+    },
+    {
+        "question": "Sample easy question #17?",
+        "options": [
+            "Option A for Q17",
+            "Option B for Q17",
+            "Option C for Q17",
+            "Option D for Q17"
+        ],
+        "correctAnswer": 1,
+        "correctText": "This is the correct explanation for question #17.",
+        "expertAdvice": "Expert advice for question #17 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term17": "Definition for term17."
+        },
+        "hint": "Hint for question #17.",
+        "difficulty": 1,
+        "reward": 185
+    },
+    {
+        "question": "Sample easy question #18?",
+        "options": [
+            "Option A for Q18",
+            "Option B for Q18",
+            "Option C for Q18",
+            "Option D for Q18"
+        ],
+        "correctAnswer": 2,
+        "correctText": "This is the correct explanation for question #18.",
+        "expertAdvice": "Expert advice for question #18 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term18": "Definition for term18."
+        },
+        "hint": "Hint for question #18.",
+        "difficulty": 1,
+        "reward": 190
+    },
+    {
+        "question": "Sample easy question #19?",
+        "options": [
+            "Option A for Q19",
+            "Option B for Q19",
+            "Option C for Q19",
+            "Option D for Q19"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #19.",
+        "expertAdvice": "Expert advice for question #19 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term19": "Definition for term19."
+        },
+        "hint": "Hint for question #19.",
+        "difficulty": 1,
+        "reward": 195
+    },
+    {
+        "question": "Sample easy question #20?",
+        "options": [
+            "Option A for Q20",
+            "Option B for Q20",
+            "Option C for Q20",
+            "Option D for Q20"
+        ],
+        "correctAnswer": 0,
+        "correctText": "This is the correct explanation for question #20.",
+        "expertAdvice": "Expert advice for question #20 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term20": "Definition for term20."
+        },
+        "hint": "Hint for question #20.",
+        "difficulty": 1,
+        "reward": 200
+    },
+    {
+        "question": "Sample easy question #21?",
+        "options": [
+            "Option A for Q21",
+            "Option B for Q21",
+            "Option C for Q21",
+            "Option D for Q21"
+        ],
+        "correctAnswer": 1,
+        "correctText": "This is the correct explanation for question #21.",
+        "expertAdvice": "Expert advice for question #21 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term21": "Definition for term21."
+        },
+        "hint": "Hint for question #21.",
+        "difficulty": 1,
+        "reward": 205
+    },
+    {
+        "question": "Sample easy question #22?",
+        "options": [
+            "Option A for Q22",
+            "Option B for Q22",
+            "Option C for Q22",
+            "Option D for Q22"
+        ],
+        "correctAnswer": 2,
+        "correctText": "This is the correct explanation for question #22.",
+        "expertAdvice": "Expert advice for question #22 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term22": "Definition for term22."
+        },
+        "hint": "Hint for question #22.",
+        "difficulty": 1,
+        "reward": 210
+    },
+    {
+        "question": "Sample easy question #23?",
+        "options": [
+            "Option A for Q23",
+            "Option B for Q23",
+            "Option C for Q23",
+            "Option D for Q23"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #23.",
+        "expertAdvice": "Expert advice for question #23 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term23": "Definition for term23."
+        },
+        "hint": "Hint for question #23.",
+        "difficulty": 1,
+        "reward": 215
+    },
+    {
+        "question": "Sample easy question #24?",
+        "options": [
+            "Option A for Q24",
+            "Option B for Q24",
+            "Option C for Q24",
+            "Option D for Q24"
+        ],
+        "correctAnswer": 0,
+        "correctText": "This is the correct explanation for question #24.",
+        "expertAdvice": "Expert advice for question #24 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term24": "Definition for term24."
+        },
+        "hint": "Hint for question #24.",
+        "difficulty": 1,
+        "reward": 220
+    },
+    {
+        "question": "Sample easy question #25?",
+        "options": [
+            "Option A for Q25",
+            "Option B for Q25",
+            "Option C for Q25",
+            "Option D for Q25"
+        ],
+        "correctAnswer": 1,
+        "correctText": "This is the correct explanation for question #25.",
+        "expertAdvice": "Expert advice for question #25 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term25": "Definition for term25."
+        },
+        "hint": "Hint for question #25.",
+        "difficulty": 1,
+        "reward": 225
+    },
+    {
+        "question": "Sample easy question #26?",
+        "options": [
+            "Option A for Q26",
+            "Option B for Q26",
+            "Option C for Q26",
+            "Option D for Q26"
+        ],
+        "correctAnswer": 2,
+        "correctText": "This is the correct explanation for question #26.",
+        "expertAdvice": "Expert advice for question #26 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term26": "Definition for term26."
+        },
+        "hint": "Hint for question #26.",
+        "difficulty": 1,
+        "reward": 230
+    },
+    {
+        "question": "Sample easy question #27?",
+        "options": [
+            "Option A for Q27",
+            "Option B for Q27",
+            "Option C for Q27",
+            "Option D for Q27"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #27.",
+        "expertAdvice": "Expert advice for question #27 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term27": "Definition for term27."
+        },
+        "hint": "Hint for question #27.",
+        "difficulty": 1,
+        "reward": 235
+    },
+    {
+        "question": "Sample easy question #28?",
+        "options": [
+            "Option A for Q28",
+            "Option B for Q28",
+            "Option C for Q28",
+            "Option D for Q28"
+        ],
+        "correctAnswer": 0,
+        "correctText": "This is the correct explanation for question #28.",
+        "expertAdvice": "Expert advice for question #28 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term28": "Definition for term28."
+        },
+        "hint": "Hint for question #28.",
+        "difficulty": 1,
+        "reward": 240
+    },
+    {
+        "question": "Sample easy question #29?",
+        "options": [
+            "Option A for Q29",
+            "Option B for Q29",
+            "Option C for Q29",
+            "Option D for Q29"
+        ],
+        "correctAnswer": 1,
+        "correctText": "This is the correct explanation for question #29.",
+        "expertAdvice": "Expert advice for question #29 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term29": "Definition for term29."
+        },
+        "hint": "Hint for question #29.",
+        "difficulty": 1,
+        "reward": 245
+    },
+    {
+        "question": "Sample easy question #30?",
+        "options": [
+            "Option A for Q30",
+            "Option B for Q30",
+            "Option C for Q30",
+            "Option D for Q30"
+        ],
+        "correctAnswer": 2,
+        "correctText": "This is the correct explanation for question #30.",
+        "expertAdvice": "Expert advice for question #30 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term30": "Definition for term30."
+        },
+        "hint": "Hint for question #30.",
+        "difficulty": 1,
+        "reward": 250
+    },
+    {
+        "question": "Sample easy question #31?",
+        "options": [
+            "Option A for Q31",
+            "Option B for Q31",
+            "Option C for Q31",
+            "Option D for Q31"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #31.",
+        "expertAdvice": "Expert advice for question #31 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term31": "Definition for term31."
+        },
+        "hint": "Hint for question #31.",
+        "difficulty": 1,
+        "reward": 255
+    },
+    {
+        "question": "Sample easy question #32?",
+        "options": [
+            "Option A for Q32",
+            "Option B for Q32",
+            "Option C for Q32",
+            "Option D for Q32"
+        ],
+        "correctAnswer": 0,
+        "correctText": "This is the correct explanation for question #32.",
+        "expertAdvice": "Expert advice for question #32 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term32": "Definition for term32."
+        },
+        "hint": "Hint for question #32.",
+        "difficulty": 1,
+        "reward": 260
+    },
+    {
+        "question": "Sample easy question #33?",
+        "options": [
+            "Option A for Q33",
+            "Option B for Q33",
+            "Option C for Q33",
+            "Option D for Q33"
+        ],
+        "correctAnswer": 1,
+        "correctText": "This is the correct explanation for question #33.",
+        "expertAdvice": "Expert advice for question #33 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term33": "Definition for term33."
+        },
+        "hint": "Hint for question #33.",
+        "difficulty": 1,
+        "reward": 265
+    },
+    {
+        "question": "Sample easy question #34?",
+        "options": [
+            "Option A for Q34",
+            "Option B for Q34",
+            "Option C for Q34",
+            "Option D for Q34"
+        ],
+        "correctAnswer": 2,
+        "correctText": "This is the correct explanation for question #34.",
+        "expertAdvice": "Expert advice for question #34 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term34": "Definition for term34."
+        },
+        "hint": "Hint for question #34.",
+        "difficulty": 1,
+        "reward": 270
+    },
+    {
+        "question": "Sample easy question #35?",
+        "options": [
+            "Option A for Q35",
+            "Option B for Q35",
+            "Option C for Q35",
+            "Option D for Q35"
+        ],
+        "correctAnswer": 3,
+        "correctText": "This is the correct explanation for question #35.",
+        "expertAdvice": "Expert advice for question #35 explains the reasoning behind the correct answer.",
+        "definitions": {
+            "term35": "Definition for term35."
+        },
+        "hint": "Hint for question #35.",
+        "difficulty": 1,
+        "reward": 275
+    }
+]
