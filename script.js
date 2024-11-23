@@ -39,7 +39,7 @@ const loadQuestion = () => {
     currentQuestion.options.forEach((option, index) => {
         const button = document.createElement("button");
         button.textContent = option;
-        button.classList.add("answer-btn"); // Add a common class for answer buttons
+        button.className = "answer-btn";
         button.onclick = () => checkAnswer(index);
         optionsElement.appendChild(button);
     });
@@ -63,33 +63,27 @@ const checkAnswer = (selectedOption) => {
     document.getElementById("next-question").disabled = false;
 };
 
-function useFiftyFifty() {
-    const currentQuestion = questions[currentQuestionIndex];
-    if (!currentQuestion) return;
+const useFiftyFifty = () => {
+    if (usedLifelines.fiftyFifty) return;
+    usedLifelines.fiftyFifty = true;
 
-    // Get all answer buttons
-    const buttons = Array.from(document.querySelectorAll("#options button"));
+    const currentQuestion = questions[currentQuestionIndex];
+    const buttons = Array.from(document.querySelectorAll(".answer-btn"));
     const correctIndex = currentQuestion.correctAnswer;
 
-    // Filter out the correct answer to get wrong answers
     const wrongIndexes = buttons
         .map((_, index) => index)
-        .filter(index => index !== correctIndex);
+        .filter((index) => index !== correctIndex);
 
-    // Randomly select one wrong answer to disable
-    const toDisable = wrongIndexes.sort(() => Math.random() - 0.5).slice(0, 2);
+    const toDisable = wrongIndexes.sort(() => 0.5 - Math.random()).slice(0, 2);
 
-    // Disable the selected wrong answers
-    toDisable.forEach(index => {
+    toDisable.forEach((index) => {
         buttons[index].disabled = true;
-        buttons[index].style.opacity = "0.5"; // Dim them for clarity
+        buttons[index].style.opacity = "0.5";
     });
 
-    // Disable the 50/50 button
-    const fiftyButton = document.getElementById("lifeline-fifty-fifty");
-    fiftyButton.disabled = true;
-    fiftyButton.style.opacity = "0.5";
-}
+    updateLifelineButtons();
+};
 
 const useExpert = () => {
     if (usedLifelines.expert) return;
@@ -121,7 +115,12 @@ const useDefinitions = () => {
 
     const currentQuestion = questions[currentQuestionIndex];
     const feedbackElement = document.getElementById("feedback");
-    feedbackElement.textContent = `Definitions: ${JSON.stringify(currentQuestion.definitions)}`;
+
+    const definitionsText = Object.entries(currentQuestion.definitions)
+        .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
+        .join("<br>");
+
+    feedbackElement.innerHTML = `Definitions:<br>${definitionsText}`;
     feedbackElement.style.color = "orange";
 
     updateLifelineButtons();
@@ -140,5 +139,4 @@ document.getElementById("next-question").addEventListener("click", () => {
     loadQuestion();
 });
 
-// Initialize quiz
 loadQuestions("easy");
