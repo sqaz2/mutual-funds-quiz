@@ -1,12 +1,12 @@
 const loadQuestions = async () => {
     try {
-        // Load all JSON files
+        // Load all JSON files with updated file paths
         const responses = await Promise.all([
             fetch('questions/easy.json'),
             fetch('questions/medium.json'),
             fetch('questions/hard.json'),
-            fetch('questions/satrical_easy.json'),
-            fetch('questions/satrical_medium.json')
+            fetch('questions/satrical easy.json'), // Updated to match GitHub file name
+            fetch('questions/satrical medium.json') // Updated to match GitHub file name
         ]);
 
         // Check if all responses are okay
