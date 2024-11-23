@@ -1,27 +1,25 @@
 const loadQuestions = async () => {
     try {
         // Load all JSON files
-        const easyResponse = await fetch('questions/easy.json');
-        const mediumResponse = await fetch('questions/medium.json');
-        const hardResponse = await fetch('questions/hard.json');
-        const satiricalEasyResponse = await fetch('questions/satrical_easy.json');
-        const satiricalMediumResponse = await fetch('questions/satrical_medium.json');
+        const responses = await Promise.all([
+            fetch('questions/easy.json'),
+            fetch('questions/medium.json'),
+            fetch('questions/hard.json'),
+            fetch('questions/satrical_easy.json'),
+            fetch('questions/satrical_medium.json')
+        ]);
 
-        // Check if responses are okay
-        if (!easyResponse.ok || 
-            !mediumResponse.ok || 
-            !hardResponse.ok || 
-            !satiricalEasyResponse.ok || 
-            !satiricalMediumResponse.ok) {
-            throw new Error('Failed to fetch one or more question files');
-        }
+        // Check if all responses are okay
+        responses.forEach((response, index) => {
+            if (!response.ok) {
+                throw new Error(`Failed to fetch file ${index + 1}: ${response.statusText}`);
+            }
+        });
 
         // Parse JSON files
-        const easyQuestions = await easyResponse.json();
-        const mediumQuestions = await mediumResponse.json();
-        const hardQuestions = await hardResponse.json();
-        const satiricalEasyQuestions = await satiricalEasyResponse.json();
-        const satiricalMediumQuestions = await satiricalMediumResponse.json();
+        const [easyQuestions, mediumQuestions, hardQuestions, satiricalEasyQuestions, satiricalMediumQuestions] = await Promise.all(
+            responses.map(response => response.json())
+        );
 
         // Return combined questions
         return {
@@ -49,6 +47,10 @@ const startQuiz = async () => {
     try {
         const { easy, medium, hard } = await loadQuestions();
 
+        if (!easy || !medium || !hard) {
+            throw new Error('Failed to load all question categories.');
+        }
+
         // Select random questions for the game
         const easyQuestions = getRandomQuestions(easy, 4);
         const mediumQuestions = getRandomQuestions(medium, 4);
@@ -59,6 +61,7 @@ const startQuiz = async () => {
         updateProgressBar();
     } catch (error) {
         console.error('Error starting quiz:', error);
+        document.getElementById('question').textContent = 'Error loading the quiz. Please try again later.';
     }
 };
 
