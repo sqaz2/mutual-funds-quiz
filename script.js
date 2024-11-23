@@ -39,6 +39,7 @@ const loadQuestion = () => {
     currentQuestion.options.forEach((option, index) => {
         const button = document.createElement("button");
         button.textContent = option;
+        button.classList.add("answer-btn"); // Add a common class for answer buttons
         button.onclick = () => checkAnswer(index);
         optionsElement.appendChild(button);
     });
@@ -63,10 +64,11 @@ const checkAnswer = (selectedOption) => {
 };
 
 function useFiftyFifty() {
+    const currentQuestion = questions[currentQuestionIndex];
     if (!currentQuestion) return;
 
     // Get all answer buttons
-    const buttons = Array.from(document.querySelectorAll('.answer-btn'));
+    const buttons = Array.from(document.querySelectorAll("#options button"));
     const correctIndex = currentQuestion.correctAnswer;
 
     // Filter out the correct answer to get wrong answers
@@ -74,17 +76,17 @@ function useFiftyFifty() {
         .map((_, index) => index)
         .filter(index => index !== correctIndex);
 
-    // Randomly select two wrong answers
-    const toDisable = wrongIndexes.sort(() => 0.5 - Math.random()).slice(0, 2);
+    // Randomly select one wrong answer to disable
+    const toDisable = wrongIndexes.sort(() => Math.random() - 0.5).slice(0, 2);
 
-    // Disable selected wrong answers
+    // Disable the selected wrong answers
     toDisable.forEach(index => {
         buttons[index].disabled = true;
-        buttons[index].style.opacity = "0.5"; // Visually indicate it's disabled
+        buttons[index].style.opacity = "0.5"; // Dim them for clarity
     });
 
     // Disable the 50/50 button
-    const fiftyButton = document.getElementById('lifeline-fifty-fifty');
+    const fiftyButton = document.getElementById("lifeline-fifty-fifty");
     fiftyButton.disabled = true;
     fiftyButton.style.opacity = "0.5";
 }
