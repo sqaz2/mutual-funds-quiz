@@ -1,632 +1,303 @@
 [
     {
-        "question": "What is an ETF, and how does it differ from a mutual fund?",
+        "question": "What is a key distinction between closed-end and open-end mutual funds that impacts their trading dynamics?",
         "options": [
-            "An ETF is a real estate fund",
-            "An ETF is actively managed, while mutual funds are not",
-            "ETFs are traded on exchanges like stocks, whereas mutual funds are not",
-            "ETFs are government savings bonds"
-        ],
-        "correctAnswer": 2,
-        "correctText": "ETFs are traded on exchanges like stocks, while mutual funds are bought directly from the fund company.",
-        "expertAdvice": "ETFs offer more liquidity as they can be traded throughout the day, unlike mutual funds, which are traded at the end of the day.",
-        "definitions": {
-            "ETF": "Exchange-Traded Fund, a type of investment fund that is traded on stock exchanges, similar to stocks."
-        },
-        "hint": "This type of fund allows trading during market hours.",
-        "difficulty": 3,
-        "reward": 300
-    },
-    {
-        "question": "What are expense ratios in mutual funds?",
-        "options": [
-            "The cost of trading stocks within the fund",
-            "The annual fee expressed as a percentage of assets under management",
-            "The ratio of profits to expenses",
-            "The tax benefits offered by a mutual fund"
+            "Closed-end funds trade at a fixed price determined by the fund manager, while open-end funds fluctuate based on market forces.",
+            "Closed-end funds are traded on secondary markets like stock exchanges, while open-end funds are bought and sold directly through the fund manager.",
+            "Closed-end funds are primarily focused on income generation, while open-end funds prioritize capital appreciation.",
+            "Closed-end funds are subject to stricter regulatory oversight compared to open-end funds."
         ],
         "correctAnswer": 1,
-        "correctText": "Expense ratios represent the annual fees as a percentage of the fund's assets under management.",
-        "expertAdvice": "Expense ratios are a key metric for investors, as higher ratios reduce net returns.",
+        "hint": "Think about where and how these funds are bought and sold.",
+        "expertAdvice": "The trading mechanism influences the price determination of these funds. Closed-end funds are susceptible to market forces on exchanges, while open-end fund prices reflect the NAVPU set by the fund manager.",
         "definitions": {
-            "expense ratio": "The annual fee expressed as a percentage of the total assets in the fund."
-        },
-        "hint": "This is about the fund's management cost.",
-        "difficulty": 3,
-        "reward": 350
+            "Closed-end mutual fund": "A mutual fund with a fixed number of units issued through an initial public offering (IPO), subsequently traded on secondary markets.",
+            "Open-end mutual fund": "A mutual fund that continuously offers units, with the number of units issued and redeemed based on investor demand."
+        }
     },
     {
-        "question": "Sample hard question #3?",
+        "question": "Which type of mutual fund is characterized by its focus on income generation and predictable returns?",
         "options": [
-            "Option A for Q3",
-            "Option B for Q3",
-            "Option C for Q3",
-            "Option D for Q3"
+            "Equity fund",
+            "Money market fund",
+            "Income fund",
+            "Index fund"
+        ],
+        "correctAnswer": 2,
+        "hint": "Think about funds that prioritize steady income for investors.",
+        "expertAdvice": "Income funds focus on generating steady returns through investments in bonds, dividend-paying stocks, and other income-generating assets.",
+        "definitions": {
+            "Income fund": "A type of mutual fund that invests in income-generating securities such as bonds and dividend-paying stocks."
+        }
+    },
+    {
+        "question": "What is the main advantage of index funds compared to actively managed mutual funds?",
+        "options": [
+            "Higher returns",
+            "Lower management fees",
+            "Exclusive access to specific markets",
+            "Guarantee of no losses"
+        ],
+        "correctAnswer": 1,
+        "hint": "Index funds are known for their passive management approach.",
+        "expertAdvice": "Index funds have lower management fees because they are passively managed, aiming to replicate the performance of a benchmark index rather than outperform it.",
+        "definitions": {
+            "Index fund": "A mutual fund designed to replicate the performance of a specific financial market index."
+        }
+    },
+    {
+        "question": "Which type of fund is designed to provide regular income and preserve capital, often appealing to retirees?",
+        "options": [
+            "Aggressive growth fund",
+            "Money market fund",
+            "Balanced fund",
+            "Income fund"
         ],
         "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #3.",
-        "expertAdvice": "Expert advice for question #3 dives deeper into the topic.",
+        "hint": "Consider the needs of investors seeking stability and regular payouts.",
+        "expertAdvice": "Income funds are popular among retirees because they focus on stable returns and capital preservation.",
         "definitions": {
-            "term3": "Definition for term3."
-        },
-        "hint": "Hint for question #3.",
-        "difficulty": 3,
-        "reward": 330
+            "Income fund": "A mutual fund that invests primarily in income-generating assets, such as bonds and dividend-paying stocks, to provide regular payouts."
+        }
     },
     {
-        "question": "Sample hard question #4?",
+        "question": "What distinguishes sector funds from other types of mutual funds?",
         "options": [
-            "Option A for Q4",
-            "Option B for Q4",
-            "Option C for Q4",
-            "Option D for Q4"
+            "They focus exclusively on high-growth stocks.",
+            "They invest in a single industry or sector.",
+            "They have the lowest risk profile among mutual funds.",
+            "They prioritize investments in government bonds."
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #4.",
-        "expertAdvice": "Expert advice for question #4 dives deeper into the topic.",
+        "correctAnswer": 1,
+        "hint": "Sector funds concentrate their investments within a specific area of the economy.",
+        "expertAdvice": "Sector funds are riskier than diversified funds because they lack exposure to other sectors, making them more vulnerable to downturns in their specific industry.",
         "definitions": {
-            "term4": "Definition for term4."
-        },
-        "hint": "Hint for question #4.",
-        "difficulty": 3,
-        "reward": 340
+            "Sector fund": "A mutual fund that invests in companies within a particular industry or economic sector, such as technology or healthcare."
+        }
     },
     {
-        "question": "Sample hard question #5?",
+        "question": "What is the primary goal of target-date funds?",
         "options": [
-            "Option A for Q5",
-            "Option B for Q5",
-            "Option C for Q5",
-            "Option D for Q5"
+            "To generate maximum returns within a short period",
+            "To meet an investment objective by a specific date",
+            "To outperform market indices",
+            "To exclusively invest in bonds"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #5.",
-        "expertAdvice": "Expert advice for question #5 dives deeper into the topic.",
+        "correctAnswer": 1,
+        "hint": "The name of the fund type provides a clue.",
+        "expertAdvice": "Target-date funds are designed to adjust their asset allocation over time to reduce risk as the target date approaches.",
         "definitions": {
-            "term5": "Definition for term5."
-        },
-        "hint": "Hint for question #5.",
-        "difficulty": 3,
-        "reward": 350
+            "Target-date fund": "A mutual fund structured to meet an investment goal by a specific date, often adjusting its investment mix to reduce risk as the date nears."
+        }
     },
     {
-        "question": "Sample hard question #6?",
+        "question": "Which type of mutual fund invests primarily in foreign securities and excludes North American markets?",
         "options": [
-            "Option A for Q6",
-            "Option B for Q6",
-            "Option C for Q6",
-            "Option D for Q6"
+            "Global equity fund",
+            "Sector fund",
+            "International equity fund",
+            "Small-cap fund"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #6.",
-        "expertAdvice": "Expert advice for question #6 dives deeper into the topic.",
+        "correctAnswer": 2,
+        "hint": "The focus is on markets outside North America.",
+        "expertAdvice": "International equity funds provide exposure to non-North American companies, offering diversification but with added risks.",
         "definitions": {
-            "term6": "Definition for term6."
-        },
-        "hint": "Hint for question #6.",
-        "difficulty": 3,
-        "reward": 360
+            "International equity fund": "A mutual fund that invests in securities from countries outside North America, focusing on global diversification."
+        }
     },
     {
-        "question": "Sample hard question #7?",
+        "question": "How do dividend funds primarily generate returns for investors?",
         "options": [
-            "Option A for Q7",
-            "Option B for Q7",
-            "Option C for Q7",
-            "Option D for Q7"
+            "Through capital appreciation",
+            "By paying regular dividends",
+            "Through speculative investments",
+            "By investing exclusively in government bonds"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #7.",
-        "expertAdvice": "Expert advice for question #7 dives deeper into the topic.",
+        "correctAnswer": 1,
+        "hint": "Dividend funds focus on income generation through company payouts.",
+        "expertAdvice": "Dividend funds invest in stocks of companies known for paying consistent dividends, offering steady income to investors.",
         "definitions": {
-            "term7": "Definition for term7."
-        },
-        "hint": "Hint for question #7.",
-        "difficulty": 3,
-        "reward": 370
+            "Dividend fund": "A mutual fund that invests in dividend-paying stocks, prioritizing regular income generation."
+        }
     },
     {
-        "question": "Sample hard question #8?",
+        "question": "What is the distinguishing feature of bond funds?",
         "options": [
-            "Option A for Q8",
-            "Option B for Q8",
-            "Option C for Q8",
-            "Option D for Q8"
+            "They invest exclusively in stocks.",
+            "They provide guaranteed returns.",
+            "They primarily invest in fixed-income securities.",
+            "They have the highest risk among mutual funds."
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #8.",
-        "expertAdvice": "Expert advice for question #8 dives deeper into the topic.",
+        "correctAnswer": 2,
+        "hint": "Bond funds focus on fixed-income investments.",
+        "expertAdvice": "Bond funds aim to generate stable returns by investing in a portfolio of bonds, making them suitable for conservative investors.",
         "definitions": {
-            "term8": "Definition for term8."
-        },
-        "hint": "Hint for question #8.",
-        "difficulty": 3,
-        "reward": 380
+            "Bond fund": "A mutual fund that invests in a portfolio of bonds, focusing on generating income through interest payments."
+        }
     },
     {
-        "question": "Sample hard question #9?",
+        "question": "What sets balanced funds apart from other mutual funds?",
         "options": [
-            "Option A for Q9",
-            "Option B for Q9",
-            "Option C for Q9",
-            "Option D for Q9"
+            "They exclusively invest in equities.",
+            "They provide exposure to a mix of asset classes.",
+            "They are risk-free investments.",
+            "They guarantee a fixed return."
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #9.",
-        "expertAdvice": "Expert advice for question #9 dives deeper into the topic.",
+        "correctAnswer": 1,
+        "hint": "Balanced funds offer a mix of investment options.",
+        "expertAdvice": "Balanced funds combine stocks and bonds in their portfolio, aiming to balance growth and income objectives.",
         "definitions": {
-            "term9": "Definition for term9."
-        },
-        "hint": "Hint for question #9.",
-        "difficulty": 3,
-        "reward": 390
+            "Balanced fund": "A mutual fund that invests in a mix of asset classes, such as stocks and bonds, to provide growth and income."
+        }
     },
     {
-        "question": "Sample hard question #10?",
+        "question": "What is the defining characteristic of equity funds?",
         "options": [
-            "Option A for Q10",
-            "Option B for Q10",
-            "Option C for Q10",
-            "Option D for Q10"
+            "They invest primarily in fixed-income securities.",
+            "They focus on investing in company stocks.",
+            "They provide guaranteed returns to investors.",
+            "They are limited to a single industry or sector."
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #10.",
-        "expertAdvice": "Expert advice for question #10 dives deeper into the topic.",
+        "correctAnswer": 1,
+        "hint": "Equity funds are closely tied to stock market performance.",
+        "expertAdvice": "Equity funds invest in a diverse portfolio of stocks, offering potential for growth but with higher risk compared to fixed-income funds.",
         "definitions": {
-            "term10": "Definition for term10."
-        },
-        "hint": "Hint for question #10.",
-        "difficulty": 3,
-        "reward": 400
+            "Equity fund": "A mutual fund that primarily invests in stocks, aiming for long-term capital appreciation."
+        }
     },
     {
-        "question": "Sample hard question #11?",
+        "question": "Which type of fund focuses on high-risk, high-reward investments in emerging markets?",
         "options": [
-            "Option A for Q11",
-            "Option B for Q11",
-            "Option C for Q11",
-            "Option D for Q11"
+            "Balanced fund",
+            "Emerging markets fund",
+            "Money market fund",
+            "Sector fund"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #11.",
-        "expertAdvice": "Expert advice for question #11 dives deeper into the topic.",
+        "correctAnswer": 1,
+        "hint": "Emerging markets funds target rapidly growing economies.",
+        "expertAdvice": "Emerging markets funds invest in developing countries, offering high growth potential but with significant risks due to market volatility.",
         "definitions": {
-            "term11": "Definition for term11."
-        },
-        "hint": "Hint for question #11.",
-        "difficulty": 3,
-        "reward": 410
+            "Emerging markets fund": "A mutual fund that invests in companies located in developing countries, often characterized by high growth potential and higher risk."
+        }
     },
     {
-        "question": "Sample hard question #12?",
+        "question": "What makes global equity funds distinct from international equity funds?",
         "options": [
-            "Option A for Q12",
-            "Option B for Q12",
-            "Option C for Q12",
-            "Option D for Q12"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #12.",
-        "expertAdvice": "Expert advice for question #12 dives deeper into the topic.",
-        "definitions": {
-            "term12": "Definition for term12."
-        },
-        "hint": "Hint for question #12.",
-        "difficulty": 3,
-        "reward": 420
-    },
-    {
-        "question": "Sample hard question #13?",
-        "options": [
-            "Option A for Q13",
-            "Option B for Q13",
-            "Option C for Q13",
-            "Option D for Q13"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #13.",
-        "expertAdvice": "Expert advice for question #13 dives deeper into the topic.",
-        "definitions": {
-            "term13": "Definition for term13."
-        },
-        "hint": "Hint for question #13.",
-        "difficulty": 3,
-        "reward": 430
-    },
-    {
-        "question": "Sample hard question #14?",
-        "options": [
-            "Option A for Q14",
-            "Option B for Q14",
-            "Option C for Q14",
-            "Option D for Q14"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #14.",
-        "expertAdvice": "Expert advice for question #14 dives deeper into the topic.",
-        "definitions": {
-            "term14": "Definition for term14."
-        },
-        "hint": "Hint for question #14.",
-        "difficulty": 3,
-        "reward": 440
-    },
-    {
-        "question": "Sample hard question #15?",
-        "options": [
-            "Option A for Q15",
-            "Option B for Q15",
-            "Option C for Q15",
-            "Option D for Q15"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #15.",
-        "expertAdvice": "Expert advice for question #15 dives deeper into the topic.",
-        "definitions": {
-            "term15": "Definition for term15."
-        },
-        "hint": "Hint for question #15.",
-        "difficulty": 3,
-        "reward": 450
-    },
-    {
-        "question": "Sample hard question #16?",
-        "options": [
-            "Option A for Q16",
-            "Option B for Q16",
-            "Option C for Q16",
-            "Option D for Q16"
+            "Global equity funds include North America, while international equity funds exclude it.",
+            "Global equity funds focus solely on European markets.",
+            "Global equity funds invest only in blue-chip stocks.",
+            "Global equity funds prioritize bonds over stocks."
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #16.",
-        "expertAdvice": "Expert advice for question #16 explains the reasoning behind the correct answer.",
+        "hint": "Global equity funds aim to cover investments worldwide.",
+        "expertAdvice": "Global equity funds include investments from all regions, including North America, providing broader diversification than international equity funds.",
         "definitions": {
-            "term16": "Definition for term16."
-        },
-        "hint": "Hint for question #16.",
-        "difficulty": 3,
-        "reward": 460
+            "Global equity fund": "A mutual fund that invests in stocks from markets around the world, including North America."
+        }
     },
     {
-        "question": "Sample hard question #17?",
+        "question": "What is a unique feature of small-cap equity funds?",
         "options": [
-            "Option A for Q17",
-            "Option B for Q17",
-            "Option C for Q17",
-            "Option D for Q17"
+            "They focus on well-established, high-value companies.",
+            "They invest in companies with small market capitalization.",
+            "They provide guaranteed dividends to investors.",
+            "They are limited to government-backed securities."
         ],
         "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #17.",
-        "expertAdvice": "Expert advice for question #17 explains the reasoning behind the correct answer.",
+        "hint": "Small-cap funds focus on companies that are still growing.",
+        "expertAdvice": "Small-cap equity funds invest in smaller companies with growth potential but higher risk compared to large-cap companies.",
         "definitions": {
-            "term17": "Definition for term17."
-        },
-        "hint": "Hint for question #17.",
-        "difficulty": 3,
-        "reward": 470
+            "Small-cap equity fund": "A mutual fund that invests in companies with small market capitalizations, aiming for growth opportunities."
+        }
     },
     {
-        "question": "Sample hard question #18?",
+        "question": "Why are bond funds considered lower risk than equity funds?",
         "options": [
-            "Option A for Q18",
-            "Option B for Q18",
-            "Option C for Q18",
-            "Option D for Q18"
+            "They are insured by the government.",
+            "They invest in fixed-income securities with predictable returns.",
+            "They are immune to market volatility.",
+            "They offer guaranteed returns."
+        ],
+        "correctAnswer": 1,
+        "hint": "Bond funds focus on stability and fixed income.",
+        "expertAdvice": "Bond funds invest in fixed-income securities such as government and corporate bonds, offering more predictable returns and lower risk than equity funds.",
+        "definitions": {
+            "Bond fund": "A mutual fund that invests in bonds, focusing on generating income while minimizing risk."
+        }
+    },
+    {
+        "question": "What distinguishes hedge funds from traditional mutual funds?",
+        "options": [
+            "They focus exclusively on high-dividend stocks.",
+            "They are regulated by the government.",
+            "They employ a wide range of strategies to achieve absolute returns.",
+            "They guarantee a minimum level of returns."
         ],
         "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #18.",
-        "expertAdvice": "Expert advice for question #18 explains the reasoning behind the correct answer.",
+        "hint": "Hedge funds focus on maximizing returns in all market conditions.",
+        "expertAdvice": "Hedge funds use diverse strategies, including leverage and short selling, to achieve positive returns regardless of market conditions.",
         "definitions": {
-            "term18": "Definition for term18."
-        },
-        "hint": "Hint for question #18.",
-        "difficulty": 3,
-        "reward": 480
+            "Hedge fund": "An alternative investment fund that employs various strategies to achieve absolute returns."
+        }
     },
     {
-        "question": "Sample hard question #19?",
+        "question": "What is the primary objective of a growth fund?",
         "options": [
-            "Option A for Q19",
-            "Option B for Q19",
-            "Option C for Q19",
-            "Option D for Q19"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #19.",
-        "expertAdvice": "Expert advice for question #19 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term19": "Definition for term19."
-        },
-        "hint": "Hint for question #19.",
-        "difficulty": 3,
-        "reward": 490
-    },
-    {
-        "question": "Sample hard question #20?",
-        "options": [
-            "Option A for Q20",
-            "Option B for Q20",
-            "Option C for Q20",
-            "Option D for Q20"
+            "To maximize capital appreciation over time.",
+            "To generate consistent income for investors.",
+            "To provide guaranteed returns.",
+            "To focus exclusively on short-term trading."
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #20.",
-        "expertAdvice": "Expert advice for question #20 explains the reasoning behind the correct answer.",
+        "hint": "Growth funds prioritize increasing the value of investments.",
+        "expertAdvice": "Growth funds invest in companies with strong potential for future growth, often in technology or emerging industries.",
         "definitions": {
-            "term20": "Definition for term20."
-        },
-        "hint": "Hint for question #20.",
-        "difficulty": 3,
-        "reward": 500
+            "Growth fund": "A mutual fund that aims to maximize capital appreciation by investing in growth-oriented companies."
+        }
     },
     {
-        "question": "Sample hard question #21?",
+        "question": "What is a distinguishing feature of money market funds?",
         "options": [
-            "Option A for Q21",
-            "Option B for Q21",
-            "Option C for Q21",
-            "Option D for Q21"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #21.",
-        "expertAdvice": "Expert advice for question #21 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term21": "Definition for term21."
-        },
-        "hint": "Hint for question #21.",
-        "difficulty": 3,
-        "reward": 510
-    },
-    {
-        "question": "Sample hard question #22?",
-        "options": [
-            "Option A for Q22",
-            "Option B for Q22",
-            "Option C for Q22",
-            "Option D for Q22"
+            "They invest in high-risk assets for maximum returns.",
+            "They are designed for long-term growth.",
+            "They prioritize stability and liquidity through low-risk investments.",
+            "They focus exclusively on real estate investments."
         ],
         "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #22.",
-        "expertAdvice": "Expert advice for question #22 explains the reasoning behind the correct answer.",
+        "hint": "Money market funds are considered very conservative investments.",
+        "expertAdvice": "Money market funds provide liquidity and capital preservation by investing in short-term debt instruments like Treasury bills.",
         "definitions": {
-            "term22": "Definition for term22."
-        },
-        "hint": "Hint for question #22.",
-        "difficulty": 3,
-        "reward": 520
+            "Money market fund": "A mutual fund that invests in low-risk, short-term debt securities for liquidity and stability."
+        }
     },
     {
-        "question": "Sample hard question #23?",
+        "question": "Which type of fund is designed to adjust its allocation as the investor approaches a specific goal?",
         "options": [
-            "Option A for Q23",
-            "Option B for Q23",
-            "Option C for Q23",
-            "Option D for Q23"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #23.",
-        "expertAdvice": "Expert advice for question #23 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term23": "Definition for term23."
-        },
-        "hint": "Hint for question #23.",
-        "difficulty": 3,
-        "reward": 530
-    },
-    {
-        "question": "Sample hard question #24?",
-        "options": [
-            "Option A for Q24",
-            "Option B for Q24",
-            "Option C for Q24",
-            "Option D for Q24"
-        ],
-        "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #24.",
-        "expertAdvice": "Expert advice for question #24 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term24": "Definition for term24."
-        },
-        "hint": "Hint for question #24.",
-        "difficulty": 3,
-        "reward": 540
-    },
-    {
-        "question": "Sample hard question #25?",
-        "options": [
-            "Option A for Q25",
-            "Option B for Q25",
-            "Option C for Q25",
-            "Option D for Q25"
+            "Index fund",
+            "Target-date fund",
+            "Balanced fund",
+            "Sector fund"
         ],
         "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #25.",
-        "expertAdvice": "Expert advice for question #25 explains the reasoning behind the correct answer.",
+        "hint": "These funds are also known as life-cycle funds.",
+        "expertAdvice": "Target-date funds gradually shift their asset allocation from growth-oriented to conservative investments as the target date nears.",
         "definitions": {
-            "term25": "Definition for term25."
-        },
-        "hint": "Hint for question #25.",
-        "difficulty": 3,
-        "reward": 550
+            "Target-date fund": "A mutual fund that adjusts its investment allocation as the investor approaches a specified date."
+        }
     },
     {
-        "question": "Sample hard question #26?",
+        "question": "What is the primary focus of socially responsible funds?",
         "options": [
-            "Option A for Q26",
-            "Option B for Q26",
-            "Option C for Q26",
-            "Option D for Q26"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #26.",
-        "expertAdvice": "Expert advice for question #26 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term26": "Definition for term26."
-        },
-        "hint": "Hint for question #26.",
-        "difficulty": 3,
-        "reward": 560
-    },
-    {
-        "question": "Sample hard question #27?",
-        "options": [
-            "Option A for Q27",
-            "Option B for Q27",
-            "Option C for Q27",
-            "Option D for Q27"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #27.",
-        "expertAdvice": "Expert advice for question #27 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term27": "Definition for term27."
-        },
-        "hint": "Hint for question #27.",
-        "difficulty": 3,
-        "reward": 570
-    },
-    {
-        "question": "Sample hard question #28?",
-        "options": [
-            "Option A for Q28",
-            "Option B for Q28",
-            "Option C for Q28",
-            "Option D for Q28"
-        ],
-        "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #28.",
-        "expertAdvice": "Expert advice for question #28 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term28": "Definition for term28."
-        },
-        "hint": "Hint for question #28.",
-        "difficulty": 3,
-        "reward": 580
-    },
-    {
-        "question": "Sample hard question #29?",
-        "options": [
-            "Option A for Q29",
-            "Option B for Q29",
-            "Option C for Q29",
-            "Option D for Q29"
+            "To maximize short-term profits.",
+            "To invest in companies meeting environmental, social, and governance criteria.",
+            "To exclusively invest in government bonds.",
+            "To prioritize investments in high-growth sectors."
         ],
         "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #29.",
-        "expertAdvice": "Expert advice for question #29 explains the reasoning behind the correct answer.",
+        "hint": "Think about ethical considerations in investing.",
+        "expertAdvice": "Socially responsible funds focus on companies that meet specific criteria for sustainability, social responsibility, and ethical governance.",
         "definitions": {
-            "term29": "Definition for term29."
-        },
-        "hint": "Hint for question #29.",
-        "difficulty": 3,
-        "reward": 590
-    },
-    {
-        "question": "Sample hard question #30?",
-        "options": [
-            "Option A for Q30",
-            "Option B for Q30",
-            "Option C for Q30",
-            "Option D for Q30"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #30.",
-        "expertAdvice": "Expert advice for question #30 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term30": "Definition for term30."
-        },
-        "hint": "Hint for question #30.",
-        "difficulty": 3,
-        "reward": 600
-    },
-    {
-        "question": "Sample hard question #31?",
-        "options": [
-            "Option A for Q31",
-            "Option B for Q31",
-            "Option C for Q31",
-            "Option D for Q31"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #31.",
-        "expertAdvice": "Expert advice for question #31 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term31": "Definition for term31."
-        },
-        "hint": "Hint for question #31.",
-        "difficulty": 3,
-        "reward": 610
-    },
-    {
-        "question": "Sample hard question #32?",
-        "options": [
-            "Option A for Q32",
-            "Option B for Q32",
-            "Option C for Q32",
-            "Option D for Q32"
-        ],
-        "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #32.",
-        "expertAdvice": "Expert advice for question #32 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term32": "Definition for term32."
-        },
-        "hint": "Hint for question #32.",
-        "difficulty": 3,
-        "reward": 620
-    },
-    {
-        "question": "Sample hard question #33?",
-        "options": [
-            "Option A for Q33",
-            "Option B for Q33",
-            "Option C for Q33",
-            "Option D for Q33"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #33.",
-        "expertAdvice": "Expert advice for question #33 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term33": "Definition for term33."
-        },
-        "hint": "Hint for question #33.",
-        "difficulty": 3,
-        "reward": 630
-    },
-    {
-        "question": "Sample hard question #34?",
-        "options": [
-            "Option A for Q34",
-            "Option B for Q34",
-            "Option C for Q34",
-            "Option D for Q34"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #34.",
-        "expertAdvice": "Expert advice for question #34 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term34": "Definition for term34."
-        },
-        "hint": "Hint for question #34.",
-        "difficulty": 3,
-        "reward": 640
-    },
-    {
-        "question": "Sample hard question #35?",
-        "options": [
-            "Option A for Q35",
-            "Option B for Q35",
-            "Option C for Q35",
-            "Option D for Q35"
-        ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #35.",
-        "expertAdvice": "Expert advice for question #35 explains the reasoning behind the correct answer.",
-        "definitions": {
-            "term35": "Definition for term35."
-        },
-        "hint": "Hint for question #35.",
-        "difficulty": 3,
-        "reward": 650
+            "Socially responsible fund": "A mutual fund that invests in companies adhering to environmental, social, and governance (ESG) criteria."
+        }
     }
 ]
