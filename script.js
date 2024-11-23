@@ -56,6 +56,7 @@ const startQuiz = () => {
         const mediumQuestions = getRandomQuestions(questions.medium, 4);
         const hardQuestions = getRandomQuestions(questions.hard, 4);
 
+        // Ensure questions are ordered: easy, medium, hard
         currentQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
         loadQuestion();
         updateProgressBar();
@@ -81,7 +82,7 @@ const loadQuestion = () => {
     }
 
     const currentQuestion = currentQuestions[currentQuestionIndex];
-    questionElement.textContent = currentQuestion.question;
+    questionElement.textContent = `Question ${currentQuestionIndex + 1}: ${currentQuestion.question}`;
     optionsElement.innerHTML = "";
 
     currentQuestion.options.forEach((option, index) => {
@@ -94,6 +95,7 @@ const loadQuestion = () => {
 
     feedbackElement.textContent = "";
     updateLifelineButtons();
+    updateProgressBar(); // Ensure progress bar updates when a new question is loaded
 };
 
 const checkAnswer = (selectedOption) => {
@@ -112,6 +114,7 @@ const checkAnswer = (selectedOption) => {
     document.getElementById("next-question").disabled = false;
 };
 
+// Lifeline Logic
 const useFiftyFifty = () => {
     if (usedLifelines.fiftyFifty) return;
     usedLifelines.fiftyFifty = true;
@@ -204,7 +207,7 @@ const showFinalScore = () => {
 
 const updateProgressBar = () => {
     const progressBar = document.getElementById("progress-bar");
-    const progress = ((currentQuestionIndex + 1) / totalQuestions) * 100;
+    const progress = ((currentQuestionIndex) / totalQuestions) * 100;
     progressBar.style.width = `${progress}%`;
     progressBar.textContent = `${currentQuestionIndex + 1}/${totalQuestions}`;
 };
