@@ -3,8 +3,8 @@ const loadQuestions = async () => {
         easy: "questions/easy.json",
         medium: "questions/medium.json",
         hard: "questions/hard.json",
-        satiricalEasy: "questions/satrical easy.json",
-        satiricalMedium: "questions/satrical medium.json"
+        satiricalEasy: "questions/satirical easy.json",
+        satiricalMedium: "questions/satirical medium.json"
     };
 
     try {
