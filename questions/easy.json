@@ -10,51 +10,51 @@
         "correctAnswer": 1,
         "correctText": "A mutual fund is an investment vehicle that pools money from multiple investors to invest in a diversified portfolio.",
         "expertAdvice": "Mutual funds allow small investors to access a diversified portfolio managed by professionals.",
+        "hint": "It's about pooling resources for investing.",
         "definitions": {
             "mutual fund": "An investment vehicle that pools money from many investors to purchase securities like stocks and bonds."
         },
-        "hint": "It's about pooling resources for investing.",
         "difficulty": 1,
         "reward": 100
     },
     {
-        "question": "What does NAV stand for?",
+        "question": "Which of the following is a key benefit of investing in mutual funds?",
         "options": [
-            "Net Asset Value",
-            "New Asset Verification",
-            "National Asset Valuation",
-            "Net Accounting Value"
+            "Tax-free income",
+            "Guaranteed returns",
+            "Professional management",
+            "No risk of loss"
         ],
-        "correctAnswer": 0,
-        "correctText": "NAV stands for Net Asset Value, which represents the per-share value of a mutual fund.",
-        "expertAdvice": "NAV is calculated by dividing the total assets of the fund by the number of outstanding shares.",
+        "correctAnswer": 2,
+        "correctText": "Mutual funds are professionally managed by experts who make investment decisions on behalf of investors.",
+        "expertAdvice": "Although there is no guarantee of returns, professional management is a significant advantage of mutual funds.",
+        "hint": "Think about who manages the fund.",
         "definitions": {
-            "NAV": "Net Asset Value, the value of one share of the mutual fund."
+            "professional management": "Fund managers invest pooled money and adjust portfolios based on market conditions."
         },
-        "hint": "It represents the value per share.",
         "difficulty": 1,
         "reward": 100
     },
     {
-        "question": "Sample easy question #3?",
+        "question": "What is the primary purpose of mutual fund #3?",
         "options": [
             "Option A for Q3",
             "Option B for Q3",
             "Option C for Q3",
             "Option D for Q3"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #3.",
-        "expertAdvice": "Expert advice for question #3 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #3 is example-based.",
+        "expertAdvice": "Mutual funds like #3 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #3 involves pooled investments.",
         "definitions": {
-            "term3": "Definition for term3."
+            "mutual fund": "An example description for mutual fund #3."
         },
-        "hint": "Hint for question #3.",
         "difficulty": 1,
-        "reward": 115
+        "reward": 100
     },
     {
-        "question": "Sample easy question #4?",
+        "question": "What is the primary purpose of mutual fund #4?",
         "options": [
             "Option A for Q4",
             "Option B for Q4",
@@ -62,71 +62,71 @@
             "Option D for Q4"
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #4.",
-        "expertAdvice": "Expert advice for question #4 explains the reasoning behind the correct answer.",
+        "correctText": "The purpose of mutual fund #4 is example-based.",
+        "expertAdvice": "Mutual funds like #4 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #4 involves pooled investments.",
         "definitions": {
-            "term4": "Definition for term4."
+            "mutual fund": "An example description for mutual fund #4."
         },
-        "hint": "Hint for question #4.",
         "difficulty": 1,
-        "reward": 120
+        "reward": 100
     },
     {
-        "question": "Sample easy question #5?",
+        "question": "What is the primary purpose of mutual fund #5?",
         "options": [
             "Option A for Q5",
             "Option B for Q5",
             "Option C for Q5",
             "Option D for Q5"
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #5.",
-        "expertAdvice": "Expert advice for question #5 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #5 is example-based.",
+        "expertAdvice": "Mutual funds like #5 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #5 involves pooled investments.",
         "definitions": {
-            "term5": "Definition for term5."
+            "mutual fund": "An example description for mutual fund #5."
         },
-        "hint": "Hint for question #5.",
         "difficulty": 1,
-        "reward": 125
+        "reward": 100
     },
     {
-        "question": "Sample easy question #6?",
+        "question": "What is the primary purpose of mutual fund #6?",
         "options": [
             "Option A for Q6",
             "Option B for Q6",
             "Option C for Q6",
             "Option D for Q6"
         ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #6.",
-        "expertAdvice": "Expert advice for question #6 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #6 is example-based.",
+        "expertAdvice": "Mutual funds like #6 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #6 involves pooled investments.",
         "definitions": {
-            "term6": "Definition for term6."
+            "mutual fund": "An example description for mutual fund #6."
         },
-        "hint": "Hint for question #6.",
         "difficulty": 1,
-        "reward": 130
+        "reward": 100
     },
     {
-        "question": "Sample easy question #7?",
+        "question": "What is the primary purpose of mutual fund #7?",
         "options": [
             "Option A for Q7",
             "Option B for Q7",
             "Option C for Q7",
             "Option D for Q7"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #7.",
-        "expertAdvice": "Expert advice for question #7 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #7 is example-based.",
+        "expertAdvice": "Mutual funds like #7 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #7 involves pooled investments.",
         "definitions": {
-            "term7": "Definition for term7."
+            "mutual fund": "An example description for mutual fund #7."
         },
-        "hint": "Hint for question #7.",
         "difficulty": 1,
-        "reward": 135
+        "reward": 100
     },
     {
-        "question": "Sample easy question #8?",
+        "question": "What is the primary purpose of mutual fund #8?",
         "options": [
             "Option A for Q8",
             "Option B for Q8",
@@ -134,71 +134,71 @@
             "Option D for Q8"
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #8.",
-        "expertAdvice": "Expert advice for question #8 explains the reasoning behind the correct answer.",
+        "correctText": "The purpose of mutual fund #8 is example-based.",
+        "expertAdvice": "Mutual funds like #8 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #8 involves pooled investments.",
         "definitions": {
-            "term8": "Definition for term8."
+            "mutual fund": "An example description for mutual fund #8."
         },
-        "hint": "Hint for question #8.",
         "difficulty": 1,
-        "reward": 140
+        "reward": 100
     },
     {
-        "question": "Sample easy question #9?",
+        "question": "What is the primary purpose of mutual fund #9?",
         "options": [
             "Option A for Q9",
             "Option B for Q9",
             "Option C for Q9",
             "Option D for Q9"
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #9.",
-        "expertAdvice": "Expert advice for question #9 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #9 is example-based.",
+        "expertAdvice": "Mutual funds like #9 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #9 involves pooled investments.",
         "definitions": {
-            "term9": "Definition for term9."
+            "mutual fund": "An example description for mutual fund #9."
         },
-        "hint": "Hint for question #9.",
         "difficulty": 1,
-        "reward": 145
+        "reward": 100
     },
     {
-        "question": "Sample easy question #10?",
+        "question": "What is the primary purpose of mutual fund #10?",
         "options": [
             "Option A for Q10",
             "Option B for Q10",
             "Option C for Q10",
             "Option D for Q10"
         ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #10.",
-        "expertAdvice": "Expert advice for question #10 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #10 is example-based.",
+        "expertAdvice": "Mutual funds like #10 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #10 involves pooled investments.",
         "definitions": {
-            "term10": "Definition for term10."
+            "mutual fund": "An example description for mutual fund #10."
         },
-        "hint": "Hint for question #10.",
         "difficulty": 1,
-        "reward": 150
+        "reward": 100
     },
     {
-        "question": "Sample easy question #11?",
+        "question": "What is the primary purpose of mutual fund #11?",
         "options": [
             "Option A for Q11",
             "Option B for Q11",
             "Option C for Q11",
             "Option D for Q11"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #11.",
-        "expertAdvice": "Expert advice for question #11 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #11 is example-based.",
+        "expertAdvice": "Mutual funds like #11 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #11 involves pooled investments.",
         "definitions": {
-            "term11": "Definition for term11."
+            "mutual fund": "An example description for mutual fund #11."
         },
-        "hint": "Hint for question #11.",
         "difficulty": 1,
-        "reward": 155
+        "reward": 100
     },
     {
-        "question": "Sample easy question #12?",
+        "question": "What is the primary purpose of mutual fund #12?",
         "options": [
             "Option A for Q12",
             "Option B for Q12",
@@ -206,71 +206,71 @@
             "Option D for Q12"
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #12.",
-        "expertAdvice": "Expert advice for question #12 explains the reasoning behind the correct answer.",
+        "correctText": "The purpose of mutual fund #12 is example-based.",
+        "expertAdvice": "Mutual funds like #12 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #12 involves pooled investments.",
         "definitions": {
-            "term12": "Definition for term12."
+            "mutual fund": "An example description for mutual fund #12."
         },
-        "hint": "Hint for question #12.",
         "difficulty": 1,
-        "reward": 160
+        "reward": 100
     },
     {
-        "question": "Sample easy question #13?",
+        "question": "What is the primary purpose of mutual fund #13?",
         "options": [
             "Option A for Q13",
             "Option B for Q13",
             "Option C for Q13",
             "Option D for Q13"
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #13.",
-        "expertAdvice": "Expert advice for question #13 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #13 is example-based.",
+        "expertAdvice": "Mutual funds like #13 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #13 involves pooled investments.",
         "definitions": {
-            "term13": "Definition for term13."
+            "mutual fund": "An example description for mutual fund #13."
         },
-        "hint": "Hint for question #13.",
         "difficulty": 1,
-        "reward": 165
+        "reward": 100
     },
     {
-        "question": "Sample easy question #14?",
+        "question": "What is the primary purpose of mutual fund #14?",
         "options": [
             "Option A for Q14",
             "Option B for Q14",
             "Option C for Q14",
             "Option D for Q14"
         ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #14.",
-        "expertAdvice": "Expert advice for question #14 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #14 is example-based.",
+        "expertAdvice": "Mutual funds like #14 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #14 involves pooled investments.",
         "definitions": {
-            "term14": "Definition for term14."
+            "mutual fund": "An example description for mutual fund #14."
         },
-        "hint": "Hint for question #14.",
         "difficulty": 1,
-        "reward": 170
+        "reward": 100
     },
     {
-        "question": "Sample easy question #15?",
+        "question": "What is the primary purpose of mutual fund #15?",
         "options": [
             "Option A for Q15",
             "Option B for Q15",
             "Option C for Q15",
             "Option D for Q15"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #15.",
-        "expertAdvice": "Expert advice for question #15 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #15 is example-based.",
+        "expertAdvice": "Mutual funds like #15 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #15 involves pooled investments.",
         "definitions": {
-            "term15": "Definition for term15."
+            "mutual fund": "An example description for mutual fund #15."
         },
-        "hint": "Hint for question #15.",
         "difficulty": 1,
-        "reward": 175
+        "reward": 100
     },
     {
-        "question": "Sample easy question #16?",
+        "question": "What is the primary purpose of mutual fund #16?",
         "options": [
             "Option A for Q16",
             "Option B for Q16",
@@ -278,71 +278,71 @@
             "Option D for Q16"
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #16.",
-        "expertAdvice": "Expert advice for question #16 explains the reasoning behind the correct answer.",
+        "correctText": "The purpose of mutual fund #16 is example-based.",
+        "expertAdvice": "Mutual funds like #16 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #16 involves pooled investments.",
         "definitions": {
-            "term16": "Definition for term16."
+            "mutual fund": "An example description for mutual fund #16."
         },
-        "hint": "Hint for question #16.",
         "difficulty": 1,
-        "reward": 180
+        "reward": 100
     },
     {
-        "question": "Sample easy question #17?",
+        "question": "What is the primary purpose of mutual fund #17?",
         "options": [
             "Option A for Q17",
             "Option B for Q17",
             "Option C for Q17",
             "Option D for Q17"
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #17.",
-        "expertAdvice": "Expert advice for question #17 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #17 is example-based.",
+        "expertAdvice": "Mutual funds like #17 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #17 involves pooled investments.",
         "definitions": {
-            "term17": "Definition for term17."
+            "mutual fund": "An example description for mutual fund #17."
         },
-        "hint": "Hint for question #17.",
         "difficulty": 1,
-        "reward": 185
+        "reward": 100
     },
     {
-        "question": "Sample easy question #18?",
+        "question": "What is the primary purpose of mutual fund #18?",
         "options": [
             "Option A for Q18",
             "Option B for Q18",
             "Option C for Q18",
             "Option D for Q18"
         ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #18.",
-        "expertAdvice": "Expert advice for question #18 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #18 is example-based.",
+        "expertAdvice": "Mutual funds like #18 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #18 involves pooled investments.",
         "definitions": {
-            "term18": "Definition for term18."
+            "mutual fund": "An example description for mutual fund #18."
         },
-        "hint": "Hint for question #18.",
         "difficulty": 1,
-        "reward": 190
+        "reward": 100
     },
     {
-        "question": "Sample easy question #19?",
+        "question": "What is the primary purpose of mutual fund #19?",
         "options": [
             "Option A for Q19",
             "Option B for Q19",
             "Option C for Q19",
             "Option D for Q19"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #19.",
-        "expertAdvice": "Expert advice for question #19 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #19 is example-based.",
+        "expertAdvice": "Mutual funds like #19 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #19 involves pooled investments.",
         "definitions": {
-            "term19": "Definition for term19."
+            "mutual fund": "An example description for mutual fund #19."
         },
-        "hint": "Hint for question #19.",
         "difficulty": 1,
-        "reward": 195
+        "reward": 100
     },
     {
-        "question": "Sample easy question #20?",
+        "question": "What is the primary purpose of mutual fund #20?",
         "options": [
             "Option A for Q20",
             "Option B for Q20",
@@ -350,71 +350,71 @@
             "Option D for Q20"
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #20.",
-        "expertAdvice": "Expert advice for question #20 explains the reasoning behind the correct answer.",
+        "correctText": "The purpose of mutual fund #20 is example-based.",
+        "expertAdvice": "Mutual funds like #20 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #20 involves pooled investments.",
         "definitions": {
-            "term20": "Definition for term20."
+            "mutual fund": "An example description for mutual fund #20."
         },
-        "hint": "Hint for question #20.",
         "difficulty": 1,
-        "reward": 200
+        "reward": 100
     },
     {
-        "question": "Sample easy question #21?",
+        "question": "What is the primary purpose of mutual fund #21?",
         "options": [
             "Option A for Q21",
             "Option B for Q21",
             "Option C for Q21",
             "Option D for Q21"
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #21.",
-        "expertAdvice": "Expert advice for question #21 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #21 is example-based.",
+        "expertAdvice": "Mutual funds like #21 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #21 involves pooled investments.",
         "definitions": {
-            "term21": "Definition for term21."
+            "mutual fund": "An example description for mutual fund #21."
         },
-        "hint": "Hint for question #21.",
         "difficulty": 1,
-        "reward": 205
+        "reward": 100
     },
     {
-        "question": "Sample easy question #22?",
+        "question": "What is the primary purpose of mutual fund #22?",
         "options": [
             "Option A for Q22",
             "Option B for Q22",
             "Option C for Q22",
             "Option D for Q22"
         ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #22.",
-        "expertAdvice": "Expert advice for question #22 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #22 is example-based.",
+        "expertAdvice": "Mutual funds like #22 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #22 involves pooled investments.",
         "definitions": {
-            "term22": "Definition for term22."
+            "mutual fund": "An example description for mutual fund #22."
         },
-        "hint": "Hint for question #22.",
         "difficulty": 1,
-        "reward": 210
+        "reward": 100
     },
     {
-        "question": "Sample easy question #23?",
+        "question": "What is the primary purpose of mutual fund #23?",
         "options": [
             "Option A for Q23",
             "Option B for Q23",
             "Option C for Q23",
             "Option D for Q23"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #23.",
-        "expertAdvice": "Expert advice for question #23 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #23 is example-based.",
+        "expertAdvice": "Mutual funds like #23 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #23 involves pooled investments.",
         "definitions": {
-            "term23": "Definition for term23."
+            "mutual fund": "An example description for mutual fund #23."
         },
-        "hint": "Hint for question #23.",
         "difficulty": 1,
-        "reward": 215
+        "reward": 100
     },
     {
-        "question": "Sample easy question #24?",
+        "question": "What is the primary purpose of mutual fund #24?",
         "options": [
             "Option A for Q24",
             "Option B for Q24",
@@ -422,71 +422,71 @@
             "Option D for Q24"
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #24.",
-        "expertAdvice": "Expert advice for question #24 explains the reasoning behind the correct answer.",
+        "correctText": "The purpose of mutual fund #24 is example-based.",
+        "expertAdvice": "Mutual funds like #24 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #24 involves pooled investments.",
         "definitions": {
-            "term24": "Definition for term24."
+            "mutual fund": "An example description for mutual fund #24."
         },
-        "hint": "Hint for question #24.",
         "difficulty": 1,
-        "reward": 220
+        "reward": 100
     },
     {
-        "question": "Sample easy question #25?",
+        "question": "What is the primary purpose of mutual fund #25?",
         "options": [
             "Option A for Q25",
             "Option B for Q25",
             "Option C for Q25",
             "Option D for Q25"
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #25.",
-        "expertAdvice": "Expert advice for question #25 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #25 is example-based.",
+        "expertAdvice": "Mutual funds like #25 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #25 involves pooled investments.",
         "definitions": {
-            "term25": "Definition for term25."
+            "mutual fund": "An example description for mutual fund #25."
         },
-        "hint": "Hint for question #25.",
         "difficulty": 1,
-        "reward": 225
+        "reward": 100
     },
     {
-        "question": "Sample easy question #26?",
+        "question": "What is the primary purpose of mutual fund #26?",
         "options": [
             "Option A for Q26",
             "Option B for Q26",
             "Option C for Q26",
             "Option D for Q26"
         ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #26.",
-        "expertAdvice": "Expert advice for question #26 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #26 is example-based.",
+        "expertAdvice": "Mutual funds like #26 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #26 involves pooled investments.",
         "definitions": {
-            "term26": "Definition for term26."
+            "mutual fund": "An example description for mutual fund #26."
         },
-        "hint": "Hint for question #26.",
         "difficulty": 1,
-        "reward": 230
+        "reward": 100
     },
     {
-        "question": "Sample easy question #27?",
+        "question": "What is the primary purpose of mutual fund #27?",
         "options": [
             "Option A for Q27",
             "Option B for Q27",
             "Option C for Q27",
             "Option D for Q27"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #27.",
-        "expertAdvice": "Expert advice for question #27 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #27 is example-based.",
+        "expertAdvice": "Mutual funds like #27 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #27 involves pooled investments.",
         "definitions": {
-            "term27": "Definition for term27."
+            "mutual fund": "An example description for mutual fund #27."
         },
-        "hint": "Hint for question #27.",
         "difficulty": 1,
-        "reward": 235
+        "reward": 100
     },
     {
-        "question": "Sample easy question #28?",
+        "question": "What is the primary purpose of mutual fund #28?",
         "options": [
             "Option A for Q28",
             "Option B for Q28",
@@ -494,71 +494,71 @@
             "Option D for Q28"
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #28.",
-        "expertAdvice": "Expert advice for question #28 explains the reasoning behind the correct answer.",
+        "correctText": "The purpose of mutual fund #28 is example-based.",
+        "expertAdvice": "Mutual funds like #28 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #28 involves pooled investments.",
         "definitions": {
-            "term28": "Definition for term28."
+            "mutual fund": "An example description for mutual fund #28."
         },
-        "hint": "Hint for question #28.",
         "difficulty": 1,
-        "reward": 240
+        "reward": 100
     },
     {
-        "question": "Sample easy question #29?",
+        "question": "What is the primary purpose of mutual fund #29?",
         "options": [
             "Option A for Q29",
             "Option B for Q29",
             "Option C for Q29",
             "Option D for Q29"
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #29.",
-        "expertAdvice": "Expert advice for question #29 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #29 is example-based.",
+        "expertAdvice": "Mutual funds like #29 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #29 involves pooled investments.",
         "definitions": {
-            "term29": "Definition for term29."
+            "mutual fund": "An example description for mutual fund #29."
         },
-        "hint": "Hint for question #29.",
         "difficulty": 1,
-        "reward": 245
+        "reward": 100
     },
     {
-        "question": "Sample easy question #30?",
+        "question": "What is the primary purpose of mutual fund #30?",
         "options": [
             "Option A for Q30",
             "Option B for Q30",
             "Option C for Q30",
             "Option D for Q30"
         ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #30.",
-        "expertAdvice": "Expert advice for question #30 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #30 is example-based.",
+        "expertAdvice": "Mutual funds like #30 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #30 involves pooled investments.",
         "definitions": {
-            "term30": "Definition for term30."
+            "mutual fund": "An example description for mutual fund #30."
         },
-        "hint": "Hint for question #30.",
         "difficulty": 1,
-        "reward": 250
+        "reward": 100
     },
     {
-        "question": "Sample easy question #31?",
+        "question": "What is the primary purpose of mutual fund #31?",
         "options": [
             "Option A for Q31",
             "Option B for Q31",
             "Option C for Q31",
             "Option D for Q31"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #31.",
-        "expertAdvice": "Expert advice for question #31 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #31 is example-based.",
+        "expertAdvice": "Mutual funds like #31 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #31 involves pooled investments.",
         "definitions": {
-            "term31": "Definition for term31."
+            "mutual fund": "An example description for mutual fund #31."
         },
-        "hint": "Hint for question #31.",
         "difficulty": 1,
-        "reward": 255
+        "reward": 100
     },
     {
-        "question": "Sample easy question #32?",
+        "question": "What is the primary purpose of mutual fund #32?",
         "options": [
             "Option A for Q32",
             "Option B for Q32",
@@ -566,67 +566,67 @@
             "Option D for Q32"
         ],
         "correctAnswer": 0,
-        "correctText": "This is the correct explanation for question #32.",
-        "expertAdvice": "Expert advice for question #32 explains the reasoning behind the correct answer.",
+        "correctText": "The purpose of mutual fund #32 is example-based.",
+        "expertAdvice": "Mutual funds like #32 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #32 involves pooled investments.",
         "definitions": {
-            "term32": "Definition for term32."
+            "mutual fund": "An example description for mutual fund #32."
         },
-        "hint": "Hint for question #32.",
         "difficulty": 1,
-        "reward": 260
+        "reward": 100
     },
     {
-        "question": "Sample easy question #33?",
+        "question": "What is the primary purpose of mutual fund #33?",
         "options": [
             "Option A for Q33",
             "Option B for Q33",
             "Option C for Q33",
             "Option D for Q33"
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #33.",
-        "expertAdvice": "Expert advice for question #33 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #33 is example-based.",
+        "expertAdvice": "Mutual funds like #33 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #33 involves pooled investments.",
         "definitions": {
-            "term33": "Definition for term33."
+            "mutual fund": "An example description for mutual fund #33."
         },
-        "hint": "Hint for question #33.",
         "difficulty": 1,
-        "reward": 265
+        "reward": 100
     },
     {
-        "question": "Sample easy question #34?",
+        "question": "What is the primary purpose of mutual fund #34?",
         "options": [
             "Option A for Q34",
             "Option B for Q34",
             "Option C for Q34",
             "Option D for Q34"
         ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #34.",
-        "expertAdvice": "Expert advice for question #34 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #34 is example-based.",
+        "expertAdvice": "Mutual funds like #34 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #34 involves pooled investments.",
         "definitions": {
-            "term34": "Definition for term34."
+            "mutual fund": "An example description for mutual fund #34."
         },
-        "hint": "Hint for question #34.",
         "difficulty": 1,
-        "reward": 270
+        "reward": 100
     },
     {
-        "question": "Sample easy question #35?",
+        "question": "What is the primary purpose of mutual fund #35?",
         "options": [
             "Option A for Q35",
             "Option B for Q35",
             "Option C for Q35",
             "Option D for Q35"
         ],
-        "correctAnswer": 3,
-        "correctText": "This is the correct explanation for question #35.",
-        "expertAdvice": "Expert advice for question #35 explains the reasoning behind the correct answer.",
+        "correctAnswer": 0,
+        "correctText": "The purpose of mutual fund #35 is example-based.",
+        "expertAdvice": "Mutual funds like #35 serve as diversified investment vehicles.",
+        "hint": "Mutual fund #35 involves pooled investments.",
         "definitions": {
-            "term35": "Definition for term35."
+            "mutual fund": "An example description for mutual fund #35."
         },
-        "hint": "Hint for question #35.",
         "difficulty": 1,
-        "reward": 275
+        "reward": 100
     }
 ]
