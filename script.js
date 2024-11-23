@@ -29,6 +29,7 @@ const loadQuestions = async () => {
         };
     } catch (error) {
         console.error('Error loading questions:', error);
+        throw new Error('Failed to load questions.');
     }
 };
 
