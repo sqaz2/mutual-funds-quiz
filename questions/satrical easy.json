@@ -80,243 +80,215 @@
             "Target Date Fund": "A type of mutual fund that automatically adjusts its asset allocation based on a specified target retirement date, becoming more conservative as the date approaches.",
             "Asset Allocation": "The process of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash, to balance risk and return."
         }
+    },
+    {
+        "question": "What's the best way to celebrate a successful mutual fund investment?",
+        "options": [
+            "Throw a party with all your dividends.",
+            "Buy yourself a gold-plated piggy bank.",
+            "Reinvest your earnings to compound your growth.",
+            "Brag about your returns on social media (but don't give financial advice)."
+        ],
+        "correctAnswer": 2,
+        "hint": "Make your money work for you and watch it grow even more!",
+        "expertAdvice": "Reinvesting your earnings can significantly enhance your investment growth over time through the power of compounding.",
+        "definitions": {
+            "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
+            "Compounding": "The process of earning returns on both the initial investment and the accumulated returns from previous periods, leading to exponential growth over time."
+        }
+    },
+    {
+        "question": "What's the most important lesson to learn from the history of mutual funds?",
+        "options": [
+            "The market goes up, the market goes down, and sometimes it goes sideways.",
+            "Fashion trends come and go, but mutual funds are forever.",
+            "Never trust a Dutch broker.",
+            "If at first you don't succeed, try, try again (but maybe with a different fund)."
+        ],
+        "correctAnswer": 0,
+        "hint": "Investing is a long-term game with ups and downs, so patience is key!",
+        "expertAdvice": "Understanding market fluctuations can help you stay calm during downturns and make informed decisions for the long term.",
+        "definitions": {
+            "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
+            "Market Fluctuations": "The ups and downs in the prices of securities, which can be influenced by various economic factors and investor sentiment."
+        }
+    },
+    {
+        "question": "What is a characteristic of balanced funds?",
+        "options": [
+            "They are only allowed to invest in companies that produce balanced scales.",
+            "They must always keep their portfolios perfectly balanced, like a seesaw.",
+            "They are required to have a fixed asset allocation, with a minimum percentage in equities and bonds.",
+            "They can only be purchased by investors who can stand on one foot for at least 30 seconds."
+        ],
+        "correctAnswer": 2,
+        "hint": "Balanced funds have rules to follow about how much they can invest in different asset classes.",
+        "expertAdvice": "The specific asset allocation of a balanced fund is outlined in its prospectus, helping investors understand the fund's investment strategy.",
+        "definitions": {
+            "Balanced Fund": "A type of mutual fund that invests in a mix of equities and fixed-income securities to provide both growth and income while managing risk.",
+            "Asset Allocation": "The process of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash, to balance risk and return.",
+            "Prospectus": "A formal document that provides detailed information about an investment fund, including its objectives, strategies, risks, fees, and historical performance."
+        }
+    },
+    {
+        "question": "What is one key difference between a mutual fund and a hedge fund?",
+        "options": [
+            "Mutual funds are for beginners, while hedge funds are for Wall Street hotshots.",
+            "Mutual funds are available to the general public, while hedge funds are typically limited to accredited investors.",
+            "Mutual funds invest in boring things like stocks and bonds, while hedge funds buy yachts and private islands.",
+            "Mutual funds are like a relaxing day at the beach, while hedge funds are like swimming with sharks (in a good way?)."
+        ],
+        "correctAnswer": 1,
+        "hint": "One type of fund is more exclusive than the other.",
+        "expertAdvice": "Accredited investors are individuals or institutions that meet certain financial criteria, such as having a high net worth or income.",
+        "definitions": {
+            "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities, typically available to the general public and regulated by government authorities.",
+            "Hedge Fund": "An investment fund that employs a wide range of strategies, often with less regulatory oversight, and is usually available only to accredited investors who meet specific financial criteria.",
+            "Accredited Investor": "An individual or entity that meets certain financial thresholds, allowing them to invest in higher-risk investment opportunities, such as hedge funds."
+        }
+    },
+    {
+        "question": "According to the sources, what was a significant factor in the growth of mutual funds in Canada during the 1990s?",
+        "options": [
+            "The invention of the internet.",
+            "The popularity of Beanie Babies.",
+            "The rise of disco music.",
+            "The decline of interest rates on fixed-income securities."
+        ],
+        "correctAnswer": 3,
+        "hint": "Consider what might have made mutual funds a more attractive investment option compared to other alternatives.",
+        "expertAdvice": "When interest rates on fixed-income securities like GICs dropped, investors sought higher potential returns in mutual funds.",
+        "definitions": {
+            "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
+            "Fixed-Income Securities": "Financial instruments that provide returns in the form of regular, fixed payments and the eventual return of principal at maturity, such as bonds and Guaranteed Investment Certificates (GICs)."
+        }
+    },
+    {
+        "question": "Where was the first mutual fund created?",
+        "options": [
+            "The Netherlands",
+            "Canada",
+            "The United States",
+            "Atlantis"
+        ],
+        "correctAnswer": 0,
+        "hint": "This country is famous for windmills and tulips.",
+        "expertAdvice": "The concept of investors pooling their money for mutual benefit has been around for centuries.",
+        "definitions": {
+            "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
+            "Investment Pooling": "The practice of combining funds from multiple investors to achieve greater investment opportunities and diversification."
+        }
+    },
+    {
+        "question": "What does NAVPU stand for?",
+        "options": [
+            "Navigating Very Precise Units",
+            "Nice Average Value, Per Usual",
+            "Net Asset Value Per Unit",
+            "Not Another Very Popular Unicorn"
+        ],
+        "correctAnswer": 2,
+        "hint": "This acronym is a key measure of a mutual fund's worth.",
+        "expertAdvice": "The NAVPU is calculated by dividing the total net assets of the fund by the number of units outstanding.",
+        "definitions": {
+            "NAVPU (Net Asset Value Per Unit)": "A measure that represents the price of a single unit of a mutual fund, calculated by dividing the total net assets of the fund by the number of units outstanding.",
+            "Net Assets": "The total value of a fund's assets minus its liabilities, reflecting the fund's overall worth."
+        }
+    },
+    {
+        "question": "Which of the following is a benefit of investing in mutual funds?",
+        "options": [
+            "Guaranteed returns",
+            "Immunity to market fluctuations",
+            "Professional management",
+            "Free lifetime supply of coffee"
+        ],
+        "correctAnswer": 2,
+        "hint": "Think about who manages the investments within a mutual fund.",
+        "expertAdvice": "Portfolio managers have expertise and resources to make informed investment decisions.",
+        "definitions": {
+            "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
+            "Professional Management": "The service provided by experienced portfolio managers who make investment decisions on behalf of the fund's investors, aiming to achieve the best possible returns."
+        }
+    },
+    {
+        "question": "What is the main difference between open-end and closed-end mutual funds?",
+        "options": [
+            "Open-end funds are only open on weekdays, while closed-end funds are open 24/7.",
+            "Open-end funds continuously issue and redeem units, while closed-end funds issue a fixed number of units.",
+            "Open-end funds are for optimists, while closed-end funds are for pessimists.",
+            "Open-end funds are like all-you-can-eat buffets, while closed-end funds are like prix fixe menus."
+        ],
+        "correctAnswer": 1,
+        "hint": "Consider how the number of units available for each type of fund is determined.",
+        "expertAdvice": "The price of closed-end funds can trade at a premium or discount to their NAVPU, while open-end funds are always priced at their NAVPU.",
+        "definitions": {
+            "Open-End Fund": "A type of mutual fund that continuously issues and redeems shares at their net asset value (NAV) based on investor demand.",
+            "Closed-End Fund": "A type of mutual fund that issues a fixed number of shares, which are then traded on an exchange, and can trade at prices that differ from their NAV.",
+            "NAVPU (Net Asset Value Per Unit)": "A measure that represents the price of a single unit of a mutual fund, calculated by dividing the total net assets of the fund by the number of units outstanding."
+        }
+    },
+    {
+        "question": "What type of income do bond funds primarily generate?",
+        "options": [
+            "Royalties from hit songs",
+            "Tips from satisfied investors",
+            "Capital gains from flipping houses",
+            "Interest payments"
+        ],
+        "correctAnswer": 3,
+        "hint": "Think about the fundamental nature of bonds as financial instruments.",
+        "expertAdvice": "Bonds are debt securities that pay interest to their holders.",
+        "definitions": {
+            "Bond Fund": "A type of mutual fund that invests primarily in bonds and other debt securities, aiming to provide income through interest payments.",
+            "Interest Payments": "Regular payments made by borrowers to lenders as compensation for the use of borrowed funds, typically expressed as a percentage of the principal amount."
+        }
+    },
+    {
+        "question": "Which type of mutual fund automatically adjusts its asset allocation over time to become more conservative as a target date approaches?",
+        "options": [
+            "Time-traveling fund",
+            "Shape-shifting fund",
+            "Target date fund",
+            "Self-driving fund"
+        ],
+        "correctAnswer": 2,
+        "hint": "This type of fund is designed for a specific life event or goal.",
+        "expertAdvice": "Target date funds are a popular choice for retirement planning.",
+        "definitions": {
+            "Target Date Fund": "A type of mutual fund that automatically adjusts its asset allocation based on a specified target retirement date, becoming more conservative as the date approaches.",
+            "Asset Allocation": "The process of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash, to balance risk and return."
+        }
+    },
+    {
+        "question": "What are the three market capitalization groups used to classify equity funds?",
+        "options": [
+            "Tiny, Average, and Giant",
+            "Small, Medium, and Large",
+            "Fun-Sized, Regular, and Family-Sized",
+            "Short, Tall, and Grande"
+        ],
+        "correctAnswer": 1,
+        "hint": "Market capitalization refers to the total value of a company's outstanding shares.",
+        "expertAdvice": "Market capitalization helps classify companies into small-cap, mid-cap, and large-cap categories.",
+        "definitions": {
+            "Market Capitalization": "The total value of a company's outstanding shares, calculated as the number of shares multiplied by the current market price per share."
+        }
+    },
+    {
+        "question": "What is one advantage of investing in a Canadian dividend fund?",
+        "options": [
+            "You get a free maple syrup dispenser with every purchase.",
+            "Dividends from Canadian companies benefit from the dividend tax credit, which can reduce your tax bill.",
+            "You automatically become an honorary Canadian citizen.",
+            "Your investments will grow at the speed of a hockey puck."
+        ],
+        "correctAnswer": 1,
+        "hint": "Think about the tax implications of receiving dividends from Canadian corporations.",
+        "expertAdvice": "The dividend tax credit helps to make Canadian dividend income more tax-efficient for investors.",
+        "definitions": {
+            "Canadian Dividend Fund": "A type of mutual fund that primarily invests in dividend-paying stocks of Canadian companies, aiming to provide income and potential capital appreciation.",
+            "Dividend Tax Credit": "A tax benefit that allows Canadian investors to reduce the amount of tax they owe on dividend income received from Canadian corporations, making it a more attractive investment option."
+        }
     }
-{
-    "questions": [
-        {
-            "question": "What's the best way to celebrate a successful mutual fund investment?",
-            "options": [
-                "Throw a party with all your dividends.",
-                "Buy yourself a gold-plated piggy bank.",
-                "Reinvest your earnings to compound your growth.",
-                "Brag about your returns on social media (but don't give financial advice)."
-            ],
-            "correctAnswer": 2,
-            "hint": "Make your money work for you and watch it grow even more!",
-            "expertAdvice": "Reinvesting your earnings can significantly enhance your investment growth over time through the power of compounding.",
-            "definitions": {
-                "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
-                "Compounding": "The process of earning returns on both the initial investment and the accumulated returns from previous periods, leading to exponential growth over time."
-            }
-        },
-        {
-            "question": "What's the most important lesson to learn from the history of mutual funds?",
-            "options": [
-                "The market goes up, the market goes down, and sometimes it goes sideways.",
-                "Fashion trends come and go, but mutual funds are forever.",
-                "Never trust a Dutch broker.",
-                "If at first you don't succeed, try, try again (but maybe with a different fund)."
-            ],
-            "correctAnswer": 0,
-            "hint": "Investing is a long-term game with ups and downs, so patience is key!",
-            "expertAdvice": "Understanding market fluctuations can help you stay calm during downturns and make informed decisions for the long term.",
-            "definitions": {
-                "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
-                "Market Fluctuations": "The ups and downs in the prices of securities, which can be influenced by various economic factors and investor sentiment."
-            }
-        },
-        {
-            "question": "What is a characteristic of balanced funds?",
-            "options": [
-                "They are only allowed to invest in companies that produce balanced scales.",
-                "They must always keep their portfolios perfectly balanced, like a seesaw.",
-                "They are required to have a fixed asset allocation, with a minimum percentage in equities and bonds.",
-                "They can only be purchased by investors who can stand on one foot for at least 30 seconds."
-            ],
-            "correctAnswer": 2,
-            "hint": "Balanced funds have rules to follow about how much they can invest in different asset classes.",
-            "expertAdvice": "The specific asset allocation of a balanced fund is outlined in its prospectus, helping investors understand the fund's investment strategy.",
-            "definitions": {
-                "Balanced Fund": "A type of mutual fund that invests in a mix of equities and fixed-income securities to provide both growth and income while managing risk.",
-                "Asset Allocation": "The process of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash, to balance risk and return.",
-                "Prospectus": "A formal document that provides detailed information about an investment fund, including its objectives, strategies, risks, fees, and historical performance. It is designed to help potential investors make informed decisions before investing."
-            }
-        },
-        {
-            "question": "What is one key difference between a mutual fund and a hedge fund?",
-            "options": [
-                "Mutual funds are for beginners, while hedge funds are for Wall Street hotshots.",
-                "Mutual funds are available to the general public, while hedge funds are typically limited to accredited investors.",
-                "Mutual funds invest in boring things like stocks and bonds, while hedge funds buy yachts and private islands.",
-                "Mutual funds are like a relaxing day at the beach, while hedge funds are like swimming with sharks (in a good way?)."
-            ],
-            "correctAnswer": 1,
-            "hint": "One type of fund is more exclusive than the other.",
-            "expertAdvice": "Accredited investors are individuals or institutions that meet certain financial criteria, such as having a high net worth or income.",
-            "definitions": {
-                "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities, typically available to the general public and regulated by government authorities.",
-                "Hedge Fund": "An investment fund that employs a wide range of strategies, often with less regulatory oversight, and is usually available only to accredited investors who meet specific financial criteria.",
-                "Accredited Investor": "An individual or entity that meets certain financial thresholds, allowing them to invest in higher-risk investment opportunities, such as hedge funds."
-            }
-        },
-        {
-            "question": "According to the sources, what was a significant factor in the growth of mutual funds in Canada during the 1990s?",
-            "options": [
-                "The invention of the internet.",
-                "The popularity of Beanie Babies.",
-                "The rise of disco music.",
-                "The decline of interest rates on fixed-income securities."
-            ],
-            "correctAnswer": 3,
-            "hint": "Consider what might have made mutual funds a more attractive investment option compared to other alternatives.",
-            "expertAdvice": "When interest rates on fixed-income securities like GICs dropped, investors sought higher potential returns in mutual funds.",
-            "definitions": {
-                "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
-                "Fixed-Income Securities": "Financial instruments that provide returns in the form of regular, fixed payments and the eventual return of principal at maturity, such as bonds and Guaranteed Investment Certificates (GICs)."
-            }
-        }
-    ]
-}
-{
-    "questions": [
-        {
-            "question": "Where was the first mutual fund created?",
-            "options": [
-                "The Netherlands",
-                "Canada",
-                "The United States",
-                "Atlantis"
-            ],
-            "correctAnswer": 0,
-            "hint": "This country is famous for windmills and tulips.",
-            "expertAdvice": "The concept of investors pooling their money for mutual benefit has been around for centuries.",
-            "definitions": {
-                "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
-                "Investment Pooling": "The practice of combining funds from multiple investors to achieve greater investment opportunities and diversification."
-            }
-        },
-        {
-            "question": "What does NAVPU stand for?",
-            "options": [
-                "Navigating Very Precise Units",
-                "Nice Average Value, Per Usual",
-                "Net Asset Value Per Unit",
-                "Not Another Very Popular Unicorn"
-            ],
-            "correctAnswer": 2,
-            "hint": "This acronym is a key measure of a mutual fund's worth.",
-            "expertAdvice": "The NAVPU is calculated by dividing the total net assets of the fund by the number of units outstanding.",
-            "definitions": {
-                "NAVPU (Net Asset Value Per Unit)": "A measure that represents the price of a single unit of a mutual fund, calculated by dividing the total net assets of the fund by the number of units outstanding.",
-                "Net Assets": "The total value of a fund's assets minus its liabilities, reflecting the fund's overall worth."
-            }
-        },
-        {
-            "question": "Which of the following is a benefit of investing in mutual funds?",
-            "options": [
-                "Guaranteed returns",
-                "Immunity to market fluctuations",
-                "Professional management",
-                "Free lifetime supply of coffee"
-            ],
-            "correctAnswer": 2,
-            "hint": "Think about who manages the investments within a mutual fund.",
-            "expertAdvice": "Portfolio managers have expertise and resources to make informed investment decisions.",
-            "definitions": {
-                "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
-                "Professional Management": "The service provided by experienced portfolio managers who make investment decisions on behalf of the fund's investors, aiming to achieve the best possible returns."
-            }
-        },
-        {
-            "question": "What is the main difference between open-end and closed-end mutual funds?",
-            "options": [
-                "Open-end funds are only open on weekdays, while closed-end funds are open 24/7.",
-                "Open-end funds continuously issue and redeem units, while closed-end funds issue a fixed number of units.",
-                "Open-end funds are for optimists, while closed-end funds are for pessimists.",
-                "Open-end funds are like all-you-can-eat buffets, while closed-end funds are like prix fixe menus."
-            ],
-            "correctAnswer": 1,
-            "hint": "Consider how the number of units available for each type of fund is determined.",
-            "expertAdvice": "The price of closed-end funds can trade at a premium or discount to their NAVPU, while open-end funds are always priced at their NAVPU.",
-            "definitions": {
-                "Open-End Fund": "A type of mutual fund that continuously issues and redeems shares at their net asset value (NAV) based on investor demand.",
-                "Closed-End Fund": "A type of mutual fund that issues a fixed number of shares, which are then traded on an exchange, and can trade at prices that differ from their NAV.",
-                "NAVPU (Net Asset Value Per Unit)": "A measure that represents the price of a single unit of a mutual fund, calculated by dividing the total net assets of the fund by the number of units outstanding."
-            }
-        },
-        {
-            "question": "What type of income do bond funds primarily generate?",
-            "options": [
-                "Royalties from hit songs",
-                "Tips from satisfied investors",
-                "Capital gains from flipping houses",
-                "Interest payments"
-            ],
-            "correctAnswer": 3,
-            "hint": "Think about the fundamental nature of bonds as financial instruments.",
-            "expertAdvice": "Bonds are debt securities that pay interest to their holders.",
-            "definitions": {
-                "Bond Fund": "A type of mutual fund that invests primarily in bonds and other debt securities, aiming to provide income through interest payments.",
-                "Interest Payments": "Regular payments made by borrowers to lenders as compensation for the use of borrowed funds, typically expressed as a percentage of the principal amount."
-            }
-        }
-    ]
-}
-{
-    "questions": [
-        {
-            "question": "Which type of mutual fund automatically adjusts its asset allocation over time to become more conservative as a target date approaches?",
-            "options": [
-                "Time-traveling fund",
-                "Shape-shifting fund",
-                "Target date fund",
-                "Self-driving fund"
-            ],
-            "correctAnswer": 2,
-            "hint": "This type of fund is designed for a specific life event or goal.",
-            "expertAdvice": "Target date funds are a popular choice for retirement planning.",
-            "definitions": {
-                "Target Date Fund": "A type of mutual fund that automatically adjusts its asset allocation based on a specified target retirement date, becoming more conservative as the date approaches.",
-                "Asset Allocation": "The process of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash, to balance risk and return."
-            }
-        },
-        {
-            "question": "What is a characteristic of balanced funds?",
-            "options": [
-                "They are only allowed to invest in companies that produce balanced scales.",
-                "They must always keep their portfolios perfectly balanced, like a seesaw.",
-                "They are required to have a fixed asset allocation, with a minimum percentage in equities and bonds.",
-                "They can only be purchased by investors who can stand on one foot for at least 30 seconds."
-            ],
-            "correctAnswer": 2,
-            "hint": "Balanced funds have rules to follow about how much they can invest in different asset classes.",
-            "expertAdvice": "The specific asset allocation of a balanced fund is outlined in its prospectus.",
-            "definitions": {
-                "Balanced Fund": "A type of mutual fund that invests in a mix of equities and fixed-income securities to provide both growth and income while managing risk.",
-                "Asset Allocation": "The process of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash, to balance risk and return.",
-                "Prospectus": "A formal document that provides detailed information about an investment fund, including its objectives, strategies, risks, fees, and historical performance."
-            }
-        },
-        {
-            "question": "What are the three market capitalization groups used to classify equity funds?",
-            "options": [
-                "Tiny, Average, and Giant",
-                "Small, Medium, and Large",
-                "Fun-Sized, Regular, and Family-Sized",
-                "Short, Tall, and Grande"
-            ],
-            "correctAnswer": 1,
-            "hint": "Market capitalization refers to the total value of a company's outstanding shares.",
-            "expertAdvice": "Market capitalization helps classify companies into small-cap, mid-cap, and large-cap categories.",
-            "definitions": {
-                "Market Capitalization": "The total value of a company's outstanding shares, calculated as the number of shares multiplied by the current market price per share."
-            }
-        },
-        {
-            "question": "What is one advantage of investing in a Canadian dividend fund?",
-            "options": [
-                "You get a free maple syrup dispenser with every purchase.",
-                "Dividends from Canadian companies benefit from the dividend tax credit, which can reduce your tax bill.",
-                "You automatically become an honorary Canadian citizen.",
-                "Your investments will grow at the speed of a hockey puck."
-            ],
-            "correctAnswer": 1,
-            "hint": "Think about the tax implications of receiving dividends from Canadian corporations.",
-            "expertAdvice": "The dividend tax credit helps to make Canadian dividend income more tax-efficient for investors.",
-            "definitions": {
-                "Canadian Dividend Fund": "A type of mutual fund that primarily invests in dividend-paying stocks of Canadian companies, aiming to provide income and potential capital appreciation.",
-                "Dividend Tax Credit": "A tax benefit that allows Canadian investors to reduce the amount of tax they owe on dividend income received from Canadian corporations, making it a more attractive investment option."
-            }
-        }
-    ]
-}
+]
