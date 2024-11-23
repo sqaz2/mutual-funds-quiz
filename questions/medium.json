@@ -3,15 +3,15 @@
         "question": "Which organization is responsible for categorizing mutual funds in Canada?",
         "options": [
             "Canadian Securities Administrators (CSA)",
-            "",
+            "Investment Industry Regulatory Organization of Canada (IIROC)",
             "Mutual Fund Dealers Association (MFDA)",
             "Canadian Investment Funds Standards Committee (CIFSC)"
         ],
         "correctAnswer": 3,
         "hint": "The organization's name refers to its role in the mutual fund industry.",
-        "expertAdvice": "The CIFSC establishes the standards used to categorize mutual funds, helping",
+        "expertAdvice": "The CIFSC establishes the standards used to categorize mutual funds, helping investors and Dealing Representatives understand the various types available.",
         "definitions": {
-            "Canadian Investment Funds Standards Committee (CIFSC)": "A committee that sets"
+            "Canadian Investment Funds Standards Committee (CIFSC)": "A committee that sets standards for the classification and categorization of mutual funds in Canada."
         }
     },
     {
@@ -24,9 +24,9 @@
         ],
         "correctAnswer": 2,
         "hint": "Money market funds are considered conservative investments.",
-        "expertAdvice": "Money market funds prioritize protecting the investor's capital and providing a small",
+        "expertAdvice": "Money market funds prioritize protecting the investor's capital and providing a small amount of income.",
         "definitions": {
-            "Money Market Fund": "A type of mutual fund that invests in low-risk, short-term debt"
+            "Money Market Fund": "A type of mutual fund that invests in low-risk, short-term debt securities, aiming to preserve capital and generate income."
         }
     },
     {
@@ -39,9 +39,9 @@
         ],
         "correctAnswer": 1,
         "hint": "The answer is in the name of the fund.",
-        "expertAdvice": "Mortgage funds provide steady income by investing in a pool of mortgages, often",
+        "expertAdvice": "Mortgage funds provide steady income by investing in a pool of mortgages, often backed by government guarantees.",
         "definitions": {
-            "Mortgage Fund": "A mutual fund that invests in a portfolio of mortgages, aiming to generate"
+            "Mortgage Fund": "A mutual fund that invests in a portfolio of mortgages, aiming to generate income for investors."
         }
     },
     {
@@ -54,24 +54,24 @@
         ],
         "correctAnswer": 0,
         "hint": "Think about the inverse relationship between bond prices and interest rates.",
-        "expertAdvice": "When interest rates rise, the value of existing bonds, and therefore bond funds,",
+        "expertAdvice": "When interest rates rise, the value of existing bonds, and therefore bond funds, decreases, as newer bonds offer higher yields.",
         "definitions": {
-            "Bond Fund": "A mutual fund that invests in a portfolio of bonds, aiming to generate income for"
+            "Bond Fund": "A mutual fund that invests in a portfolio of bonds, aiming to generate income for investors."
         }
     },
     {
         "question": "What is the key feature that distinguishes a balanced fund?",
         "options": [
-            "",
-            "",
+            "Investment solely in equities",
+            "Investment solely in bonds",
             "A fixed asset allocation between equities and bonds",
             "Unlimited flexibility in asset allocation"
         ],
         "correctAnswer": 2,
         "hint": "Balanced funds strive to provide a balance of income and growth.",
-        "expertAdvice": "Balanced funds maintain a specific ratio of stocks and bonds, outlined in their",
+        "expertAdvice": "Balanced funds maintain a specific ratio of stocks and bonds, outlined in their prospectus, to manage risk and return.",
         "definitions": {
-            "Balanced Fund": "A mutual fund that invests in a mix of stocks and bonds to provide both"
+            "Balanced Fund": "A mutual fund that invests in a mix of stocks and bonds to provide both income and growth potential."
         }
     },
     {
@@ -80,13 +80,13 @@
             "A fixed asset allocation",
             "A focus on short-term investments",
             "No restrictions on asset allocation",
-            ""
+            "Investment only in specific sectors"
         ],
         "correctAnswer": 2,
         "hint": "Tactical asset allocation funds aim to adapt to changing market conditions.",
-        "expertAdvice": "Portfolio managers of tactical asset allocation funds have the flexibility to adjust the",
+        "expertAdvice": "Portfolio managers of tactical asset allocation funds have the flexibility to adjust the fund's asset mix based on market opportunities.",
         "definitions": {
-            "Tactical Asset Allocation Fund": "A mutual fund where the manager actively adjusts the"
+            "Tactical Asset Allocation Fund": "A mutual fund where the manager actively adjusts the asset allocation to capitalize on market trends."
         }
     },
     {
@@ -99,12 +99,13 @@
         ],
         "correctAnswer": 1,
         "hint": "Target date funds are also known as life-cycle funds.",
-        "expertAdvice": "Target date funds gradually shift their asset allocation to become more conservative",
+        "expertAdvice": "Target date funds gradually shift their asset allocation to become more conservative as the target date, such as retirement, approaches.",
         "definitions": {
-            "Target Date Fund": "A mutual fund that automatically adjusts its asset allocation over time to"
-        }
-    },
-    {
+"Target Date Fund": "A mutual fund that automatically adjusts its asset allocation over time to become more conservative as a specific target date approaches."
+}
+	},
+		
+		{
         "question": "What does market capitalization refer to in equity fund investing?",
         "options": [
             "The number of outstanding shares",
@@ -114,10 +115,11 @@
         ],
         "correctAnswer": 2,
         "hint": "Market capitalization is a measure of a company's size.",
-        "expertAdvice": "Market capitalization helps categorize companies into small-cap, mid-cap, or",
+        "expertAdvice": "Market capitalization helps categorize companies into small-cap, mid-cap, or large-cap, which is often used to classify equity funds.",
         "definitions": {
-            "Market Capitalization": "The total value of a company's outstanding shares, calculated by"
+            "Market Capitalization": "The total value of a company's outstanding shares, calculated by multiplying the current share price by the number of shares outstanding."
         }
+
     },
     {
         "question": "Which type of equity fund focuses on companies that consistently distribute dividends?",
@@ -129,28 +131,29 @@
         ],
         "correctAnswer": 0,
         "hint": "Think about the type of income investors seek from these funds.",
-        "expertAdvice": "Canadian dividend funds aim to provide both income and growth potential by",
+        "expertAdvice": "Canadian dividend funds aim to provide both income and growth potential by investing in Canadian companies known for paying dividends.",
         "definitions": {
-            "Canadian Dividend Fund": "A mutual fund that invests in a portfolio of Canadian companies"
+            "Canadian Dividend Fund": "A mutual fund that invests in a portfolio of Canadian companies that pay dividends regularly."
         }
     },
-    {
-        "question": "What is a distinguishing characteristic of global equity funds compared to Canadian",
+	
+	    {
+        "question": "What is a distinguishing characteristic of global equity funds compared to Canadian equity funds?",
         "options": [
-            "",
-            "",
+            "Investment solely in Canadian companies",
+            "Investment in companies worldwide, including Canada",
             "Focus on a specific industry or sector",
             "Lower risk than Canadian equity funds"
         ],
         "correctAnswer": 1,
         "hint": "Global equity funds seek broader diversification than funds limited to one country.",
-        "expertAdvice": "Global equity funds offer exposure to a wider range of investment opportunities,",
+        "expertAdvice": "Global equity funds offer exposure to a wider range of investment opportunities, including those in developed and emerging markets.",
         "definitions": {
-            "Global Equity Fund": "A mutual fund that invests in a diversified portfolio of stocks from"
+            "Global Equity Fund": "A mutual fund that invests in a diversified portfolio of stocks from companies located around the world, including Canada."
         }
     },
     {
-        "question": "Why are international equity funds generally considered riskier than global equity",
+        "question": "Why are international equity funds generally considered riskier than global equity funds?",
         "options": [
             "They are not actively managed.",
             "They only invest in small-cap companies.",
@@ -159,43 +162,43 @@
         ],
         "correctAnswer": 2,
         "hint": "Think about the geographic concentration of investments.",
-        "expertAdvice": "International equity funds lack the stability that comes from investing in more",
+        "expertAdvice": "International equity funds lack the stability that comes from investing in more established markets like those in North America.",
         "definitions": {
-            "International Equity Fund": "A mutual fund that invests in a diversified portfolio of stocks"
+            "International Equity Fund": "A mutual fund that invests in a diversified portfolio of stocks from companies located outside of North America."
         }
     },
     {
         "question": "Sector funds carry higher risk due to their:",
         "options": [
             "Narrow investment focus on a specific industry",
-            "",
+            "Investment in low-yielding bonds",
             "Limited exposure to market volatility",
             "Frequent portfolio rebalancing"
         ],
         "correctAnswer": 0,
         "hint": "Think about the impact of events affecting a particular industry.",
-        "expertAdvice": "Sector funds are more susceptible to downturns in a specific sector, as their",
+        "expertAdvice": "Sector funds are more susceptible to downturns in a specific sector, as their portfolio lacks the diversification of broader market funds.",
         "definitions": {
-            "Sector Fund": "A mutual fund that invests in companies within a particular industry or sector,"
+            "Sector Fund": "A mutual fund that invests in companies within a particular industry or sector, such as technology or healthcare."
         }
     },
     {
         "question": "What is the main objective of labor-sponsored investment funds (LSIFs)?",
         "options": [
-            "",
+            "Investing in large, established companies",
             "Generating short-term profits",
             "Providing capital for Canadian start-up companies",
             "Replicating the performance of a market index"
         ],
         "correctAnswer": 2,
         "hint": "LSIFs support the growth of new businesses.",
-        "expertAdvice": "LSIFs offer investors the opportunity to participate in the potential growth of",
+        "expertAdvice": "LSIFs offer investors the opportunity to participate in the potential growth of emerging Canadian companies, while also receiving tax benefits.",
         "definitions": {
-            "Labour-Sponsored Investment Fund (LSIF)": "A type of mutual fund that invests in small to"
+            "Labour-Sponsored Investment Fund (LSIF)": "A type of mutual fund that invests in small to medium-sized Canadian companies, often start-ups."
         }
     },
-    {
-        "question": "What is a key feature of real property funds that distinguishes them from most other",
+	    {
+        "question": "What is a key feature of real property funds that distinguishes them from most other mutual funds?",
         "options": [
             "Unit prices are not calculated daily.",
             "They primarily invest in bonds.",
@@ -204,26 +207,27 @@
         ],
         "correctAnswer": 0,
         "hint": "Consider the nature of the underlying assets in real property funds.",
-        "expertAdvice": "Real property funds invest in physical real estate, which requires appraisals to",
+        "expertAdvice": "Real property funds invest in physical real estate, which requires appraisals to determine their value, making daily pricing impractical.",
         "definitions": {
-            "Real Property Fund": "A mutual fund that invests in real estate properties, such as"
+            "Real Property Fund": "A mutual fund that invests in real estate properties, such as commercial or residential buildings."
         }
     },
     {
-        "question": "Which of the following best describes the investment strategy of commodity pool",
+        "question": "Which of the following best describes the investment strategy of commodity pool funds?",
         "options": [
             "Passive investment in a diversified portfolio",
             "Long-term holding of blue-chip stocks",
             "Speculative trading in commodities and derivatives",
-            ""
+            "Investing in companies with a high dividend yield"
         ],
         "correctAnswer": 2,
         "hint": "Commodity pool funds aim for high returns but involve significant risks.",
-        "expertAdvice": "Commodity pool funds utilize alternative trading strategies, often involving leverage",
+        "expertAdvice": "Commodity pool funds utilize alternative trading strategies, often involving leverage and short selling, to capitalize on price fluctuations in commodities.",
         "definitions": {
-            "Commodity Pool Fund": "A type of mutual fund that pools investors' money to invest in"
+            "Commodity Pool Fund": "A type of mutual fund that pools investors' money to invest in commodities and commodity derivatives."
         }
     },
+
     {
         "question": "What is the primary goal of an index fund?",
         "options": [
@@ -234,13 +238,13 @@
         ],
         "correctAnswer": 1,
         "hint": "Index funds are known for their passive investment style.",
-        "expertAdvice": "Index funds aim to match the returns of a chosen benchmark index by holding the",
+        "expertAdvice": "Index funds aim to match the returns of a chosen benchmark index by holding the same securities in similar proportions.",
         "definitions": {
-            "Index Fund": "A type of mutual fund that seeks to replicate the performance of a particular"
+            "Index Fund": "A type of mutual fund that seeks to replicate the performance of a particular market index, such as the S&P 500, by holding the same securities as the index."
         }
     },
     {
-        "question": "What is a \"fund of funds\" (FOF)?",
+        "question": "What is a 'fund of funds' (FOF)?",
         "options": [
             "A fund that invests directly in individual stocks and bonds",
             "A fund that invests in a portfolio of other mutual funds",
@@ -249,9 +253,9 @@
         ],
         "correctAnswer": 1,
         "hint": "FOFs provide a way to further diversify investments.",
-        "expertAdvice": "FOFs offer investors a simplified approach to diversification by investing in a",
+        "expertAdvice": "FOFs offer investors a simplified approach to diversification by investing in a selection of mutual funds managed by different professionals.",
         "definitions": {
-            "Fund of Funds (FOF)": "A mutual fund that invests in other mutual funds rather than directly"
+            "Fund of Funds (FOF)": "A mutual fund that invests in other mutual funds rather than directly in stocks, bonds, or other securities."
         }
     },
     {
@@ -264,10 +268,10 @@
         ],
         "correctAnswer": 0,
         "hint": "Think about the regulatory and accessibility aspects of pooled funds.",
-        "expertAdvice": "Pooled funds are exempt from certain regulatory requirements, making them more",
+        "expertAdvice": "Pooled funds are exempt from certain regulatory requirements, making them more suitable for sophisticated and high-net-worth investors.",
         "definitions": {
-            "Pooled Funds": "Investment funds that pool money from multiple investors, typically",
-            "Accredited Investor": "A sophisticated investor who meets certain criteria related to income,"
+            "Pooled Funds": "Investment funds that pool money from multiple investors, typically accredited investors, and are managed by professional portfolio managers.",
+            "Accredited Investor": "A sophisticated investor who meets certain criteria related to income, net worth, or investment experience."
         }
     },
     {
@@ -280,9 +284,9 @@
         ],
         "correctAnswer": 3,
         "hint": "Hedge funds often employ alternative investment strategies.",
-        "expertAdvice": "Hedge funds strive for absolute returns rather than relative returns, using strategies",
+        "expertAdvice": "Hedge funds strive for absolute returns rather than relative returns, using strategies like leverage and short selling to potentially profit in various market conditions.",
         "definitions": {
-            "Hedge Fund": "An alternative investment fund that uses various strategies to generate"
+            "Hedge Fund": "An alternative investment fund that uses various strategies to generate returns, often employing leverage and aiming for absolute returns."
         }
     },
     {
@@ -295,9 +299,10 @@
         ],
         "correctAnswer": 2,
         "hint": "Segregated funds offer a level of protection not found in traditional mutual funds.",
-        "expertAdvice": "Segregated funds, offered by insurance companies, provide a guarantee of a certain",
+        "expertAdvice": "Segregated funds, offered by insurance companies, provide a guarantee of a certain percentage of the invested capital at maturity or death, mitigating downside risk.",
         "definitions": {
-            "Segregated Funds": "Investment products offered by insurance companies that combine"
+            "Segregated Funds": "Investment products offered by insurance companies that combine mutual fund-like investments with insurance features, including maturity and death benefits."
         }
     }
+
 ]
