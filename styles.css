@@ -75,3 +75,34 @@ h1 {
     background: #6c757d;
     cursor: not-allowed;
 }
+/* Lifelines container styling */
+#lifelines {
+    display: flex;           /* Arrange buttons in a row */
+    justify-content: center; /* Center the buttons horizontally */
+    margin-bottom: 20px;     /* Add some space below the lifelines */
+}
+
+/* Individual lifeline button styling */
+#lifelines button {
+    margin: 5px;             /* Space between the buttons */
+    padding: 10px 15px;      /* Button size */
+    font-size: 16px;         /* Button text size */
+    background-color: #4CAF50; /* Green background */
+    color: white;            /* White text */
+    border: none;            /* Remove default borders */
+    border-radius: 5px;      /* Rounded corners */
+    cursor: pointer;         /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button hover effect */
+#lifelines button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Disabled button styling */
+#lifelines button:disabled {
+    background-color: #ccc;  /* Gray background for disabled buttons */
+    color: #666;             /* Darker text for readability */
+    cursor: not-allowed;     /* No pointer for disabled buttons */
+}
