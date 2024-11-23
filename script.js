@@ -62,26 +62,32 @@ const checkAnswer = (selectedOption) => {
     document.getElementById("next-question").disabled = false;
 };
 
-const useFiftyFifty = () => {
-    if (usedLifelines.fiftyFifty) return;
-    usedLifelines.fiftyFifty = true;
+function useFiftyFifty() {
+    if (!currentQuestion) return;
 
-    const currentQuestion = questions[currentQuestionIndex];
-    const options = document.querySelectorAll("#options button");
+    // Get all answer buttons
+    const buttons = Array.from(document.querySelectorAll('.answer-btn'));
+    const correctIndex = currentQuestion.correctAnswer;
 
-    let incorrectOptions = [];
-    options.forEach((option, index) => {
-        if (index !== currentQuestion.correctAnswer) incorrectOptions.push(option);
+    // Filter out the correct answer to get wrong answers
+    const wrongIndexes = buttons
+        .map((_, index) => index)
+        .filter(index => index !== correctIndex);
+
+    // Randomly select two wrong answers
+    const toDisable = wrongIndexes.sort(() => 0.5 - Math.random()).slice(0, 2);
+
+    // Disable selected wrong answers
+    toDisable.forEach(index => {
+        buttons[index].disabled = true;
+        buttons[index].style.opacity = "0.5"; // Visually indicate it's disabled
     });
 
-    while (incorrectOptions.length > 2) {
-        const randomIndex = Math.floor(Math.random() * incorrectOptions.length);
-        incorrectOptions[randomIndex].style.display = "none";
-        incorrectOptions.splice(randomIndex, 1);
-    }
-
-    updateLifelineButtons();
-};
+    // Disable the 50/50 button
+    const fiftyButton = document.getElementById('lifeline-fifty-fifty');
+    fiftyButton.disabled = true;
+    fiftyButton.style.opacity = "0.5";
+}
 
 const useExpert = () => {
     if (usedLifelines.expert) return;
