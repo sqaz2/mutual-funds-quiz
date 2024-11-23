@@ -1,5 +1,5 @@
-[
-    {
+    [
+		{
         "question": "What is a key distinction between closed-end and open-end mutual funds that impacts their trading dynamics?",
         "options": [
             "Closed-end funds trade at a fixed price determined by the fund manager, while open-end funds fluctuate based on market forces.",
@@ -15,289 +15,304 @@
             "Open-end mutual fund": "A mutual fund that continuously offers units, with the number of units issued and redeemed based on investor demand."
         }
     },
+	
     {
-        "question": "Which type of mutual fund is characterized by its focus on income generation and predictable returns?",
+        "question": "Which type of mutual fund is characterized by a fixed asset allocation strategy, aiming for a balance between equities and bonds?",
         "options": [
-            "Equity fund",
-            "Money market fund",
-            "Income fund",
-            "Index fund"
-        ],
-        "correctAnswer": 2,
-        "hint": "Think about funds that prioritize steady income for investors.",
-        "expertAdvice": "Income funds focus on generating steady returns through investments in bonds, dividend-paying stocks, and other income-generating assets.",
-        "definitions": {
-            "Income fund": "A type of mutual fund that invests in income-generating securities such as bonds and dividend-paying stocks."
-        }
-    },
-    {
-        "question": "What is the main advantage of index funds compared to actively managed mutual funds?",
-        "options": [
-            "Higher returns",
-            "Lower management fees",
-            "Exclusive access to specific markets",
-            "Guarantee of no losses"
+            "Money Market Fund",
+            "Balanced Fund",
+            "Equity Fund",
+            "Specialty Fund"
         ],
         "correctAnswer": 1,
-        "hint": "Index funds are known for their passive management approach.",
-        "expertAdvice": "Index funds have lower management fees because they are passively managed, aiming to replicate the performance of a benchmark index rather than outperform it.",
+        "hint": "Consider the funds designed to provide both stability and growth potential.",
+        "expertAdvice": "Balanced funds cater to investors seeking a blend of income and growth. Their predetermined asset mix helps manage risk while aiming for long-term returns.",
         "definitions": {
-            "Index fund": "A mutual fund designed to replicate the performance of a specific financial market index."
+            "Balanced fund": "A mutual fund that invests in a mix of equities and bonds to achieve both income and long-term capital growth.",
+            "Fixed asset allocation": "A strategy where a fund maintains a predetermined percentage of its portfolio in different asset classes (e.g., equities, bonds)."
         }
     },
-    {
-        "question": "Which type of fund is designed to provide regular income and preserve capital, often appealing to retirees?",
+	    {
+        "question": "How do target date funds (life-cycle funds) adjust their asset allocation over time to align with an investor's specific time horizon?",
         "options": [
-            "Aggressive growth fund",
-            "Money market fund",
-            "Balanced fund",
-            "Income fund"
-        ],
-        "correctAnswer": 3,
-        "hint": "Consider the needs of investors seeking stability and regular payouts.",
-        "expertAdvice": "Income funds are popular among retirees because they focus on stable returns and capital preservation.",
-        "definitions": {
-            "Income fund": "A mutual fund that invests primarily in income-generating assets, such as bonds and dividend-paying stocks, to provide regular payouts."
-        }
-    },
-    {
-        "question": "What distinguishes sector funds from other types of mutual funds?",
-        "options": [
-            "They focus exclusively on high-growth stocks.",
-            "They invest in a single industry or sector.",
-            "They have the lowest risk profile among mutual funds.",
-            "They prioritize investments in government bonds."
-        ],
-        "correctAnswer": 1,
-        "hint": "Sector funds concentrate their investments within a specific area of the economy.",
-        "expertAdvice": "Sector funds are riskier than diversified funds because they lack exposure to other sectors, making them more vulnerable to downturns in their specific industry.",
-        "definitions": {
-            "Sector fund": "A mutual fund that invests in companies within a particular industry or economic sector, such as technology or healthcare."
-        }
-    },
-    {
-        "question": "What is the primary goal of target-date funds?",
-        "options": [
-            "To generate maximum returns within a short period",
-            "To meet an investment objective by a specific date",
-            "To outperform market indices",
-            "To exclusively invest in bonds"
-        ],
-        "correctAnswer": 1,
-        "hint": "The name of the fund type provides a clue.",
-        "expertAdvice": "Target-date funds are designed to adjust their asset allocation over time to reduce risk as the target date approaches.",
-        "definitions": {
-            "Target-date fund": "A mutual fund structured to meet an investment goal by a specific date, often adjusting its investment mix to reduce risk as the date nears."
-        }
-    },
-    {
-        "question": "Which type of mutual fund invests primarily in foreign securities and excludes North American markets?",
-        "options": [
-            "Global equity fund",
-            "Sector fund",
-            "International equity fund",
-            "Small-cap fund"
-        ],
-        "correctAnswer": 2,
-        "hint": "The focus is on markets outside North America.",
-        "expertAdvice": "International equity funds provide exposure to non-North American companies, offering diversification but with added risks.",
-        "definitions": {
-            "International equity fund": "A mutual fund that invests in securities from countries outside North America, focusing on global diversification."
-        }
-    },
-    {
-        "question": "How do dividend funds primarily generate returns for investors?",
-        "options": [
-            "Through capital appreciation",
-            "By paying regular dividends",
-            "Through speculative investments",
-            "By investing exclusively in government bonds"
-        ],
-        "correctAnswer": 1,
-        "hint": "Dividend funds focus on income generation through company payouts.",
-        "expertAdvice": "Dividend funds invest in stocks of companies known for paying consistent dividends, offering steady income to investors.",
-        "definitions": {
-            "Dividend fund": "A mutual fund that invests in dividend-paying stocks, prioritizing regular income generation."
-        }
-    },
-    {
-        "question": "What is the distinguishing feature of bond funds?",
-        "options": [
-            "They invest exclusively in stocks.",
-            "They provide guaranteed returns.",
-            "They primarily invest in fixed-income securities.",
-            "They have the highest risk among mutual funds."
-        ],
-        "correctAnswer": 2,
-        "hint": "Bond funds focus on fixed-income investments.",
-        "expertAdvice": "Bond funds aim to generate stable returns by investing in a portfolio of bonds, making them suitable for conservative investors.",
-        "definitions": {
-            "Bond fund": "A mutual fund that invests in a portfolio of bonds, focusing on generating income through interest payments."
-        }
-    },
-    {
-        "question": "What sets balanced funds apart from other mutual funds?",
-        "options": [
-            "They exclusively invest in equities.",
-            "They provide exposure to a mix of asset classes.",
-            "They are risk-free investments.",
-            "They guarantee a fixed return."
-        ],
-        "correctAnswer": 1,
-        "hint": "Balanced funds offer a mix of investment options.",
-        "expertAdvice": "Balanced funds combine stocks and bonds in their portfolio, aiming to balance growth and income objectives.",
-        "definitions": {
-            "Balanced fund": "A mutual fund that invests in a mix of asset classes, such as stocks and bonds, to provide growth and income."
-        }
-    },
-    {
-        "question": "What is the defining characteristic of equity funds?",
-        "options": [
-            "They invest primarily in fixed-income securities.",
-            "They focus on investing in company stocks.",
-            "They provide guaranteed returns to investors.",
-            "They are limited to a single industry or sector."
-        ],
-        "correctAnswer": 1,
-        "hint": "Equity funds are closely tied to stock market performance.",
-        "expertAdvice": "Equity funds invest in a diverse portfolio of stocks, offering potential for growth but with higher risk compared to fixed-income funds.",
-        "definitions": {
-            "Equity fund": "A mutual fund that primarily invests in stocks, aiming for long-term capital appreciation."
-        }
-    },
-    {
-        "question": "Which type of fund focuses on high-risk, high-reward investments in emerging markets?",
-        "options": [
-            "Balanced fund",
-            "Emerging markets fund",
-            "Money market fund",
-            "Sector fund"
-        ],
-        "correctAnswer": 1,
-        "hint": "Emerging markets funds target rapidly growing economies.",
-        "expertAdvice": "Emerging markets funds invest in developing countries, offering high growth potential but with significant risks due to market volatility.",
-        "definitions": {
-            "Emerging markets fund": "A mutual fund that invests in companies located in developing countries, often characterized by high growth potential and higher risk."
-        }
-    },
-    {
-        "question": "What makes global equity funds distinct from international equity funds?",
-        "options": [
-            "Global equity funds include North America, while international equity funds exclude it.",
-            "Global equity funds focus solely on European markets.",
-            "Global equity funds invest only in blue-chip stocks.",
-            "Global equity funds prioritize bonds over stocks."
+            "They gradually shift from a higher concentration of equities to a more conservative bond-heavy portfolio as the target date approaches.",
+            "They maintain a fixed asset allocation throughout the fund's lifespan, ensuring consistent risk exposure.",
+            "They actively increase exposure to high-growth sectors as the target date nears to maximize potential returns.",
+            "They prioritize investments in alternative assets like commodities and real estate in the later stages to hedge against inflation."
         ],
         "correctAnswer": 0,
-        "hint": "Global equity funds aim to cover investments worldwide.",
-        "expertAdvice": "Global equity funds include investments from all regions, including North America, providing broader diversification than international equity funds.",
+        "hint": "Think about how risk tolerance changes as an investor gets closer to their financial goal.",
+        "expertAdvice": "Target date funds are designed to become more conservative over time. They start with a growth focus and transition to capital preservation as the target date (e.g., retirement) draws near.",
         "definitions": {
-            "Global equity fund": "A mutual fund that invests in stocks from markets around the world, including North America."
+            "Target date fund (life-cycle fund)": "A mutual fund that automatically adjusts its asset allocation over time to become more conservative as the target date approaches.",
+            "Asset allocation": "The distribution of a portfolio's investments across different asset classes."
         }
     },
     {
-        "question": "What is a unique feature of small-cap equity funds?",
+        "question": "How do labor-sponsored investment funds (LSIFs) attract investors despite their inherent high-risk nature?",
         "options": [
-            "They focus on well-established, high-value companies.",
-            "They invest in companies with small market capitalization.",
-            "They provide guaranteed dividends to investors.",
-            "They are limited to government-backed securities."
+            "They offer guaranteed returns, mitigating the risk associated with investments in start-up companies.",
+            "They provide significant tax benefits, such as tax credits, to incentivize investment in Canadian start-up companies.",
+            "They primarily invest in established blue-chip companies, minimizing the volatility associated with start-ups.",
+            "They are backed by government guarantees, ensuring the return of principal investment even in case of company failures."
         ],
         "correctAnswer": 1,
-        "hint": "Small-cap funds focus on companies that are still growing.",
-        "expertAdvice": "Small-cap equity funds invest in smaller companies with growth potential but higher risk compared to large-cap companies.",
+        "hint": "Consider the incentives governments provide to encourage investments in certain sectors.",
+        "expertAdvice": "LSIFs offer attractive tax breaks to compensate investors for the high risk involved in funding early-stage companies. However, it's crucial to understand that these tax benefits may change over time.",
         "definitions": {
-            "Small-cap equity fund": "A mutual fund that invests in companies with small market capitalizations, aiming for growth opportunities."
+            "Labor-sponsored investment fund (LSIF)": "A mutual fund that invests in small- to mid-sized Canadian start-up companies, providing investors with tax credits as incentives.",
+            "Tax credit": "A direct reduction in the amount of tax owed."
         }
     },
-    {
-        "question": "Why are bond funds considered lower risk than equity funds?",
-        "options": [
-            "They are insured by the government.",
-            "They invest in fixed-income securities with predictable returns.",
-            "They are immune to market volatility.",
-            "They offer guaranteed returns."
-        ],
-        "correctAnswer": 1,
-        "hint": "Bond funds focus on stability and fixed income.",
-        "expertAdvice": "Bond funds invest in fixed-income securities such as government and corporate bonds, offering more predictable returns and lower risk than equity funds.",
-        "definitions": {
-            "Bond fund": "A mutual fund that invests in bonds, focusing on generating income while minimizing risk."
-        }
-    },
-    {
-        "question": "What distinguishes hedge funds from traditional mutual funds?",
-        "options": [
-            "They focus exclusively on high-dividend stocks.",
-            "They are regulated by the government.",
-            "They employ a wide range of strategies to achieve absolute returns.",
-            "They guarantee a minimum level of returns."
-        ],
-        "correctAnswer": 2,
-        "hint": "Hedge funds focus on maximizing returns in all market conditions.",
-        "expertAdvice": "Hedge funds use diverse strategies, including leverage and short selling, to achieve positive returns regardless of market conditions.",
-        "definitions": {
-            "Hedge fund": "An alternative investment fund that employs various strategies to achieve absolute returns."
-        }
-    },
-    {
-        "question": "What is the primary objective of a growth fund?",
-        "options": [
-            "To maximize capital appreciation over time.",
-            "To generate consistent income for investors.",
-            "To provide guaranteed returns.",
-            "To focus exclusively on short-term trading."
-        ],
-        "correctAnswer": 0,
-        "hint": "Growth funds prioritize increasing the value of investments.",
-        "expertAdvice": "Growth funds invest in companies with strong potential for future growth, often in technology or emerging industries.",
-        "definitions": {
-            "Growth fund": "A mutual fund that aims to maximize capital appreciation by investing in growth-oriented companies."
-        }
-    },
-    {
-        "question": "What is a distinguishing feature of money market funds?",
-        "options": [
-            "They invest in high-risk assets for maximum returns.",
-            "They are designed for long-term growth.",
-            "They prioritize stability and liquidity through low-risk investments.",
-            "They focus exclusively on real estate investments."
-        ],
-        "correctAnswer": 2,
-        "hint": "Money market funds are considered very conservative investments.",
-        "expertAdvice": "Money market funds provide liquidity and capital preservation by investing in short-term debt instruments like Treasury bills.",
-        "definitions": {
-            "Money market fund": "A mutual fund that invests in low-risk, short-term debt securities for liquidity and stability."
-        }
-    },
-    {
-        "question": "Which type of fund is designed to adjust its allocation as the investor approaches a specific goal?",
-        "options": [
-            "Index fund",
-            "Target-date fund",
-            "Balanced fund",
-            "Sector fund"
-        ],
-        "correctAnswer": 1,
-        "hint": "These funds are also known as life-cycle funds.",
-        "expertAdvice": "Target-date funds gradually shift their asset allocation from growth-oriented to conservative investments as the target date nears.",
-        "definitions": {
-            "Target-date fund": "A mutual fund that adjusts its investment allocation as the investor approaches a specified date."
-        }
-    },
-    {
-        "question": "What is the primary focus of socially responsible funds?",
-        "options": [
-            "To maximize short-term profits.",
-            "To invest in companies meeting environmental, social, and governance criteria.",
-            "To exclusively invest in government bonds.",
-            "To prioritize investments in high-growth sectors."
-        ],
-        "correctAnswer": 1,
-        "hint": "Think about ethical considerations in investing.",
-        "expertAdvice": "Socially responsible funds focus on companies that meet specific criteria for sustainability, social responsibility, and ethical governance.",
-        "definitions": {
-            "Socially responsible fund": "A mutual fund that invests in companies adhering to environmental, social, and governance (ESG) criteria."
-        }
+
+{
+    "question": "Which type of mutual fund is known for its narrow investment focus on a particular industry or sector, making it a higher-risk, higher-reward proposition?",
+    "options": [
+        "Balanced Fund",
+        "Sector Fund",
+        "Index Fund",
+        "Target Date Fund"
+    ],
+    "correctAnswer": 1,
+    "hint": "Consider the funds specializing in a particular market segment.",
+    "expertAdvice": "Sector funds can provide outsized returns if their chosen sector performs well. However, they also carry significant risk if the industry faces headwinds.",
+    "definitions": {
+        "Sector fund": "A mutual fund that invests in the securities of companies within a specific industry or sector."
     }
-]
+},
+{
+    "question": "Which type of income generated by mutual funds is NOT considered taxable income?",
+    "options": [
+        "Interest",
+        "Canadian Dividends",
+        "Foreign Non-Business Income",
+        "Return of Capital"
+    ],
+    "correctAnswer": 3,
+    "hint": "Think about which type of distribution is a return of the investor's initial investment rather than earnings.",
+    "expertAdvice": "Return of capital represents a portion of the original investment being returned to the shareholder and is not taxed as income. It's essential to distinguish this from taxable distributions like interest or dividends.",
+    "definitions": {
+        "Return of capital": "A distribution from a mutual fund that is not considered taxable income, representing a return of the investor's original investment."
+    }
+},
+{
+    "question": "What distinguishes a global equity fund from an international equity fund in terms of its investment scope?",
+    "options": [
+        "Global equity funds focus solely on developed markets, while international equity funds invest in emerging markets.",
+        "Global equity funds invest in companies worldwide, including Canada and the U.S., while international equity funds exclude North American companies.",
+        "Global equity funds primarily invest in bonds and fixed-income securities, while international equity funds focus on stocks and equities.",
+        "Global equity funds are actively managed, seeking to outperform market benchmarks, while international equity funds passively track specific indices."
+    ],
+    "correctAnswer": 1,
+    "hint": "Consider the geographical restrictions for each type of fund.",
+    "expertAdvice": "Global equity funds offer broader diversification by including both domestic and international investments, while international equity funds specifically target non-North American opportunities.",
+    "definitions": {
+        "Global equity fund": "A mutual fund that invests in the securities of companies located throughout the world, including Canada and the U.S.",
+        "International equity fund": "A mutual fund that invests in the securities of companies located outside of North America."
+    }
+},
+{
+    "question": "Which type of mutual fund is often described as a 'temporary parking space' for funds, providing a high degree of liquidity and capital preservation?",
+    "options": [
+        "Money Market Fund",
+        "Balanced Fund",
+        "Equity Fund",
+        "Specialty Fund"
+    ],
+    "correctAnswer": 0,
+    "hint": "Think about the fund known for its stability and use for short-term goals.",
+    "expertAdvice": "Money market funds are suitable for short-term needs, such as emergency funds or holding cash before deploying it to other investments.",
+    "definitions": {
+        "Money market fund": "A mutual fund that invests in low-risk, highly liquid short-term debt securities, aiming for capital preservation and modest income."
+    }
+},
+{
+    "question": "What is a key advantage of index funds that often results in lower management fees compared to actively managed funds?",
+    "options": [
+        "Index funds invest in a concentrated portfolio of high-growth stocks, minimizing transaction costs.",
+        "Index funds employ sophisticated algorithms to predict market movements, reducing the need for human intervention.",
+        "Index funds passively track a specific market index, replicating its holdings rather than trying to outperform it.",
+        "Index funds primarily invest in government bonds, which are generally considered low-risk and require minimal management."
+    ],
+    "correctAnswer": 2,
+    "hint": "Think about the investment strategy of index funds.",
+    "expertAdvice": "Index funds' passive approach, aiming to mirror an index's performance, often leads to lower operating costs and, consequently, lower fees for investors.",
+    "definitions": {
+        "Index fund": "A mutual fund that seeks to replicate the performance of a specific market index by investing in the same securities as the index."
+    }
+},
+{
+    "question": "What inherent characteristic of real property funds can lead to challenges with liquidity for investors?",
+    "options": [
+        "The funds' underlying investments in real estate are illiquid, making it difficult to quickly convert them into cash.",
+        "The funds primarily invest in high-risk, speculative real estate ventures, leading to frequent fluctuations in unit prices.",
+        "The funds are heavily regulated, requiring lengthy approval processes for redemptions and withdrawals.",
+        "The funds are only available to accredited investors, limiting the pool of potential buyers and sellers."
+    ],
+    "correctAnswer": 0,
+    "hint": "Consider the nature of real estate as an asset class.",
+    "expertAdvice": "Real estate investments are inherently less liquid than stocks or bonds. This illiquidity can impact real property funds, as it may take time to sell properties to meet redemption requests.",
+    "definitions": {
+        "Real property fund": "A mutual fund that invests in real estate properties, generating returns from rental income and capital appreciation.",
+        "Liquidity": "The ease with which an asset can be converted into cash without significant loss of value."
+    }
+}, 
+
+{
+    "question": "How do principal protected notes (PPNs) mitigate downside risk for investors while still offering potential for returns?",
+    "options": [
+        "They provide a guaranteed minimum return, ensuring that investors will at least recoup their initial investment.",
+        "They invest in a diversified portfolio of low-risk assets, minimizing the potential for losses.",
+        "They guarantee the return of the original principal at maturity, even if the underlying asset performs poorly.",
+        "They are backed by government insurance, protecting investors against market downturns."
+    ],
+    "correctAnswer": 2,
+    "hint": "Think about the structural feature of PPNs that provides capital protection.",
+    "expertAdvice": "PPNs offer a level of security by guaranteeing the principal investment at maturity. However, this protection comes at the cost of potentially limiting the upside potential compared to direct investments in the underlying asset.",
+    "definitions": {
+        "Principal protected note (PPN)": "A debt instrument that guarantees the repayment of the original principal at maturity while offering returns linked to an underlying asset."
+    }
+},
+{
+    "question": "How does the concept of 'economies of scale' benefit investors in pooled funds?",
+    "options": [
+        "Pooled funds invest in a diverse range of assets, spreading risk and reducing the impact of individual investment losses.",
+        "Pooled funds are exempt from prospectus requirements, streamlining the investment process and reducing administrative costs.",
+        "Pooled funds are managed by experienced professionals, leveraging their expertise to generate higher returns for investors.",
+        "Pooled funds have large asset bases, allowing them to spread operating costs over a larger number of investors, resulting in lower management fees."
+    ],
+    "correctAnswer": 3,
+    "hint": "Think about how costs are distributed in a large investment pool.",
+    "expertAdvice": "Pooled funds cater to high-net-worth individuals and institutions. Their large size allows them to negotiate lower fees for services like trading and custody, benefiting their investors.",
+    "definitions": {
+        "Pooled fund": "A type of investment fund similar to a mutual fund but typically available only to accredited investors and subject to less stringent regulatory requirements.",
+        "Economies of scale": "The cost advantages that arise from increased output or scale of operation."
+    }
+},
+
+{
+    "question": "What characteristic of hedge funds distinguishes them from traditional mutual funds in terms of their investment goals and strategies?",
+    "options": [
+        "Hedge funds prioritize capital preservation, focusing on minimizing losses in volatile market conditions.",
+        "Hedge funds typically aim for positive absolute returns, striving to generate profits regardless of market direction.",
+        "Hedge funds exclusively invest in low-risk, fixed-income securities, aiming for steady and predictable returns.",
+        "Hedge funds passively track specific market indices, seeking to replicate market performance rather than outperform it."
+    ],
+    "correctAnswer": 1,
+    "hint": "Think about the performance benchmarks used by hedge fund managers.",
+    "expertAdvice": "Hedge funds often employ aggressive and complex strategies to achieve absolute returns. Their success is measured against a zero return, not a market index.",
+    "definitions": {
+        "Hedge fund": "An investment fund that is typically privately distributed, has broad investment mandates, and aims to generate positive returns in all market conditions.",
+        "Absolute return": "A measure of investment performance that focuses on generating positive returns regardless of market fluctuations."
+    }
+},
+{
+    "question": "What was a key reason for the decline in the popularity of income trusts after 2006?",
+    "options": [
+        "Rising interest rates made fixed-income investments more attractive, diverting investor interest from income trusts.",
+        "Changes in tax regulations eliminated the favorable tax treatment previously enjoyed by income trusts.",
+        "The global financial crisis of 2008 led to widespread losses in income trusts, eroding investor confidence.",
+        "Increased competition from exchange-traded funds (ETFs) offering similar investment strategies at lower costs."
+    ],
+    "correctAnswer": 1,
+    "hint": "Think about government policies that impact the investment landscape.",
+    "expertAdvice": "The tax advantages that once made income trusts attractive were significantly curtailed by regulatory changes, leading to a decline in their popularity.",
+    "definitions": {
+        "Income trust": "A trust that invests in operating companies and distributes cash flow to its investors."
+    }
+},
+
+{
+    "question": "How do segregated funds offered by life insurance companies differ from traditional mutual funds in terms of investor protection?",
+    "options": [
+        "Segregated funds provide a guaranteed minimum return, ensuring that investors will never experience a loss on their investment.",
+        "Segregated funds are backed by the full faith and credit of the Canadian government, guaranteeing the return of principal in case of insurer insolvency.",
+        "Segregated funds offer a death benefit, paying out a predetermined sum to a designated beneficiary upon the investor's death.",
+        "Segregated funds guarantee the return of a significant portion of the invested capital at maturity or death, even if the underlying investments have declined in value."
+    ],
+    "correctAnswer": 3,
+    "hint": "Think about the insurance aspect of segregated funds.",
+    "expertAdvice": "Segregated funds offer a level of capital protection not found in mutual funds, making them attractive to investors seeking downside risk mitigation.",
+    "definitions": {
+        "Segregated fund": "An investment product offered by life insurance companies that combines investment features with insurance guarantees, such as a guaranteed return of a portion of the invested capital."
+    }
+},
+{
+    "question": "What is the 'tracking error' in the context of index funds?",
+    "options": [
+        "The difference between the index fund's returns and the returns of the underlying market index it tracks.",
+        "The risk that the index fund's portfolio manager may deviate from the index's composition due to errors in judgment.",
+        "The fees and expenses associated with managing the index fund, which reduce the overall returns for investors.",
+        "The potential for the underlying market index to experience unexpected losses, leading to negative returns for the index fund."
+    ],
+    "correctAnswer": 0,
+    "hint": "Think about how closely an index fund aims to mirror the performance of its benchmark index.",
+    "expertAdvice": "While index funds aim to replicate index returns, slight variations can occur due to factors like transaction costs and timing differences. This difference is known as the tracking error.",
+    "definitions": {
+        "Tracking error": "The difference between the performance of an index fund and the performance of the underlying market index it is designed to track."
+    }
+},
+
+{
+    "question": "Why might an investor opt for a fund of funds (FOF) instead of directly investing in individual mutual funds?",
+    "options": [
+        "FOFs provide access to exclusive investment opportunities not available through traditional mutual funds.",
+        "FOFs offer lower management fees compared to individual mutual funds, reducing investment costs.",
+        "FOFs simplify investment management by providing a diversified portfolio of mutual funds managed by professionals.",
+        "FOFs guarantee higher returns compared to individual mutual funds by strategically allocating assets across various fund managers."
+    ],
+    "correctAnswer": 2,
+    "hint": "Think about the convenience and expertise that FOFs offer.",
+    "expertAdvice": "FOFs appeal to investors seeking professional management and diversification across multiple fund strategies without having to research and select individual funds themselves.",
+    "definitions": {
+        "Fund of funds (FOF)": "A mutual fund that invests in a portfolio of other mutual funds."
+    }
+},
+{
+    "question": "Which type of fixed income fund is characterized by its investment in mortgage securities, often providing a higher yield compared to money market funds?",
+    "options": [
+        "Bond Fund",
+        "Mortgage Fund",
+        "Balanced Fund",
+        "Target Date Fund"
+    ],
+    "correctAnswer": 1,
+    "hint": "Consider the funds focused on debt instruments tied to real estate.",
+    "expertAdvice": "Mortgage funds invest in pools of mortgages, aiming to generate income for investors. They typically carry slightly higher risk than money market funds but offer potentially higher yields.",
+    "definitions": {
+        "Mortgage fund": "A mutual fund that invests in mortgage securities, seeking to generate income for investors."
+    }
+},
+
+{
+    "question": "What potential risks are associated with investing in international equity funds compared to funds focused solely on domestic companies?",
+    "options": [
+        "International equity funds are subject to higher management fees due to the complexities of investing in foreign markets.",
+        "International equity funds have lower liquidity, as it can be difficult to buy and sell securities in foreign markets.",
+        "International equity funds face risks related to currency fluctuations, political instability, and economic uncertainty in the countries they invest in.",
+        "International equity funds are not regulated by Canadian authorities, making it difficult to assess their risk profiles and performance."
+    ],
+    "correctAnswer": 2,
+    "hint": "Think about the geopolitical and economic factors that can impact foreign investments.",
+    "expertAdvice": "International investments come with additional layers of risk. Currency fluctuations, political events, and economic conditions in foreign countries can significantly impact returns.",
+    "definitions": {
+        "International equity fund": "A mutual fund that invests in the securities of companies located outside of North America."
+    }
+},
+{
+    "question": "What is a potential drawback of the multi-manager approach employed by fund of funds (FOFs)?",
+    "options": [
+        "The multiple layers of management fees can erode investor returns.",
+        "The diverse range of investment styles within the FOF can lead to inconsistent performance.",
+        "The lack of a single, dedicated portfolio manager can result in a lack of focus and strategic direction.",
+        "The automatic rebalancing feature of FOFs can lead to missed opportunities in rapidly changing markets."
+    ],
+    "correctAnswer": 0,
+    "hint": "Think about the costs associated with managing a portfolio of multiple funds.",
+    "expertAdvice": "While FOFs offer diversification and professional management, investors need to carefully consider the fee structure. The fees charged by both the FOF and the underlying funds can accumulate and impact overall returns.",
+    "definitions": {
+        "Fund of funds (FOF)": "A mutual fund that invests in a portfolio of other mutual funds.",
+        "Multi-manager approach": "A strategy where a fund employs multiple portfolio managers, each with expertise in a particular asset class or investment style."
+    }
+}
+	]
