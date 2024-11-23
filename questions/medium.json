@@ -1,632 +1,303 @@
 [
     {
-        "question": "What is dollar-cost averaging?",
+        "question": "Which organization is responsible for categorizing mutual funds in Canada?",
         "options": [
-            "Investing a fixed amount at regular intervals",
-            "Timing the market perfectly",
-            "Investing only in US dollar-denominated funds",
-            "Calculating investment returns in dollars"
+            "Canadian Securities Administrators (CSA)",
+            "",
+            "Mutual Fund Dealers Association (MFDA)",
+            "Canadian Investment Funds Standards Committee (CIFSC)"
+        ],
+        "correctAnswer": 3,
+        "hint": "The organization's name refers to its role in the mutual fund industry.",
+        "expertAdvice": "The CIFSC establishes the standards used to categorize mutual funds, helping",
+        "definitions": {
+            "Canadian Investment Funds Standards Committee (CIFSC)": "A committee that sets"
+        }
+    },
+    {
+        "question": "What is the primary investment objective of a money market fund?",
+        "options": [
+            "Aggressive growth",
+            "Long-term capital appreciation",
+            "Safety and income",
+            "Speculation"
+        ],
+        "correctAnswer": 2,
+        "hint": "Money market funds are considered conservative investments.",
+        "expertAdvice": "Money market funds prioritize protecting the investor's capital and providing a small",
+        "definitions": {
+            "Money Market Fund": "A type of mutual fund that invests in low-risk, short-term debt"
+        }
+    },
+    {
+        "question": "What type of mutual fund invests primarily in mortgages?",
+        "options": [
+            "Bond fund",
+            "Mortgage fund",
+            "Balanced fund",
+            "Real property fund"
+        ],
+        "correctAnswer": 1,
+        "hint": "The answer is in the name of the fund.",
+        "expertAdvice": "Mortgage funds provide steady income by investing in a pool of mortgages, often",
+        "definitions": {
+            "Mortgage Fund": "A mutual fund that invests in a portfolio of mortgages, aiming to generate"
+        }
+    },
+    {
+        "question": "How do rising interest rates impact the price of bond funds?",
+        "options": [
+            "Bond fund prices decrease.",
+            "Bond fund prices increase.",
+            "Bond fund prices remain unchanged.",
+            "The impact is unpredictable."
         ],
         "correctAnswer": 0,
-        "correctText": "Dollar-cost averaging involves investing a fixed amount at regular intervals, reducing the impact of market volatility.",
-        "expertAdvice": "This strategy helps investors avoid trying to time the market and averages the cost over time.",
+        "hint": "Think about the inverse relationship between bond prices and interest rates.",
+        "expertAdvice": "When interest rates rise, the value of existing bonds, and therefore bond funds,",
         "definitions": {
-            "dollar-cost averaging": "A strategy where an investor invests a fixed amount at regular intervals, regardless of market conditions."
-        },
-        "hint": "This strategy spreads investments over time to reduce risk.",
-        "difficulty": 2,
-        "reward": 200
+            "Bond Fund": "A mutual fund that invests in a portfolio of bonds, aiming to generate income for"
+        }
     },
     {
-        "question": "What is a balanced mutual fund?",
+        "question": "What is the key feature that distinguishes a balanced fund?",
         "options": [
-            "A fund with equal investment in stocks and bonds",
-            "A fund that only invests in safe assets",
-            "A fund that changes its strategy annually",
-            "A fund with no management fees"
+            "",
+            "",
+            "A fixed asset allocation between equities and bonds",
+            "Unlimited flexibility in asset allocation"
+        ],
+        "correctAnswer": 2,
+        "hint": "Balanced funds strive to provide a balance of income and growth.",
+        "expertAdvice": "Balanced funds maintain a specific ratio of stocks and bonds, outlined in their",
+        "definitions": {
+            "Balanced Fund": "A mutual fund that invests in a mix of stocks and bonds to provide both"
+        }
+    },
+    {
+        "question": "Unlike balanced funds, tactical asset allocation funds have:",
+        "options": [
+            "A fixed asset allocation",
+            "A focus on short-term investments",
+            "No restrictions on asset allocation",
+            ""
+        ],
+        "correctAnswer": 2,
+        "hint": "Tactical asset allocation funds aim to adapt to changing market conditions.",
+        "expertAdvice": "Portfolio managers of tactical asset allocation funds have the flexibility to adjust the",
+        "definitions": {
+            "Tactical Asset Allocation Fund": "A mutual fund where the manager actively adjusts the"
+        }
+    },
+    {
+        "question": "Target date funds are designed to meet an investment goal at a:",
+        "options": [
+            "Random point in time",
+            "Specific future date",
+            "Time chosen by the portfolio manager",
+            "Predetermined interval set by the investor"
+        ],
+        "correctAnswer": 1,
+        "hint": "Target date funds are also known as life-cycle funds.",
+        "expertAdvice": "Target date funds gradually shift their asset allocation to become more conservative",
+        "definitions": {
+            "Target Date Fund": "A mutual fund that automatically adjusts its asset allocation over time to"
+        }
+    },
+    {
+        "question": "What does market capitalization refer to in equity fund investing?",
+        "options": [
+            "The number of outstanding shares",
+            "The dividend yield of a company",
+            "The total market value of a company's shares",
+            "The price-to-earnings ratio"
+        ],
+        "correctAnswer": 2,
+        "hint": "Market capitalization is a measure of a company's size.",
+        "expertAdvice": "Market capitalization helps categorize companies into small-cap, mid-cap, or",
+        "definitions": {
+            "Market Capitalization": "The total value of a company's outstanding shares, calculated by"
+        }
+    },
+    {
+        "question": "Which type of equity fund focuses on companies that consistently distribute dividends?",
+        "options": [
+            "Canadian dividend fund",
+            "Global equity fund",
+            "Sector fund",
+            "Small-cap fund"
         ],
         "correctAnswer": 0,
-        "correctText": "Balanced funds invest in a mix of stocks, bonds, and other assets, aiming to provide both growth and income.",
-        "expertAdvice": "These funds aim to reduce risk by diversifying investments across asset classes.",
+        "hint": "Think about the type of income investors seek from these funds.",
+        "expertAdvice": "Canadian dividend funds aim to provide both income and growth potential by",
         "definitions": {
-            "balanced fund": "A mutual fund that invests in a mix of asset classes, such as stocks and bonds."
-        },
-        "hint": "It involves a mix of investments for diversification.",
-        "difficulty": 2,
-        "reward": 250
+            "Canadian Dividend Fund": "A mutual fund that invests in a portfolio of Canadian companies"
+        }
     },
     {
-        "question": "Sample medium question #3?",
+        "question": "What is a distinguishing characteristic of global equity funds compared to Canadian",
         "options": [
-            "Option A for Q3",
-            "Option B for Q3",
-            "Option C for Q3",
-            "Option D for Q3"
+            "",
+            "",
+            "Focus on a specific industry or sector",
+            "Lower risk than Canadian equity funds"
         ],
         "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #3.",
-        "expertAdvice": "Expert advice for question #3 provides more details.",
+        "hint": "Global equity funds seek broader diversification than funds limited to one country.",
+        "expertAdvice": "Global equity funds offer exposure to a wider range of investment opportunities,",
         "definitions": {
-            "term3": "Definition for term3."
-        },
-        "hint": "Hint for question #3.",
-        "difficulty": 2,
-        "reward": 230
+            "Global Equity Fund": "A mutual fund that invests in a diversified portfolio of stocks from"
+        }
     },
     {
-        "question": "Sample medium question #4?",
+        "question": "Why are international equity funds generally considered riskier than global equity",
         "options": [
-            "Option A for Q4",
-            "Option B for Q4",
-            "Option C for Q4",
-            "Option D for Q4"
+            "They are not actively managed.",
+            "They only invest in small-cap companies.",
+            "They exclude investments in North American companies.",
+            "They have higher management fees."
+        ],
+        "correctAnswer": 2,
+        "hint": "Think about the geographic concentration of investments.",
+        "expertAdvice": "International equity funds lack the stability that comes from investing in more",
+        "definitions": {
+            "International Equity Fund": "A mutual fund that invests in a diversified portfolio of stocks"
+        }
+    },
+    {
+        "question": "Sector funds carry higher risk due to their:",
+        "options": [
+            "Narrow investment focus on a specific industry",
+            "",
+            "Limited exposure to market volatility",
+            "Frequent portfolio rebalancing"
+        ],
+        "correctAnswer": 0,
+        "hint": "Think about the impact of events affecting a particular industry.",
+        "expertAdvice": "Sector funds are more susceptible to downturns in a specific sector, as their",
+        "definitions": {
+            "Sector Fund": "A mutual fund that invests in companies within a particular industry or sector,"
+        }
+    },
+    {
+        "question": "What is the main objective of labor-sponsored investment funds (LSIFs)?",
+        "options": [
+            "",
+            "Generating short-term profits",
+            "Providing capital for Canadian start-up companies",
+            "Replicating the performance of a market index"
+        ],
+        "correctAnswer": 2,
+        "hint": "LSIFs support the growth of new businesses.",
+        "expertAdvice": "LSIFs offer investors the opportunity to participate in the potential growth of",
+        "definitions": {
+            "Labour-Sponsored Investment Fund (LSIF)": "A type of mutual fund that invests in small to"
+        }
+    },
+    {
+        "question": "What is a key feature of real property funds that distinguishes them from most other",
+        "options": [
+            "Unit prices are not calculated daily.",
+            "They primarily invest in bonds.",
+            "They have unlimited liquidity.",
+            "They are exempt from management fees."
+        ],
+        "correctAnswer": 0,
+        "hint": "Consider the nature of the underlying assets in real property funds.",
+        "expertAdvice": "Real property funds invest in physical real estate, which requires appraisals to",
+        "definitions": {
+            "Real Property Fund": "A mutual fund that invests in real estate properties, such as"
+        }
+    },
+    {
+        "question": "Which of the following best describes the investment strategy of commodity pool",
+        "options": [
+            "Passive investment in a diversified portfolio",
+            "Long-term holding of blue-chip stocks",
+            "Speculative trading in commodities and derivatives",
+            ""
+        ],
+        "correctAnswer": 2,
+        "hint": "Commodity pool funds aim for high returns but involve significant risks.",
+        "expertAdvice": "Commodity pool funds utilize alternative trading strategies, often involving leverage",
+        "definitions": {
+            "Commodity Pool Fund": "A type of mutual fund that pools investors' money to invest in"
+        }
+    },
+    {
+        "question": "What is the primary goal of an index fund?",
+        "options": [
+            "To outperform the market",
+            "To replicate the performance of a specific market index",
+            "To invest in high-growth, speculative stocks",
+            "To provide guaranteed returns"
         ],
         "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #4.",
-        "expertAdvice": "Expert advice for question #4 provides more details.",
+        "hint": "Index funds are known for their passive investment style.",
+        "expertAdvice": "Index funds aim to match the returns of a chosen benchmark index by holding the",
         "definitions": {
-            "term4": "Definition for term4."
-        },
-        "hint": "Hint for question #4.",
-        "difficulty": 2,
-        "reward": 240
+            "Index Fund": "A type of mutual fund that seeks to replicate the performance of a particular"
+        }
     },
     {
-        "question": "Sample medium question #5?",
+        "question": "What is a \"fund of funds\" (FOF)?",
         "options": [
-            "Option A for Q5",
-            "Option B for Q5",
-            "Option C for Q5",
-            "Option D for Q5"
+            "A fund that invests directly in individual stocks and bonds",
+            "A fund that invests in a portfolio of other mutual funds",
+            "A fund that is exclusively available to institutional investors",
+            "A fund that guarantees a minimum return"
         ],
         "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #5.",
-        "expertAdvice": "Expert advice for question #5 provides more details.",
+        "hint": "FOFs provide a way to further diversify investments.",
+        "expertAdvice": "FOFs offer investors a simplified approach to diversification by investing in a",
         "definitions": {
-            "term5": "Definition for term5."
-        },
-        "hint": "Hint for question #5.",
-        "difficulty": 2,
-        "reward": 250
+            "Fund of Funds (FOF)": "A mutual fund that invests in other mutual funds rather than directly"
+        }
     },
     {
-        "question": "Sample medium question #6?",
+        "question": "What is a key difference between pooled funds and mutual funds?",
         "options": [
-            "Option A for Q6",
-            "Option B for Q6",
-            "Option C for Q6",
-            "Option D for Q6"
+            "Pooled funds are only available to accredited investors.",
+            "Pooled funds are required to file prospectuses with securities commissions.",
+            "Pooled funds typically have lower minimum investment requirements.",
+            "Pooled funds are not professionally managed."
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #6.",
-        "expertAdvice": "Expert advice for question #6 provides more details.",
+        "correctAnswer": 0,
+        "hint": "Think about the regulatory and accessibility aspects of pooled funds.",
+        "expertAdvice": "Pooled funds are exempt from certain regulatory requirements, making them more",
         "definitions": {
-            "term6": "Definition for term6."
-        },
-        "hint": "Hint for question #6.",
-        "difficulty": 2,
-        "reward": 260
+            "Pooled Funds": "Investment funds that pool money from multiple investors, typically",
+            "Accredited Investor": "A sophisticated investor who meets certain criteria related to income,"
+        }
     },
     {
-        "question": "Sample medium question #7?",
+        "question": "What is a characteristic of hedge funds that distinguishes them from mutual funds?",
         "options": [
-            "Option A for Q7",
-            "Option B for Q7",
-            "Option C for Q7",
-            "Option D for Q7"
+            "They are passively managed.",
+            "They are available to all investors.",
+            "They are heavily regulated.",
+            "They aim to generate positive returns in all market conditions."
         ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #7.",
-        "expertAdvice": "Expert advice for question #7 provides more details.",
+        "correctAnswer": 3,
+        "hint": "Hedge funds often employ alternative investment strategies.",
+        "expertAdvice": "Hedge funds strive for absolute returns rather than relative returns, using strategies",
         "definitions": {
-            "term7": "Definition for term7."
-        },
-        "hint": "Hint for question #7.",
-        "difficulty": 2,
-        "reward": 270
+            "Hedge Fund": "An alternative investment fund that uses various strategies to generate"
+        }
     },
     {
-        "question": "Sample medium question #8?",
+        "question": "What is a significant advantage of segregated funds compared to mutual funds?",
         "options": [
-            "Option A for Q8",
-            "Option B for Q8",
-            "Option C for Q8",
-            "Option D for Q8"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #8.",
-        "expertAdvice": "Expert advice for question #8 provides more details.",
-        "definitions": {
-            "term8": "Definition for term8."
-        },
-        "hint": "Hint for question #8.",
-        "difficulty": 2,
-        "reward": 280
-    },
-    {
-        "question": "Sample medium question #9?",
-        "options": [
-            "Option A for Q9",
-            "Option B for Q9",
-            "Option C for Q9",
-            "Option D for Q9"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #9.",
-        "expertAdvice": "Expert advice for question #9 provides more details.",
-        "definitions": {
-            "term9": "Definition for term9."
-        },
-        "hint": "Hint for question #9.",
-        "difficulty": 2,
-        "reward": 290
-    },
-    {
-        "question": "Sample medium question #10?",
-        "options": [
-            "Option A for Q10",
-            "Option B for Q10",
-            "Option C for Q10",
-            "Option D for Q10"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #10.",
-        "expertAdvice": "Expert advice for question #10 provides more details.",
-        "definitions": {
-            "term10": "Definition for term10."
-        },
-        "hint": "Hint for question #10.",
-        "difficulty": 2,
-        "reward": 300
-    },
-    {
-        "question": "Sample medium question #11?",
-        "options": [
-            "Option A for Q11",
-            "Option B for Q11",
-            "Option C for Q11",
-            "Option D for Q11"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #11.",
-        "expertAdvice": "Expert advice for question #11 provides more details.",
-        "definitions": {
-            "term11": "Definition for term11."
-        },
-        "hint": "Hint for question #11.",
-        "difficulty": 2,
-        "reward": 310
-    },
-    {
-        "question": "Sample medium question #12?",
-        "options": [
-            "Option A for Q12",
-            "Option B for Q12",
-            "Option C for Q12",
-            "Option D for Q12"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #12.",
-        "expertAdvice": "Expert advice for question #12 provides more details.",
-        "definitions": {
-            "term12": "Definition for term12."
-        },
-        "hint": "Hint for question #12.",
-        "difficulty": 2,
-        "reward": 320
-    },
-    {
-        "question": "Sample medium question #13?",
-        "options": [
-            "Option A for Q13",
-            "Option B for Q13",
-            "Option C for Q13",
-            "Option D for Q13"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #13.",
-        "expertAdvice": "Expert advice for question #13 provides more details.",
-        "definitions": {
-            "term13": "Definition for term13."
-        },
-        "hint": "Hint for question #13.",
-        "difficulty": 2,
-        "reward": 330
-    },
-    {
-        "question": "Sample medium question #14?",
-        "options": [
-            "Option A for Q14",
-            "Option B for Q14",
-            "Option C for Q14",
-            "Option D for Q14"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #14.",
-        "expertAdvice": "Expert advice for question #14 provides more details.",
-        "definitions": {
-            "term14": "Definition for term14."
-        },
-        "hint": "Hint for question #14.",
-        "difficulty": 2,
-        "reward": 340
-    },
-    {
-        "question": "Sample medium question #15?",
-        "options": [
-            "Option A for Q15",
-            "Option B for Q15",
-            "Option C for Q15",
-            "Option D for Q15"
-        ],
-        "correctAnswer": 1,
-        "correctText": "This is the correct explanation for question #15.",
-        "expertAdvice": "Expert advice for question #15 provides more details.",
-        "definitions": {
-            "term15": "Definition for term15."
-        },
-        "hint": "Hint for question #15.",
-        "difficulty": 2,
-        "reward": 350
-    },
-    {
-        "question": "Sample medium question #16?",
-        "options": [
-            "Option A for Q16",
-            "Option B for Q16",
-            "Option C for Q16",
-            "Option D for Q16"
+            "Lower management fees",
+            "Unlimited liquidity",
+            "Guarantee of a minimum return of capital at maturity",
+            "Direct ownership of underlying securities"
         ],
         "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #16.",
-        "expertAdvice": "Expert advice for question #16 explains more about the correct answer.",
+        "hint": "Segregated funds offer a level of protection not found in traditional mutual funds.",
+        "expertAdvice": "Segregated funds, offered by insurance companies, provide a guarantee of a certain",
         "definitions": {
-            "term16": "Definition for term16."
-        },
-        "hint": "Hint for question #16.",
-        "difficulty": 2,
-        "reward": 360
-    },
-    {
-        "question": "Sample medium question #17?",
-        "options": [
-            "Option A for Q17",
-            "Option B for Q17",
-            "Option C for Q17",
-            "Option D for Q17"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #17.",
-        "expertAdvice": "Expert advice for question #17 explains more about the correct answer.",
-        "definitions": {
-            "term17": "Definition for term17."
-        },
-        "hint": "Hint for question #17.",
-        "difficulty": 2,
-        "reward": 370
-    },
-    {
-        "question": "Sample medium question #18?",
-        "options": [
-            "Option A for Q18",
-            "Option B for Q18",
-            "Option C for Q18",
-            "Option D for Q18"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #18.",
-        "expertAdvice": "Expert advice for question #18 explains more about the correct answer.",
-        "definitions": {
-            "term18": "Definition for term18."
-        },
-        "hint": "Hint for question #18.",
-        "difficulty": 2,
-        "reward": 380
-    },
-    {
-        "question": "Sample medium question #19?",
-        "options": [
-            "Option A for Q19",
-            "Option B for Q19",
-            "Option C for Q19",
-            "Option D for Q19"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #19.",
-        "expertAdvice": "Expert advice for question #19 explains more about the correct answer.",
-        "definitions": {
-            "term19": "Definition for term19."
-        },
-        "hint": "Hint for question #19.",
-        "difficulty": 2,
-        "reward": 390
-    },
-    {
-        "question": "Sample medium question #20?",
-        "options": [
-            "Option A for Q20",
-            "Option B for Q20",
-            "Option C for Q20",
-            "Option D for Q20"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #20.",
-        "expertAdvice": "Expert advice for question #20 explains more about the correct answer.",
-        "definitions": {
-            "term20": "Definition for term20."
-        },
-        "hint": "Hint for question #20.",
-        "difficulty": 2,
-        "reward": 400
-    },
-    {
-        "question": "Sample medium question #21?",
-        "options": [
-            "Option A for Q21",
-            "Option B for Q21",
-            "Option C for Q21",
-            "Option D for Q21"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #21.",
-        "expertAdvice": "Expert advice for question #21 explains more about the correct answer.",
-        "definitions": {
-            "term21": "Definition for term21."
-        },
-        "hint": "Hint for question #21.",
-        "difficulty": 2,
-        "reward": 410
-    },
-    {
-        "question": "Sample medium question #22?",
-        "options": [
-            "Option A for Q22",
-            "Option B for Q22",
-            "Option C for Q22",
-            "Option D for Q22"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #22.",
-        "expertAdvice": "Expert advice for question #22 explains more about the correct answer.",
-        "definitions": {
-            "term22": "Definition for term22."
-        },
-        "hint": "Hint for question #22.",
-        "difficulty": 2,
-        "reward": 420
-    },
-    {
-        "question": "Sample medium question #23?",
-        "options": [
-            "Option A for Q23",
-            "Option B for Q23",
-            "Option C for Q23",
-            "Option D for Q23"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #23.",
-        "expertAdvice": "Expert advice for question #23 explains more about the correct answer.",
-        "definitions": {
-            "term23": "Definition for term23."
-        },
-        "hint": "Hint for question #23.",
-        "difficulty": 2,
-        "reward": 430
-    },
-    {
-        "question": "Sample medium question #24?",
-        "options": [
-            "Option A for Q24",
-            "Option B for Q24",
-            "Option C for Q24",
-            "Option D for Q24"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #24.",
-        "expertAdvice": "Expert advice for question #24 explains more about the correct answer.",
-        "definitions": {
-            "term24": "Definition for term24."
-        },
-        "hint": "Hint for question #24.",
-        "difficulty": 2,
-        "reward": 440
-    },
-    {
-        "question": "Sample medium question #25?",
-        "options": [
-            "Option A for Q25",
-            "Option B for Q25",
-            "Option C for Q25",
-            "Option D for Q25"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #25.",
-        "expertAdvice": "Expert advice for question #25 explains more about the correct answer.",
-        "definitions": {
-            "term25": "Definition for term25."
-        },
-        "hint": "Hint for question #25.",
-        "difficulty": 2,
-        "reward": 450
-    },
-    {
-        "question": "Sample medium question #26?",
-        "options": [
-            "Option A for Q26",
-            "Option B for Q26",
-            "Option C for Q26",
-            "Option D for Q26"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #26.",
-        "expertAdvice": "Expert advice for question #26 explains more about the correct answer.",
-        "definitions": {
-            "term26": "Definition for term26."
-        },
-        "hint": "Hint for question #26.",
-        "difficulty": 2,
-        "reward": 460
-    },
-    {
-        "question": "Sample medium question #27?",
-        "options": [
-            "Option A for Q27",
-            "Option B for Q27",
-            "Option C for Q27",
-            "Option D for Q27"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #27.",
-        "expertAdvice": "Expert advice for question #27 explains more about the correct answer.",
-        "definitions": {
-            "term27": "Definition for term27."
-        },
-        "hint": "Hint for question #27.",
-        "difficulty": 2,
-        "reward": 470
-    },
-    {
-        "question": "Sample medium question #28?",
-        "options": [
-            "Option A for Q28",
-            "Option B for Q28",
-            "Option C for Q28",
-            "Option D for Q28"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #28.",
-        "expertAdvice": "Expert advice for question #28 explains more about the correct answer.",
-        "definitions": {
-            "term28": "Definition for term28."
-        },
-        "hint": "Hint for question #28.",
-        "difficulty": 2,
-        "reward": 480
-    },
-    {
-        "question": "Sample medium question #29?",
-        "options": [
-            "Option A for Q29",
-            "Option B for Q29",
-            "Option C for Q29",
-            "Option D for Q29"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #29.",
-        "expertAdvice": "Expert advice for question #29 explains more about the correct answer.",
-        "definitions": {
-            "term29": "Definition for term29."
-        },
-        "hint": "Hint for question #29.",
-        "difficulty": 2,
-        "reward": 490
-    },
-    {
-        "question": "Sample medium question #30?",
-        "options": [
-            "Option A for Q30",
-            "Option B for Q30",
-            "Option C for Q30",
-            "Option D for Q30"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #30.",
-        "expertAdvice": "Expert advice for question #30 explains more about the correct answer.",
-        "definitions": {
-            "term30": "Definition for term30."
-        },
-        "hint": "Hint for question #30.",
-        "difficulty": 2,
-        "reward": 500
-    },
-    {
-        "question": "Sample medium question #31?",
-        "options": [
-            "Option A for Q31",
-            "Option B for Q31",
-            "Option C for Q31",
-            "Option D for Q31"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #31.",
-        "expertAdvice": "Expert advice for question #31 explains more about the correct answer.",
-        "definitions": {
-            "term31": "Definition for term31."
-        },
-        "hint": "Hint for question #31.",
-        "difficulty": 2,
-        "reward": 510
-    },
-    {
-        "question": "Sample medium question #32?",
-        "options": [
-            "Option A for Q32",
-            "Option B for Q32",
-            "Option C for Q32",
-            "Option D for Q32"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #32.",
-        "expertAdvice": "Expert advice for question #32 explains more about the correct answer.",
-        "definitions": {
-            "term32": "Definition for term32."
-        },
-        "hint": "Hint for question #32.",
-        "difficulty": 2,
-        "reward": 520
-    },
-    {
-        "question": "Sample medium question #33?",
-        "options": [
-            "Option A for Q33",
-            "Option B for Q33",
-            "Option C for Q33",
-            "Option D for Q33"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #33.",
-        "expertAdvice": "Expert advice for question #33 explains more about the correct answer.",
-        "definitions": {
-            "term33": "Definition for term33."
-        },
-        "hint": "Hint for question #33.",
-        "difficulty": 2,
-        "reward": 530
-    },
-    {
-        "question": "Sample medium question #34?",
-        "options": [
-            "Option A for Q34",
-            "Option B for Q34",
-            "Option C for Q34",
-            "Option D for Q34"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #34.",
-        "expertAdvice": "Expert advice for question #34 explains more about the correct answer.",
-        "definitions": {
-            "term34": "Definition for term34."
-        },
-        "hint": "Hint for question #34.",
-        "difficulty": 2,
-        "reward": 540
-    },
-    {
-        "question": "Sample medium question #35?",
-        "options": [
-            "Option A for Q35",
-            "Option B for Q35",
-            "Option C for Q35",
-            "Option D for Q35"
-        ],
-        "correctAnswer": 2,
-        "correctText": "This is the correct explanation for question #35.",
-        "expertAdvice": "Expert advice for question #35 explains more about the correct answer.",
-        "definitions": {
-            "term35": "Definition for term35."
-        },
-        "hint": "Hint for question #35.",
-        "difficulty": 2,
-        "reward": 550
+            "Segregated Funds": "Investment products offered by insurance companies that combine"
+        }
     }
 ]
