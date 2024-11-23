@@ -1,0 +1,146 @@
+[
+    {
+        "question": "Why are index funds often compared to copycats?",
+        "options": [
+            "They wear the same clothes as the market.",
+            "They have the same haircut as the market.",
+            "They try to replicate the market's performance.",
+            "They steal the market's lunch money."
+        ],
+        "correctAnswer": 2,
+        "hint": "They aim to match the performance of a specific market index.",
+        "expertAdvice": "Imitation is the sincerest form of flattery (and a decent investment strategy).",
+        "definitions": {
+            "Index Fund": "A type of mutual fund or exchange-traded fund (ETF) that aims to replicate the performance of a specific market index, such as the S&P 500."
+        }
+    },
+    {
+        "question": "What's the difference between a closed-end fund and an open-end fund?",
+        "options": [
+            "One is a party animal, and the other is a homebody.",
+            "One has a fixed number of units, and the other issues units continuously.",
+            "One invests in stocks, and the other invests in bonds.",
+            "One is legal, and the other is illegal."
+        ],
+        "correctAnswer": 1,
+        "hint": "Think about how each type of fund manages its shares.",
+        "expertAdvice": "If you're looking for continuous access to your investment, an open-end fund is the way to go.",
+        "definitions": {
+            "Closed-End Fund": "A type of investment fund with a fixed number of shares that are traded on an exchange.",
+            "Open-End Fund": "A type of investment fund that issues and redeems shares continuously, allowing investors to buy and sell directly with the fund."
+        }
+    },
+    {
+        "question": "What is the most crucial principle to keep in mind when investing in mutual funds?",
+        "options": [
+            "Don't put all your eggs in one basket.",
+            "Past performance is not indicative of future results.",
+            "The early bird gets the worm.",
+            "Always trust your gut feeling."
+        ],
+        "correctAnswer": 1,
+        "hint": "It's essential to recognize that just because a fund has performed well in the past doesn't mean it will continue to do so.",
+        "expertAdvice": "Diversification is key, and historical returns don't guarantee future success.",
+        "definitions": {
+            "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities.",
+            "Diversification": "An investment strategy that involves spreading investments across various financial instruments, industries, and other categories to reduce risk."
+        }
+    },
+    {
+        "question": "What is the most effective strategy for making money during a bear market?",
+        "options": [
+            "Hibernate until the market recovers.",
+            "Invest in a bear-themed mutual fund (if one exists).",
+            "Consider tactical asset allocation adjustments.",
+            "Sell everything and hide your cash under your mattress."
+        ],
+        "correctAnswer": 2,
+        "hint": "Even in a downturn, there might be opportunities to reposition your investments.",
+        "expertAdvice": "Tactical asset allocation can help you take advantage of market conditions by adjusting your investment mix based on current economic trends.",
+        "definitions": {
+            "Bear Market": "A market condition characterized by declining prices, typically defined as a drop of 20% or more from recent highs.",
+            "Tactical Asset Allocation": "An investment strategy that involves adjusting the percentage of various asset classes in a portfolio based on short-term market forecasts."
+        }
+    },
+    {
+        "question": "What is the main investment objective of an equity fund?",
+        "options": [
+            "To turn pennies into dollars (literally).",
+            "To become best friends with the CEO of every company it invests in.",
+            "To win the stock market lottery.",
+            "To achieve long-term capital growth."
+        ],
+        "correctAnswer": 3,
+        "hint": "Think about what equity funds primarily invest in.",
+        "expertAdvice": "Equity funds focus on growth rather than generating income through dividends or interest, aiming to increase the value of the investment over time.",
+        "definitions": {
+            "Equity Fund": "A type of mutual fund that primarily invests in stocks (equities) with the goal of achieving long-term capital growth.",
+            "Capital Growth": "An increase in the value of an investment over time, which can be realized when the investment is sold for a higher price than it was purchased."
+        }
+    },
+    {
+        "question": "Which of the following is a feature of ETFs?",
+        "options": [
+            "They offer investors a guaranteed return (if only investing were that easy!).",
+            "They are only available to accredited investors (because exclusivity is all the rage).",
+            "They are typically actively managed (because chaos is fun!).",
+            "They are traded on a stock exchange (where the real action happens!)."
+        ],
+        "correctAnswer": 3,
+        "hint": "Think about how ETFs are bought and sold in the wild world of finance.",
+        "expertAdvice": "ETFs combine the diversification of mutual funds with the flexibility of trading like individual stocks on an exchange.",
+        "definitions": {
+            "ETF": "A type of investment fund that is traded on stock exchanges, similar to individual stocks, and typically aims to track the performance of a specific index or asset class.",
+            "Stock Exchange": "A marketplace where buyers and sellers come together to trade stocks and other securities, providing liquidity and price discovery for investors."
+        }
+    },
+    {
+        "question": "What is a key characteristic of commodity pools?",
+        "options": [
+            "They invest primarily in real estate.",
+            "They are permitted to use specified derivatives and physical commodities beyond what is allowed for typical mutual funds.",
+            "They are known for their low risk and stable returns.",
+            "They are only available to investors who can solve a Rubik's Cube in under a minute."
+        ],
+        "correctAnswer": 1,
+        "hint": "Commodity pools have special rules that allow them to invest in a wider range of assets.",
+        "expertAdvice": "Derivatives are financial instruments whose value is derived from an underlying asset, such as a commodity or stock.",
+        "definitions": {
+            "Commodity Pool": "An investment vehicle that pools funds from multiple investors to invest in commodities and commodity-related instruments, often using strategies that involve derivatives.",
+            "Derivatives": "Financial instruments whose value is based on the price of an underlying asset, such as commodities, stocks, or bonds, allowing for various investment strategies and risk management."
+        }
+    },
+    {
+        "question": "What is one key difference between a mutual fund and a hedge fund?",
+        "options": [
+            "Mutual funds are for beginners, while hedge funds are for Wall Street hotshots.",
+            "Mutual funds are available to the general public, while hedge funds are typically limited to accredited investors.",
+            "Mutual funds invest in boring things like stocks and bonds, while hedge funds buy yachts and private islands.",
+            "Mutual funds are like a relaxing day at the beach, while hedge funds are like swimming with sharks (in a good way?)."
+        ],
+        "correctAnswer": 1,
+        "hint": "One type of fund is more exclusive than the other.",
+        "expertAdvice": "Accredited investors are individuals or institutions that meet certain financial criteria, such as having a high net worth or income.",
+        "definitions": {
+            "Mutual Fund": "An investment vehicle that pools money from many investors to purchase a diversified portfolio of securities, typically available to the general public and regulated by government authorities.",
+            "Hedge Fund": "An investment fund that employs a wide range of strategies, often with less regulatory oversight, and is usually available only to accredited investors who meet specific financial criteria.",
+            "Accredited Investor": "An individual or entity that meets certain financial thresholds, allowing them to invest in higher-risk investment opportunities, such as hedge funds."
+        }
+    },
+    {
+        "question": "What is a key feature of principal protected notes (PPNs)?",
+        "options": [
+            "They come with a money-back guarantee if you're not completely satisfied.",
+            "They guarantee the repayment of the original principal at maturity, regardless of the performance of the underlying asset.",
+            "They offer unlimited earning potential with zero risk.",
+            "They are backed by the full faith and credit of the Tooth Fairy."
+        ],
+        "correctAnswer": 1,
+        "hint": "Think about how PPNs protect investors from potential losses.",
+        "expertAdvice": "While PPNs protect your principal, your returns are still dependent on the performance of the underlying asset.",
+        "definitions": {
+            "Principal Protected Note": "A type of investment that guarantees the return of the original principal amount at maturity, while offering potential returns based on the performance of an underlying asset, such as stocks or indices.",
+            "Underlying Asset": "The financial instrument or asset on which the returns of a PPN are based, which can affect the overall performance of the investment."
+        }
+    }
+]
