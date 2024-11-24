@@ -2,59 +2,34 @@
 
 let currentQuestionIndex = 0;
 let currentQuestions = [];
+let usedLifelines = { fiftyFifty: false, expert: false, hint: false, definitions: false };
 let score = 0;
-let currentMoney = 0;
-const moneyValues = [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 500000, 1000000];
-const totalQuestions = 15;
+const totalQuestions = 15; // Total questions from different categories
 
-const loadQuestions = async () => {
-    const urls = {
-        easy: "questions/easy.json",
-        medium: "questions/medium.json",
-        hard: "questions/hard.json",
-        veryHard: "questions/very hard.json",
-        expert: "questions/expert.json",
-        satiricalEasy: "questions/satirical easy.json",
-        satiricalMedium: "questions/satirical medium.json"
-    };
-
+const startQuiz = () => {
     try {
-        console.log("Attempting to load questions...");
+        console.log("Starting the quiz...");
 
-        // Load only easy questions for testing
-        const responses = await fetch(urls.easy);
-        console.log('Response:', responses);
+        // Select random questions from each category
+        const easyQuestions = getRandomQuestions(questions.easy, 4);
+        const mediumQuestions = getRandomQuestions(questions.medium, 4);
+        const hardQuestions = getRandomQuestions(questions.hard, 3);
+        const veryHardQuestions = getRandomQuestions(questions.veryHard, 2);
+        const expertQuestions = getRandomQuestions(questions.expert, 2);
 
-        if (!responses.ok) {
-            throw new Error(`Failed to fetch: ${responses.statusText}`);
-        }
-
-        const easyQuestions = await responses.json();
-        console.log("Successfully loaded easy questions:", easyQuestions);
-
-        // Only loading easy questions for now
-        questions = {
-            easy: easyQuestions
-        };
-
-        startQuiz();
+        // Ensure questions are ordered: easy, medium, hard, very hard, expert
+        currentQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions, ...veryHardQuestions, ...expertQuestions];
+        loadQuestion();
     } catch (error) {
-        console.error("Error loading questions:", error);
-        document.getElementById("question").textContent = "Error loading questions. Please try again.";
+        console.error("Error starting quiz:", error);
+        document.getElementById("question").textContent = "Error starting the quiz. Please try again.";
     }
 };
-
 
 const getRandomQuestions = (questions, count) => {
     const shuffled = questions.sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
 };
 
-const loadQuestion = () => {
-    if (currentQuestionIndex >= currentQuestions.length) {
-        showFinalScore();
-        return;
-    }
-    const currentQuestion = currentQuestions[currentQuestionIndex];
-    updateUIForNewQuestion(currentQuestion);
-};
+// Start the quiz once questions are loaded
+loadQuestions();
