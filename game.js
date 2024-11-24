@@ -21,50 +21,21 @@ const loadQuestions = async () => {
     try {
         console.log("Attempting to load questions...");
 
-        // Load all JSON files
-        const responses = await Promise.all([
-            fetch(urls.easy),
-            fetch(urls.medium),
-            fetch(urls.hard),
-            fetch(urls.veryHard),
-            fetch(urls.expert),
-            fetch(urls.satiricalEasy),
-            fetch(urls.satiricalMedium)
-        ]);
+        // Load only easy questions for testing
+        const responses = await fetch(urls.easy);
+        console.log('Response:', responses);
 
-        // Log response status
-        responses.forEach((response, index) => {
-            console.log(`Response for ${Object.keys(urls)[index]}:`, response.status);
-            if (!response.ok) {
-                throw new Error(`Failed to fetch file ${Object.keys(urls)[index]}: ${response.statusText}`);
-            }
-        });
+        if (!responses.ok) {
+            throw new Error(`Failed to fetch: ${responses.statusText}`);
+        }
 
-        // Parse JSON files
-        const [
-            easyQuestions,
-            mediumQuestions,
-            hardQuestions,
-            veryHardQuestions,
-            expertQuestions,
-            satiricalEasyQuestions,
-            satiricalMediumQuestions
-        ] = await Promise.all(responses.map(response => response.json()));
+        const easyQuestions = await responses.json();
+        console.log("Successfully loaded easy questions:", easyQuestions);
 
-        console.log("Successfully parsed questions JSON files.");
-
-        // Combine questions
+        // Only loading easy questions for now
         questions = {
-            easy: easyQuestions,
-            medium: mediumQuestions,
-            hard: hardQuestions,
-            veryHard: veryHardQuestions,
-            expert: expertQuestions,
-            satiricalEasy: satiricalEasyQuestions,
-            satiricalMedium: satiricalMediumQuestions
+            easy: easyQuestions
         };
-
-        console.log("Questions loaded successfully:", questions);
 
         startQuiz();
     } catch (error) {
