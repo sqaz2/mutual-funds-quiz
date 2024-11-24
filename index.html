@@ -3,52 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mutual Funds Quiz Game</title>
+    <title>Basic Mutual Funds Quiz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="quiz-container">
-        <h1>Mutual Funds Quiz</h1>
+    <div class="container">
+        <header>
+            <h1>Mutual Funds Quiz</h1>
+        </header>
         
-        <!-- Progress Bar -->
-        <div id="progress-bar-container">
-            <div id="progress-bar">Progress: 0%</div>
-        </div>
-        
-        <!-- Question Section -->
-        <div id="question-box">
+        <section id="quiz">
             <p id="question">Loading question...</p>
             <div id="options"></div>
-        </div>
-        
-        <!-- Feedback -->
-        <div id="feedback"></div>
-        
-        <!-- Next Question Button -->
-        <button id="next-question" disabled>Next Question</button>
+            <button id="next-question" disabled>Next Question</button>
+        </section>
 
-        <!-- Lifelines Section -->
         <section id="lifelines">
             <button id="lifeline-fifty-fifty">50-50</button>
             <button id="lifeline-expert">Ask the Expert</button>
             <button id="lifeline-hint">Hint</button>
             <button id="lifeline-definitions">Definitions</button>
         </section>
-
-        <!-- Achievements Dashboard -->
-        <section id="achievements-dashboard">
-            <h2>Achievements</h2>
-            <div id="achievements-container">
-                <!-- Achievements will be dynamically added here -->
-            </div>
-        </section>
     </div>
 
-    <!-- Import JavaScript files -->
-    <script  src="questions.js" type="module" defer></script>
-    <script src="lifelines.js" type="module" defer></script>
-    <script src="ui.js" type="module" defer></script>
-    <script src="game.js" type="module" defer></script>
-    <script src="achievements.js" type="module" defer></script>
+    <!-- JavaScript imports -->
+    <script type="module" src="./questions.js"></script>
+    <script type="module" src="./game.js"></script>
 </body>
 </html>
