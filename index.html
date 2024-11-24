@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Mutual Funds Quiz</title>
+    <title>Mutual Funds Quiz</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -13,8 +13,13 @@
         </header>
         
         <section id="quiz">
+            <div id="progress-bar-container">
+                <div id="progress-bar">Progress: 0%</div>
+            </div>
+            <p id="money-earned">Current Score: 0</p>
             <p id="question">Loading question...</p>
             <div id="options"></div>
+            <p id="feedback"></p>
             <button id="next-question" disabled>Next Question</button>
         </section>
 
@@ -26,8 +31,11 @@
         </section>
     </div>
 
-    <!-- JavaScript imports -->
+    <!-- Load Scripts in Correct Order -->
     <script type="module" src="./questions.js"></script>
+    <script type="module" src="./lifelines.js"></script>
+    <script type="module" src="./ui.js"></script>
+    <script type="module" src="./achievements.js"></script>
     <script type="module" src="./game.js"></script>
 </body>
 </html>
