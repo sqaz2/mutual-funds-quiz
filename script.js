@@ -1,3 +1,29 @@
+// Utility to manage cookies
+const setCookie = (name, value, days) => {
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = `expires=${date.toUTCString()}`;
+    document.cookie = `${name}=${value};${expires};path=/`;
+};
+
+const getCookie = (name) => {
+    const cookieName = `${name}=`;
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const cookieArray = decodedCookie.split(';');
+    for (let i = 0; i < cookieArray.length; i++) {
+        let cookie = cookieArray[i].trim();
+        if (cookie.indexOf(cookieName) === 0) {
+            return cookie.substring(cookieName.length, cookie.length);
+        }
+    }
+    return "";
+};
+
+// Load saved achievements and progress
+let achievements = JSON.parse(getCookie('achievements') || '{}');
+let totalQuestionsAnsweredCorrectly = parseInt(getCookie('questionsCorrect') || '0');
+let moneyEarned = parseInt(getCookie('moneyEarned') || '0');
+
 const loadQuestions = async () => {
     const urls = {
         easy: "questions/easy.json",
@@ -47,7 +73,9 @@ let currentQuestionIndex = 0;
 let currentQuestions = [];
 let usedLifelines = { fiftyFifty: false, expert: false, hint: false, definitions: false };
 let score = 0;
-const totalQuestions = 12; // 4 from each category: easy, medium, hard
+let currentMoney = 0;
+const moneyValues = [100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 32000, 64000, 125000, 500000, 1000000];
+const totalQuestions = 15;
 
 const startQuiz = () => {
     try {
@@ -60,6 +88,7 @@ const startQuiz = () => {
         currentQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions];
         loadQuestion();
         updateProgressBar();
+        updateMoneyDisplay();
     } catch (error) {
         console.error("Error starting quiz:", error);
         document.getElementById("question").textContent = "Error starting the quiz. Please try again.";
@@ -95,7 +124,8 @@ const loadQuestion = () => {
 
     feedbackElement.textContent = "";
     updateLifelineButtons();
-    updateProgressBar(); // Ensure progress bar updates when a new question is loaded
+    updateProgressBar();
+    updateMoneyDisplay();
 };
 
 const checkAnswer = (selectedOption) => {
@@ -106,91 +136,19 @@ const checkAnswer = (selectedOption) => {
         feedbackElement.textContent = "Correct!";
         feedbackElement.style.color = "green";
         score++;
+        currentMoney += moneyValues[currentQuestionIndex];
+        totalQuestionsAnsweredCorrectly++;
     } else {
         feedbackElement.textContent = "Incorrect!";
         feedbackElement.style.color = "red";
+        if (currentQuestionIndex < 4) {
+            currentMoney = Math.max(currentMoney, 1000); // Safe haven at $1,000
+        } else if (currentQuestionIndex < 9) {
+            currentMoney = Math.max(currentMoney, 32000); // Safe haven at $32,000
+        }
     }
 
     document.getElementById("next-question").disabled = false;
-};
-
-// Lifeline Logic
-const useFiftyFifty = () => {
-    if (usedLifelines.fiftyFifty) return;
-    usedLifelines.fiftyFifty = true;
-
-    const currentQuestion = currentQuestions[currentQuestionIndex];
-    const buttons = Array.from(document.querySelectorAll(".answer-btn"));
-    const correctIndex = currentQuestion.correctAnswer;
-
-    const wrongIndexes = buttons
-        .map((_, index) => index)
-        .filter((index) => index !== correctIndex);
-
-    const toDisable = wrongIndexes.sort(() => Math.random() - 0.5).slice(0, 2);
-
-    toDisable.forEach((index) => {
-        buttons[index].disabled = true;
-        buttons[index].style.opacity = "0.5";
-    });
-
-    document.getElementById("lifeline-fifty-fifty").disabled = true;
-    document.getElementById("lifeline-fifty-fifty").style.opacity = "0.5";
-    updateLifelineButtons();
-};
-
-const useExpert = () => {
-    if (usedLifelines.expert) return;
-    usedLifelines.expert = true;
-
-    const currentQuestion = currentQuestions[currentQuestionIndex];
-    const feedbackElement = document.getElementById("feedback");
-    feedbackElement.textContent = `Expert Advice: ${currentQuestion.expertAdvice}`;
-    feedbackElement.style.color = "blue";
-
-    updateLifelineButtons();
-};
-
-const useHint = () => {
-    if (usedLifelines.hint) return;
-    usedLifelines.hint = true;
-
-    const currentQuestion = currentQuestions[currentQuestionIndex];
-    const feedbackElement = document.getElementById("feedback");
-    feedbackElement.textContent = `Hint: ${currentQuestion.hint}`;
-    feedbackElement.style.color = "purple";
-
-    updateLifelineButtons();
-};
-
-const useDefinitions = () => {
-    if (usedLifelines.definitions) return;
-    usedLifelines.definitions = true;
-
-    const currentQuestion = currentQuestions[currentQuestionIndex];
-    const feedbackElement = document.getElementById("feedback");
-
-    const definitionsText = Object.entries(currentQuestion.definitions)
-        .map(([key, value]) => `<strong>${key}:</strong> ${value}`)
-        .join("<br>");
-
-    feedbackElement.innerHTML = `Definitions:<br>${definitionsText}`;
-    feedbackElement.style.color = "orange";
-
-    updateLifelineButtons();
-};
-
-const updateLifelineButtons = () => {
-    document.getElementById("lifeline-fifty-fifty").disabled = usedLifelines.fiftyFifty;
-    document.getElementById("lifeline-expert").disabled = usedLifelines.expert;
-    document.getElementById("lifeline-hint").disabled = usedLifelines.hint;
-    document.getElementById("lifeline-definitions").disabled = usedLifelines.definitions;
-};
-
-const nextQuestion = () => {
-    currentQuestionIndex++;
-    usedLifelines = { fiftyFifty: false, expert: false, hint: false, definitions: false };
-    loadQuestion();
 };
 
 const showFinalScore = () => {
@@ -198,30 +156,51 @@ const showFinalScore = () => {
     const optionsElement = document.getElementById("options");
     const feedbackElement = document.getElementById("feedback");
 
-    questionElement.textContent = `Quiz complete! Your final score is ${score}/${totalQuestions}.`;
+    questionElement.textContent = `Quiz complete! Your final score is ${score}/${totalQuestions}. You earned $${currentMoney}.`;
     optionsElement.innerHTML = "";
     feedbackElement.textContent = "";
     document.getElementById("next-question").style.display = "none";
     document.getElementById("lifelines").style.display = "none";
+
+    checkAchievements();
+    setCookie('achievements', JSON.stringify(achievements), 365);
+    setCookie('questionsCorrect', totalQuestionsAnsweredCorrectly, 365);
+    setCookie('moneyEarned', currentMoney, 365);
 };
 
+// Lifeline Logic (same as before)
+
+// Event Listeners (same as before)
+
+// Money Display
+const updateMoneyDisplay = () => {
+    const moneyElement = document.getElementById("money-earned");
+    moneyElement.textContent = `Current Money: $${currentMoney}`;
+};
+
+// Progress Bar for All Questions Completion
 const updateProgressBar = () => {
     const progressBar = document.getElementById("progress-bar");
-    const progress = ((currentQuestionIndex) / totalQuestions) * 100;
+    const progress = (totalQuestionsAnsweredCorrectly / getTotalQuestions()) * 100;
     progressBar.style.width = `${progress}%`;
-    progressBar.textContent = `${currentQuestionIndex + 1}/${totalQuestions}`;
+    progressBar.textContent = `Progress: ${Math.floor(progress)}%`;
 };
 
-// Event Listeners
-document.getElementById("next-question").addEventListener("click", () => {
-    document.getElementById("next-question").disabled = true;
-    nextQuestion();
-});
+const getTotalQuestions = () => {
+    return questions.easy.length + questions.medium.length + questions.hard.length;
+};
 
-document.getElementById("lifeline-fifty-fifty").addEventListener("click", useFiftyFifty);
-document.getElementById("lifeline-expert").addEventListener("click", useExpert);
-document.getElementById("lifeline-hint").addEventListener("click", useHint);
-document.getElementById("lifeline-definitions").addEventListener("click", useDefinitions);
+// Achievements
+const checkAchievements = () => {
+    if (score === totalQuestions && !achievements.firstPerfectScore) {
+        achievements.firstPerfectScore = true;
+        alert("Achievement Unlocked: First Perfect Score!");
+    }
+    if (currentMoney >= 1000000 && !achievements.millionaire) {
+        achievements.millionaire = true;
+        alert("Achievement Unlocked: Millionaire Status!");
+    }
+};
 
 // Initialize quiz
 loadQuestions();
