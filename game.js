@@ -19,16 +19,24 @@ const loadQuestions = async () => {
     };
 
     try {
+        console.log("Attempting to load questions...");
+
         // Load all JSON files
         const responses = await Promise.all([
             fetch(urls.easy),
-           
+            fetch(urls.medium),
+            fetch(urls.hard),
+            fetch(urls.veryHard),
+            fetch(urls.expert),
+            fetch(urls.satiricalEasy),
+            fetch(urls.satiricalMedium)
         ]);
 
-        // Check if all responses are okay
+        // Log response status
         responses.forEach((response, index) => {
+            console.log(`Response for ${Object.keys(urls)[index]}:`, response.status);
             if (!response.ok) {
-                throw new Error(`Failed to fetch file ${index + 1}: ${response.statusText}`);
+                throw new Error(`Failed to fetch file ${Object.keys(urls)[index]}: ${response.statusText}`);
             }
         });
 
@@ -43,6 +51,8 @@ const loadQuestions = async () => {
             satiricalMediumQuestions
         ] = await Promise.all(responses.map(response => response.json()));
 
+        console.log("Successfully parsed questions JSON files.");
+
         // Combine questions
         questions = {
             easy: easyQuestions,
@@ -54,6 +64,8 @@ const loadQuestions = async () => {
             satiricalMedium: satiricalMediumQuestions
         };
 
+        console.log("Questions loaded successfully:", questions);
+
         startQuiz();
     } catch (error) {
         console.error("Error loading questions:", error);
@@ -61,33 +73,6 @@ const loadQuestions = async () => {
     }
 };
 
-const startQuiz = () => {
-    try {
-        // Select random questions from each category
-        const easyQuestions = getRandomQuestions(questions.easy, 3);
-        const mediumQuestions = getRandomQuestions(questions.medium, 3);
-        const hardQuestions = getRandomQuestions(questions.hard, 3);
-        const veryHardQuestions = getRandomQuestions(questions.veryHard, 3);
-        const expertQuestions = getRandomQuestions(questions.expert, 3);
-
-        // Randomly add one satirical question to easy and medium categories
-        const satiricalEasy = getRandomQuestions(questions.satiricalEasy, 1);
-        const satiricalMedium = getRandomQuestions(questions.satiricalMedium, 1);
-
-        // Insert satirical questions into the easy and medium questions
-        easyQuestions.splice(Math.floor(Math.random() * easyQuestions.length), 0, ...satiricalEasy);
-        mediumQuestions.splice(Math.floor(Math.random() * mediumQuestions.length), 0, ...satiricalMedium);
-
-        // Ensure questions are ordered by difficulty
-        currentQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions, ...veryHardQuestions, ...expertQuestions];
-        loadQuestion();
-        updateProgressBar();
-        updateMoneyDisplay();
-    } catch (error) {
-        console.error("Error starting quiz:", error);
-        document.getElementById("question").textContent = "Error starting the quiz. Please try again.";
-    }
-};
 
 const getRandomQuestions = (questions, count) => {
     const shuffled = questions.sort(() => Math.random() - 0.5);
