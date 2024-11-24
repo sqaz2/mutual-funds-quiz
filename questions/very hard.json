@@ -1,167 +1,162 @@
-Here are **10 very difficult mutual funds quiz questions**, formatted as requested:
-
-```json
 [
-  {
-    "question": "Which type of mutual fund is most likely to hold a significant portion of its portfolio in commercial paper and bankers' acceptances?",
-    "options": [
-      "Money Market Fund",
-      "Mortgage Fund",
-      "Bond Fund",
-      "Balanced Fund"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "Money market funds focus on short-term, high-quality debt securities, which include commercial paper and bankers' acceptances, to maintain stability and liquidity.",
-    "hint": "Think about which fund prioritizes short-term debt instruments for safety and liquidity.",
-    "definitions": {
-      "Commercial Paper": "Unsecured, short-term debt issued by corporations to finance short-term liabilities.",
-      "Bankers' Acceptances": "Time drafts guaranteed by a bank, commonly used in international trade."
+    {
+        "question": "Which type of mutual fund is most likely to hold a significant portion of its portfolio in commercial paper and bankers' acceptances?",
+        "options": [
+            "Money Market Fund",
+            "Mortgage Fund",
+            "Bond Fund",
+            "Balanced Fund"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "Money market funds focus on short-term, high-quality debt securities, which include commercial paper and bankers' acceptances, to maintain stability and liquidity.",
+        "hint": "Think about which fund prioritizes short-term debt instruments for safety and liquidity.",
+        "definitions": {
+            "Commercial Paper": "Unsecured, short-term debt issued by corporations to finance short-term liabilities.",
+            "Bankers' Acceptances": "Time drafts guaranteed by a bank, commonly used in international trade."
+        }
+    },
+    {
+        "question": "What key distinction separates a Labour-Sponsored Investment Fund (LSIF) from other equity funds?",
+        "options": [
+            "Eligibility for specific tax credits despite higher risk",
+            "Focus exclusively on blue-chip companies",
+            "Guaranteed minimum return on investment",
+            "Exemption from management fees"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "LSIFs, while high risk due to their focus on start-up companies, offer investors tax credits as an incentive, making them unique among equity funds.",
+        "hint": "Consider the unique benefit LSIFs offer to offset their inherent risk.",
+        "definitions": {
+            "Tax Credits": "Amounts that can be directly deducted from taxes owed, providing greater benefit than tax deductions.",
+            "Blue-Chip Companies": "Large, well-established, financially sound companies with a history of stable earnings."
+        }
+    },
+    {
+        "question": "Which investment strategy allows a portfolio manager to deviate from a fund's target asset allocation to capitalize on short-term market movements?",
+        "options": [
+            "Tactical Asset Allocation",
+            "Strategic Asset Allocation",
+            "Passive Management",
+            "Dollar-Cost Averaging"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "Tactical asset allocation empowers portfolio managers to actively adjust the portfolio's mix in response to perceived market opportunities, unlike strategic asset allocation which focuses on a long-term target mix.",
+        "hint": "Think about which approach allows for active adjustments based on market conditions.",
+        "definitions": {
+            "Tactical Asset Allocation": "An active management strategy that involves adjusting a portfolio's asset allocation to take advantage of short-term market opportunities.",
+            "Strategic Asset Allocation": "A long-term investment strategy that determines the target mix of assets in a portfolio based on an investor's risk tolerance, time horizon, and financial goals."
+        }
+    },
+    {
+        "question": "What is a 'tracking error' in the context of Index Funds?",
+        "options": [
+            "The difference in return between the index fund and its benchmark index",
+            "The inability of an index fund to perfectly replicate the index's holdings",
+            "The volatility of the index fund relative to the overall market",
+            "The annual expense ratio charged by the index fund"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "Tracking error specifically measures the degree to which an index fund's returns deviate from those of the benchmark index it aims to track.",
+        "hint": "Focus on the term 'tracking' and what it implies in relation to performance.",
+        "definitions": {
+            "Tracking Error": "The difference in performance between an index fund and its benchmark index. It represents how closely the fund tracks the index it is designed to replicate.",
+            "Benchmark Index": "A standard against which the performance of a mutual fund or other investment can be measured."
+        }
+    },
+    {
+        "question": "How do Segregated Funds differ from Mutual Funds in terms of investor ownership?",
+        "options": [
+            "Investors own an insurance contract linked to an underlying fund, not the fund units themselves",
+            "Segregated Funds offer direct ownership of real estate assets, unlike Mutual Funds",
+            "Investors in Segregated Funds collectively manage the fund's investments",
+            "Segregated Funds are exclusively available to institutional investors"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "Segregated funds are structured as insurance contracts where the insurer holds the underlying fund units, providing investors with contractual rights rather than direct ownership.",
+        "hint": "Consider the nature of Segregated Funds as insurance products.",
+        "definitions": {
+            "Segregated Funds": "Investment products offered by insurance companies that combine the characteristics of mutual funds with certain insurance features, such as maturity guarantees and death benefits.",
+            "Insurance Contract": "A legally binding agreement between an insurance company and an individual that outlines the terms and conditions of the insurance coverage."
+        }
+    },
+    {
+        "question": "Which type of mutual fund is specifically designed to adjust its asset allocation over time to align with a predetermined target date, often retirement?",
+        "options": [
+            "Target Date Fund",
+            "Tactical Asset Allocation Fund",
+            "Balanced Fund",
+            "Sector Fund"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "Target date funds are structured to automatically shift towards a more conservative asset mix as the target date approaches, simplifying long-term planning for investors.",
+        "hint": "Think about which fund structure caters to a specific date in the future.",
+        "definitions": {
+            "Target Date Fund": "A type of mutual fund that automatically adjusts its asset allocation over time to become more conservative as it approaches a specific target date, typically the investor's retirement date.",
+            "Asset Allocation": "The process of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash."
+        }
+    },
+    {
+        "question": "What characteristic makes Mortgage Funds potentially riskier than Money Market Funds despite both investing in debt securities?",
+        "options": [
+            "Exposure to interest rate fluctuations due to longer average maturity",
+            "Concentration in high-yield, non-investment grade mortgages",
+            "Lack of government guarantees on underlying mortgage securities",
+            "Higher management fees that erode returns"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "Mortgage funds, while holding mortgage securities, are subject to greater price volatility from interest rate changes due to their longer average term compared to the short-term focus of money market funds.",
+        "hint": "Think about the impact of interest rates on fixed-income securities with different maturities.",
+        "definitions": {
+            "Interest Rate Fluctuations": "Changes in interest rates over time. When interest rates rise, the value of existing fixed-income securities generally falls, and vice versa.",
+            "Average Maturity": "The weighted average of the time until all the bonds in a portfolio mature."
+        }
+    },
+    {
+        "question": "What is the primary advantage of investing in a 'Fund of Funds' (FOF)?",
+        "options": [
+            "Access to diversified investment strategies managed by multiple portfolio managers",
+            "Guaranteed protection against market losses",
+            "Significantly lower management fees compared to individual funds",
+            "Ability to directly control the underlying fund selections"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "FOFs provide investors with built-in diversification and professional management across various asset classes by investing in a selection of underlying funds managed by different portfolio managers.",
+        "hint": "Think about the structure of a FOF and the benefits it offers.",
+        "definitions": {
+            "Fund of Funds (FOF)": "A type of mutual fund that invests in a portfolio of other mutual funds rather than directly in individual securities.",
+            "Portfolio Manager": "An individual or team responsible for making investment decisions for a mutual fund or other investment portfolio."
+        }
+    },
+    {
+        "question": "Which feature distinguishes Principal Protected Notes (PPNs) from traditional bonds?",
+        "options": [
+            "Potential return linked to an underlying asset's performance with principal protection at maturity",
+            "Fixed coupon payments throughout the term of the investment",
+            "Direct ownership in the issuing company's equity",
+            "Exemption from taxation on interest income"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "PPNs offer the unique combination of potential upside linked to an underlying asset while guaranteeing the return of principal at maturity, unlike bonds with fixed coupon payments.",
+        "hint": "Focus on the key features of PPNs that differentiate them from bonds.",
+        "definitions": {
+            "Principal Protected Note (PPN)": "A structured investment product that guarantees the return of the investor's principal at maturity while offering the potential for returns linked to the performance of an underlying asset, such as a stock index or a basket of securities.",
+            "Underlying Asset": "The financial instrument or asset on which a derivative contract is based. The price of the underlying asset determines the value of the derivative."
+        }
+    },
+    {
+        "question": "What is the primary reason Hedge Funds are typically considered higher risk than Mutual Funds?",
+        "options": [
+            "Use of alternative investment strategies, including leverage and short-selling",
+            "Investment focus exclusively on emerging market economies",
+            "Lack of regulatory oversight and reporting requirements",
+            "Restriction on investor redemptions, leading to illiquidity"
+        ],
+        "correctAnswer": 0,
+        "expertAdvice": "Hedge funds utilize advanced and potentially risky strategies like leverage and short-selling, which can amplify both gains and losses, making them inherently riskier than traditional mutual funds.",
+        "hint": "Think about the investment techniques that hedge funds are known for.",
+        "definitions": {
+            "Leverage": "The use of borrowed funds to increase the potential return of an investment. Leverage can amplify both gains and losses.",
+            "Short-Selling": "The practice of borrowing an asset (typically a security) and immediately selling it in the market. The hope is to buy the asset back at a lower price later and return it to the lender, profiting from the price difference."
+        }
     }
-  },
-  {
-    "question": "What key distinction separates a Labour-Sponsored Investment Fund (LSIF) from other equity funds?",
-    "options": [
-      "Eligibility for specific tax credits despite higher risk",
-      "Focus exclusively on blue-chip companies",
-      "Guaranteed minimum return on investment",
-      "Exemption from management fees"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "LSIFs, while high risk due to their focus on start-up companies, offer investors tax credits as an incentive, making them unique among equity funds.",
-    "hint": "Consider the unique benefit LSIFs offer to offset their inherent risk.",
-    "definitions": {
-      "Tax Credits": "Amounts that can be directly deducted from taxes owed, providing greater benefit than tax deductions.",
-      "Blue-Chip Companies": "Large, well-established, financially sound companies with a history of stable earnings."
-    }
-  },
-  {
-    "question": "Which investment strategy allows a portfolio manager to deviate from a fund's target asset allocation to capitalize on short-term market movements?",
-    "options": [
-      "Tactical Asset Allocation",
-      "Strategic Asset Allocation",
-      "Passive Management",
-      "Dollar-Cost Averaging"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "Tactical asset allocation empowers portfolio managers to actively adjust the portfolio's mix in response to perceived market opportunities, unlike strategic asset allocation which focuses on a long-term target mix.",
-    "hint": "Think about which approach allows for active adjustments based on market conditions.",
-    "definitions": {
-      "Tactical Asset Allocation": "An active management strategy that involves adjusting a portfolio's asset allocation to take advantage of short-term market opportunities.",
-      "Strategic Asset Allocation": "A long-term investment strategy that determines the target mix of assets in a portfolio based on an investor's risk tolerance, time horizon, and financial goals."
-    }
-  },
-  {
-    "question": "What is a 'tracking error' in the context of Index Funds?",
-    "options": [
-      "The difference in return between the index fund and its benchmark index",
-      "The inability of an index fund to perfectly replicate the index's holdings",
-      "The volatility of the index fund relative to the overall market",
-      "The annual expense ratio charged by the index fund"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "Tracking error specifically measures the degree to which an index fund's returns deviate from those of the benchmark index it aims to track.",
-    "hint": "Focus on the term 'tracking' and what it implies in relation to performance.",
-    "definitions": {
-      "Tracking Error": "The difference in performance between an index fund and its benchmark index. It represents how closely the fund tracks the index it is designed to replicate.",
-      "Benchmark Index": "A standard against which the performance of a mutual fund or other investment can be measured."
-    }
-  },
-  {
-    "question": "How do Segregated Funds differ from Mutual Funds in terms of investor ownership?",
-    "options": [
-      "Investors own an insurance contract linked to an underlying fund, not the fund units themselves",
-      "Segregated Funds offer direct ownership of real estate assets, unlike Mutual Funds",
-      "Investors in Segregated Funds collectively manage the fund's investments",
-      "Segregated Funds are exclusively available to institutional investors"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "Segregated funds are structured as insurance contracts where the insurer holds the underlying fund units, providing investors with contractual rights rather than direct ownership.",
-    "hint": "Consider the nature of Segregated Funds as insurance products.",
-    "definitions": {
-      "Segregated Funds": "Investment products offered by insurance companies that combine the characteristics of mutual funds with certain insurance features, such as maturity guarantees and death benefits.",
-      "Insurance Contract": "A legally binding agreement between an insurance company and an individual that outlines the terms and conditions of the insurance coverage."
-    }
-  },
-  {
-    "question": "Which type of mutual fund is specifically designed to adjust its asset allocation over time to align with a predetermined target date, often retirement?",
-    "options": [
-      "Target Date Fund",
-      "Tactical Asset Allocation Fund",
-      "Balanced Fund",
-      "Sector Fund"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "Target date funds are structured to automatically shift towards a more conservative asset mix as the target date approaches, simplifying long-term planning for investors.",
-    "hint": "Think about which fund structure caters to a specific date in the future.",
-    "definitions": {
-      "Target Date Fund": "A type of mutual fund that automatically adjusts its asset allocation over time to become more conservative as it approaches a specific target date, typically the investor's retirement date.",
-      "Asset Allocation": "The process of dividing an investment portfolio among different asset categories, such as stocks, bonds, and cash."
-    }
-  },
-  {
-    "question": "What characteristic makes Mortgage Funds potentially riskier than Money Market Funds despite both investing in debt securities?",
-    "options": [
-      "Exposure to interest rate fluctuations due to longer average maturity",
-      "Concentration in high-yield, non-investment grade mortgages",
-      "Lack of government guarantees on underlying mortgage securities",
-      "Higher management fees that erode returns"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "Mortgage funds, while holding mortgage securities, are subject to greater price volatility from interest rate changes due to their longer average term compared to the short-term focus of money market funds.",
-    "hint": "Think about the impact of interest rates on fixed-income securities with different maturities.",
-    "definitions": {
-      "Interest Rate Fluctuations": "Changes in interest rates over time. When interest rates rise, the value of existing fixed-income securities generally falls, and vice versa.",
-      "Average Maturity": "The weighted average of the time until all the bonds in a portfolio mature."
-    }
-  },
-  {
-    "question": "What is the primary advantage of investing in a 'Fund of Funds' (FOF)?",
-    "options": [
-      "Access to diversified investment strategies managed by multiple portfolio managers",
-      "Guaranteed protection against market losses",
-      "Significantly lower management fees compared to individual funds",
-      "Ability to directly control the underlying fund selections"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "FOFs provide investors with built-in diversification and professional management across various asset classes by investing in a selection of underlying funds managed by different portfolio managers.",
-    "hint": "Think about the structure of a FOF and the benefits it offers.",
-    "definitions": {
-      "Fund of Funds (FOF)": "A type of mutual fund that invests in a portfolio of other mutual funds rather than directly in individual securities.",
-      "Portfolio Manager": "An individual or team responsible for making investment decisions for a mutual fund or other investment portfolio."
-    }
-  },
-  {
-    "question": "Which feature distinguishes Principal Protected Notes (PPNs) from traditional bonds?",
-    "options": [
-      "Potential return linked to an underlying asset's performance with principal protection at maturity",
-      "Fixed coupon payments throughout the term of the investment",
-      "Direct ownership in the issuing company's equity",
-      "Exemption from taxation on interest income"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "PPNs offer the unique combination of potential upside linked to an underlying asset while guaranteeing the return of principal at maturity, unlike bonds with fixed coupon payments.",
-    "hint": "Focus on the key features of PPNs that differentiate them from bonds.",
-    "definitions": {
-      "Principal Protected Note (PPN)": "A structured investment product that guarantees the return of the investor's principal at maturity while offering the potential for returns linked to the performance of an underlying asset, such as a stock index or a basket of securities.",
-      "Underlying Asset": "The financial instrument or asset on which a derivative contract is based. The price of the underlying asset determines the value of the derivative."
-    }
-  },
-  {
-    "question": "What is the primary reason Hedge Funds are typically considered higher risk than Mutual Funds?",
-    "options": [
-      "Use of alternative investment strategies, including leverage and short-selling",
-      "Investment focus exclusively on emerging market economies",
-      "Lack of regulatory oversight and reporting requirements",
-      "Restriction on investor redemptions, leading to illiquidity"
-    ],
-    "correctAnswer": 0,
-    "expertAdvice": "Hedge funds utilize advanced and potentially risky strategies like leverage and short-selling, which can amplify both gains and losses, making them inherently riskier than traditional mutual funds.",
-    "hint": "Think about the investment techniques that hedge funds are known for.",
-    "definitions": {
-      "Leverage": "The use of borrowed funds to increase the potential return of an investment. Leverage can amplify both gains and losses.",
-      "Short-Selling": "The practice of borrowing an asset (typically a security) and immediately selling it in the market. The hope is to buy the asset back at a lower price later and return it to the lender, profiting from the price difference."
-    }
-  }
 ]
-```
-
