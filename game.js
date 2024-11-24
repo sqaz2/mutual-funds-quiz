@@ -37,7 +37,69 @@ const getRandomQuestions = (questions, count) => {
     return shuffled.slice(0, count);
 };
 
-// Other game logic functions...
+// Load the current question
+const loadQuestion = () => {
+    const questionElement = document.getElementById("question");
+    const optionsElement = document.getElementById("options");
+    const feedbackElement = document.getElementById("feedback");
+
+    if (currentQuestionIndex >= currentQuestions.length) {
+        showFinalScore();
+        return;
+    }
+
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    questionElement.textContent = `Question ${currentQuestionIndex + 1}: ${currentQuestion.question}`;
+    optionsElement.innerHTML = "";
+
+    currentQuestion.options.forEach((option, index) => {
+        const button = document.createElement("button");
+        button.textContent = option;
+        button.classList.add("answer-btn");
+        button.onclick = () => checkAnswer(index);
+        optionsElement.appendChild(button);
+    });
+
+    feedbackElement.textContent = "";
+    updateLifelineButtons();
+    updateProgressBar(); // Ensure progress bar updates when a new question is loaded
+};
+
+// Check the selected answer
+const checkAnswer = (selectedOption) => {
+    const currentQuestion = currentQuestions[currentQuestionIndex];
+    const feedbackElement = document.getElementById("feedback");
+
+    if (selectedOption === currentQuestion.correctAnswer) {
+        feedbackElement.textContent = "Correct!";
+        feedbackElement.style.color = "green";
+        score++;
+    } else {
+        feedbackElement.textContent = "Incorrect!";
+        feedbackElement.style.color = "red";
+    }
+
+    document.getElementById("next-question").disabled = false;
+};
+
+// Proceed to the next question
+const nextQuestion = () => {
+    currentQuestionIndex++;
+    loadQuestion();
+};
+
+// Show the final score
+const showFinalScore = () => {
+    const questionElement = document.getElementById("question");
+    const optionsElement = document.getElementById("options");
+    const feedbackElement = document.getElementById("feedback");
+
+    questionElement.textContent = `Quiz complete! Your final score is ${score}/${totalQuestions}.`;
+    optionsElement.innerHTML = "";
+    feedbackElement.textContent = "";
+    document.getElementById("next-question").style.display = "none";
+    document.getElementById("lifelines").style.display = "none";
+};
 
 // Event Listeners
 document.getElementById("next-question").addEventListener("click", () => {
