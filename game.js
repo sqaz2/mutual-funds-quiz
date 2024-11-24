@@ -22,12 +22,7 @@ const loadQuestions = async () => {
         // Load all JSON files
         const responses = await Promise.all([
             fetch(urls.easy),
-            fetch(urls.medium),
-            fetch(urls.hard),
-            fetch(urls.veryHard),
-            fetch(urls.expert),
-            fetch(urls.satiricalEasy),
-            fetch(urls.satiricalMedium)
+           
         ]);
 
         // Check if all responses are okay
