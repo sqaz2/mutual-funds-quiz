@@ -3,29 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mutual Funds Quiz</title>
+    <title>Mutual Funds Quiz Game</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="game.js"></script>
+    <script defer src="lifelines.js"></script>
+    <script defer src="achievements.js"></script>
+    <script defer src="ui.js"></script>
 </head>
 <body>
-    <div id="quiz-container">
-        <div id="lifelines">
-    <button id="lifeline-fifty-fifty" onclick="useFiftyFifty()">50-50</button>
-    <button id="lifeline-expert" onclick="useExpert()">Ask the Expert</button>
-    <button id="lifeline-hint" onclick="useHint()">Hint</button>
-    <button id="lifeline-definitions" onclick="useDefinitions()">Definitions</button>
-</div>
-
-        <h1>Mutual Funds Quiz</h1>
-        <div id="progress-bar">
-            <div id="progress-fill"></div>
-        </div>
-        <div id="question-box">
+    <div class="container">
+        <header>
+            <h1>Mutual Funds Quiz</h1>
+        </header>
+        
+        <section id="quiz">
+            <div id="progress-bar-container">
+                <div id="progress-bar">Progress: 0%</div>
+            </div>
+            <p id="money-earned">Current Money: $0</p>
             <p id="question">Loading question...</p>
             <div id="options"></div>
-        </div>
-        <div id="feedback"></div>
-        <button id="next-question" disabled>Next Question</button>
+            <p id="feedback"></p>
+            <button id="next-question" disabled>Next Question</button>
+        </section>
+
+        <section id="lifelines">
+            <button id="lifeline-fifty-fifty">50-50</button>
+            <button id="lifeline-expert">Ask the Expert</button>
+            <button id="lifeline-hint">Hint</button>
+            <button id="lifeline-definitions">Definitions</button>
+        </section>
+
+        <section id="achievements-dashboard">
+            <h2>Achievements</h2>
+            <div id="achievements-container">
+                <!-- Achievements will be dynamically added here -->
+            </div>
+        </section>
     </div>
-    <script src="script.js" defer></script>
+
+    <script>
+        // Example function to dynamically add achievements with icons
+        const achievementsContainer = document.getElementById('achievements-container');
+
+        const displayAchievement = (name, description, iconUrl) => {
+            const achievementDiv = document.createElement('div');
+            achievementDiv.classList.add('achievement');
+
+            const img = document.createElement('img');
+            img.src = iconUrl;
+            img.alt = `${name} Icon`;
+            achievementDiv.appendChild(img);
+
+            const title = document.createElement('h3');
+            title.textContent = name;
+            achievementDiv.appendChild(title);
+
+            const desc = document.createElement('p');
+            desc.textContent = description;
+            achievementDiv.appendChild(desc);
+
+            achievementsContainer.appendChild(achievementDiv);
+        };
+
+        // Example usage (you'll replace these with real achievements later)
+        displayAchievement('First Perfect Score', 'Get a perfect score in the game.', 'icons/perfect-score.png');
+        displayAchievement('80% Correct Answers', 'Answer 80% of questions correctly.', 'icons/eighty-percent.png');
+        displayAchievement('No Lifelines Used', 'Complete the game without using any lifelines.', 'icons/no-lifelines.png');
+    </script>
 </body>
 </html>
