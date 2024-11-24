@@ -5,16 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mutual Funds Quiz Game</title>
     <link rel="stylesheet" href="styles.css">
-  
-
-
 </head>
-     <script type="module" src="./questions.js"></script>
-<script type="module" src="./game.js"></script>
-<script type="module" src="./ui.js"></script>
-<script type="module" src="./lifelines.js"></script>
-<script type="module" src="./achievements.js"></script>
-
 <body>
     <div class="container">
         <header>
@@ -46,6 +37,13 @@
             </div>
         </section>
     </div>
+
+    <!-- Script loading order matters -->
+    <script type="module" src="./questions.js"></script>
+    <script type="module" src="./lifelines.js"></script>
+    <script type="module" src="./ui.js"></script>
+    <script src="./game.js"></script>
+    <script src="./achievements.js"></script>
 
     <script>
         // Example function to dynamically add achievements with icons
