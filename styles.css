@@ -1,101 +1,193 @@
+/* styles.css */
 
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #f0f0f0;
     color: #333;
-    text-align: center;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-#quiz-container {
-    max-width: 500px;
-    margin: 50px auto;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Lifeline Buttons */
 #lifelines {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
 #lifelines button {
-    background-color: #eee;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 14px;
-    cursor: pointer;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-#lifelines button:hover:not(:disabled) {
     background-color: #007bff;
     color: #fff;
-}
-
-#lifelines button:disabled {
-    background-color: #dcdcdc;
-    color: #a0a0a0;
-    cursor: not-allowed;
-}
-
-#question-box {
-    margin-bottom: 20px;
-}
-
-#options button {
-    display: block;
-    margin: 10px auto;
-    padding: 10px;
-    width: 100%;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
     transition: background-color 0.3s;
 }
 
-#options button:hover {
+#lifelines button:hover:not(:disabled) {
     background-color: #0056b3;
 }
 
-#options button:disabled {
-    background-color: #dcdcdc;
-    color: #a0a0a0;
-    cursor: not-allowed;
-    opacity: 0.5;
+/* Quiz Section */
+#quiz {
+    text-align: center;
+}
+
+#question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answer-btn {
+    background-color: #28a745;
+    color: #fff;
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.answer-btn:hover:not(:disabled) {
+    background-color: #218838;
 }
 
 #feedback {
-    font-size: 18px;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+#next-question {
+    background-color: #17a2b8;
+    color: #fff;
+    padding: 12px 20px;
     margin-top: 20px;
+    transition: background-color 0.3s;
 }
 
-#feedback.correct {
-    color: green;
+#next-question:hover:not(:disabled) {
+    background-color: #117a8b;
 }
 
-#feedback.incorrect {
-    color: red;
+/* Progress Bar */
+#progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-bottom: 15px;
 }
 
-/* Definitions Display */
-#feedback.definitions {
-    color: orange;
-    text-align: left;
-    background: #fdf8e3;
-    border: 1px solid #f5e79e;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 14px;
-    white-space: pre-wrap; /* Keeps formatting intact */
-    margin-top: 10px;
+#progress-bar {
+    height: 25px;
+    width: 0;
+    background-color: #28a745;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    transition: width 0.4s ease;
+}
+
+/* Money Earned */
+#money-earned {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Achievements Dashboard */
+#achievements-dashboard {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#achievements-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.achievement {
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+}
+
+.achievement img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    button {
+        font-size: 0.9em;
+        padding: 8px;
+    }
+
+    #progress-bar {
+        font-size: 0.8em;
+    }
+
+    .achievement {
+        width: 100px;
+    }
+
+    .achievement img {
+        width: 50px;
+        height: 50px;
+    }
 }
