@@ -5,7 +5,6 @@ import { loadQuestions } from './questions.js';
 let currentQuestionIndex = 0;
 let currentQuestions = [];
 let score = 0;
-const totalQuestions = 15; // Adjusted for the new difficulty categories
 
 const startQuiz = async () => {
     try {
@@ -13,20 +12,20 @@ const startQuiz = async () => {
 
         // Load all questions
         const questions = await loadQuestions();
-        console.log("Questions loaded:", questions);
+        console.log("Questions loaded successfully:", questions);
 
-        // Select random questions from each category
-        const easyQuestions = getRandomQuestions(questions.easy, 4);
-        const mediumQuestions = getRandomQuestions(questions.medium, 4);
-        const hardQuestions = getRandomQuestions(questions.hard, 3);
-        const veryHardQuestions = getRandomQuestions(questions.veryHard, 2);
-        const expertQuestions = getRandomQuestions(questions.expert, 2);
-
-        // Ensure questions are ordered: easy, medium, hard, very hard, expert
-        currentQuestions = [...easyQuestions, ...mediumQuestions, ...hardQuestions, ...veryHardQuestions, ...expertQuestions];
+        // Select random questions from each category (for simplicity, just use all loaded questions for now)
+        currentQuestions = [
+            ...questions.easy,
+            ...questions.medium,
+            ...questions.hard,
+            ...questions.veryHard,
+            ...questions.expert
+        ];
         currentQuestionIndex = 0;
         score = 0;
 
+        // Load the first question
         loadQuestion();
         updateProgressBar();
         updateScore();
@@ -69,7 +68,7 @@ const handleAnswerSelection = (selectedIndex) => {
     // Highlight selected answer
     optionButtons[selectedIndex].classList.add("selected");
 
-    // Ask for final confirmation
+    // Show correct answer
     setTimeout(() => {
         const isCorrect = selectedIndex === question.correctAnswer;
         if (isCorrect) {
@@ -92,11 +91,7 @@ const nextQuestion = () => {
     updateProgressBar();
 };
 
-const getRandomQuestions = (questions, count) => {
-    const shuffled = questions.sort(() => Math.random() - 0.5);
-    return shuffled.slice(0, count);
-};
-
+// Progress Bar and Score Update Functions
 const updateScore = () => {
     document.getElementById("money-earned").textContent = `Current Score: ${score}`;
 };
@@ -108,9 +103,7 @@ const updateProgressBar = () => {
 };
 
 // Event Listeners
-document.getElementById("next-question").addEventListener("click", () => {
-    nextQuestion();
-});
+document.getElementById("next-question").addEventListener("click", nextQuestion);
 
 // Start the Quiz
 startQuiz();
