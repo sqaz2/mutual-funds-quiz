@@ -38,41 +38,12 @@
         </section>
     </div>
 
-    <!-- Order of script loading is important -->
-    <script type="module" src="./questions.js"></script>
-    <script type="module" src="./lifelines.js"></script>
-    <script type="module" src="./ui.js"></script>
-    <script src="./game.js" defer></script>
-    <script src="./achievements.js" defer></script>
-
-    <script>
-        // Achievement Icons Placeholder - Can be replaced later with dynamic logic
-        const achievementsContainer = document.getElementById('achievements-container');
-
-        const displayAchievement = (name, description, iconUrl) => {
-            const achievementDiv = document.createElement('div');
-            achievementDiv.classList.add('achievement');
-
-            const img = document.createElement('img');
-            img.src = iconUrl;
-            img.alt = `${name} Icon`;
-            achievementDiv.appendChild(img);
-
-            const title = document.createElement('h3');
-            title.textContent = name;
-            achievementDiv.appendChild(title);
-
-            const desc = document.createElement('p');
-            desc.textContent = description;
-            achievementDiv.appendChild(desc);
-
-            achievementsContainer.appendChild(achievementDiv);
-        };
-
-        // Example usage - Replace these with real achievements later
-        displayAchievement('First Perfect Score', 'Get a perfect score in the game.', 'icons/perfect-score.png');
-        displayAchievement('80% Correct Answers', 'Answer 80% of questions correctly.', 'icons/eighty-percent.png');
-        displayAchievement('No Lifelines Used', 'Complete the game without using any lifelines.', 'icons/no-lifelines.png');
-    </script>
+    <!-- Make sure the script loading order is correct -->
+    <script src="questions.js" type="module"></script>
+    <script src="lifelines.js" type="module"></script>
+    <script src="ui.js" type="module"></script>
+    <script src="game.js"></script>
+    <script src="achievements.js"></script>
 </body>
+
 </html>
