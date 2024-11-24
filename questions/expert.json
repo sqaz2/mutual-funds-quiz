@@ -1,0 +1,155 @@
+[
+  {
+    "question": "What distinguishes closed-end mutual funds from open-end mutual funds in terms of unit pricing?",
+    "options": [
+      "Closed-end funds' unit prices are determined by market forces and may deviate from NAVPU, while open-end funds' unit prices always reflect NAVPU.",
+      "Closed-end funds' unit prices are fixed at the IPO price, while open-end funds' unit prices fluctuate daily based on NAVPU.",
+      "Closed-end funds' unit prices are calculated weekly, while open-end funds' unit prices are calculated daily.",
+      "Closed-end funds' unit prices are determined by the fund manager, while open-end funds' unit prices are determined by an independent valuation service."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "Closed-end funds trade on secondary markets like stocks, so their prices are influenced by supply and demand, potentially differing from the underlying net asset value per unit (NAVPU). Open-end funds are bought and sold directly from the fund manager, ensuring their price consistently reflects the NAVPU.",
+    "hint": "Consider how the trading mechanism of each fund type influences unit pricing.",
+    "definitions": {
+      "NAVPU": "Net asset value per unit, representing the fund's assets minus liabilities divided by the number of outstanding units.",
+      "IPO": "Initial public offering, the first sale of units to the public when a closed-end fund is launched."
+    }
+  },
+  {
+    "question": "Which mutual fund type is most suitable for an investor seeking safety of principal and income?",
+    "options": [
+      "Money market fund",
+      "Equity fund",
+      "Sector fund",
+      "Balanced fund"
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "Money market funds prioritize safety of principal and generate income by investing in low-risk, short-term debt securities.",
+    "hint": "Think about the fund type that focuses on capital preservation and consistent income generation.",
+    "definitions": {
+      "Principal": "The original amount of money invested in a fund.",
+      "Debt Securities": "Financial instruments representing loans made by investors to borrowers (e.g., governments, corporations)."
+    }
+  },
+  {
+    "question": "How do balanced funds achieve their investment objective of income and long-term growth?",
+    "options": [
+      "By investing in a fixed mix of equities and bonds.",
+      "By exclusively investing in high-dividend-paying stocks.",
+      "By actively trading derivatives to maximize returns.",
+      "By concentrating investments in a specific industry sector."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "Balanced funds maintain a predetermined allocation between equities for growth and bonds for income, offering a balance between risk and return.",
+    "hint": "Consider the investment strategy that combines assets with differing risk and return characteristics.",
+    "definitions": {
+      "Equities": "Stocks representing ownership in a company.",
+      "Bonds": "Debt securities representing loans made by investors to borrowers."
+    }
+  },
+  {
+    "question": "What is a key characteristic of labor-sponsored investment funds (LSIFs)?",
+    "options": [
+      "They offer tax benefits to investors in the form of tax credits.",
+      "They are primarily invested in real estate properties.",
+      "They track the performance of a specific market index.",
+      "They are exclusively available to institutional investors."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "LSIFs provide investors with tax credits to encourage investment in Canadian start-up companies.",
+    "hint": "Think about the unique incentive associated with investing in LSIFs.",
+    "definitions": {
+      "Tax Credits": "Amounts that can be directly deducted from taxes owed, reducing the overall tax liability."
+    }
+  },
+  {
+    "question": "What is a defining feature of a 'fund of funds' (FOF)?",
+    "options": [
+      "It invests in a portfolio of other mutual funds.",
+      "It primarily invests in short-term money market instruments.",
+      "It focuses on investing in distressed securities.",
+      "It tracks a specific commodity index, such as gold or oil."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "A fund of funds constructs a diversified portfolio by investing in a selection of other mutual funds, rather than directly in individual securities.",
+    "hint": "Consider the investment vehicle that offers diversification through multiple underlying funds.",
+    "definitions": {}
+  },
+  {
+    "question": "How does the risk profile of tactical asset allocation funds compare to that of balanced funds?",
+    "options": [
+      "Tactical asset allocation funds can be higher risk because they have no fixed asset mix restrictions.",
+      "Tactical asset allocation funds are lower risk because they actively adjust their portfolio based on market conditions.",
+      "Tactical asset allocation funds and balanced funds have the same risk profile because they both aim for income and growth.",
+      "Tactical asset allocation funds are only available to accredited investors, making them inherently higher risk."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "Unlike balanced funds, tactical asset allocation funds are not bound by a fixed asset mix. This flexibility allows them to take on potentially higher risk positions to capitalize on market opportunities.",
+    "hint": "Think about the impact of having more flexibility in asset allocation on the overall risk of the fund.",
+    "definitions": {
+      "Asset Mix": "The proportion of different asset classes (e.g., equities, bonds, cash) in a portfolio."
+    }
+  },
+  {
+    "question": "What is the primary investment objective of a sector fund?",
+    "options": [
+      "Long-term capital appreciation.",
+      "Generating consistent monthly income.",
+      "Preserving capital and minimizing risk.",
+      "Tracking the performance of a broad market index."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "Sector funds aim for capital growth by concentrating investments in a specific industry or sector, aiming to benefit from growth in that specific area.",
+    "hint": "Think about the investment strategy that focuses on a particular industry or sector for potential growth.",
+    "definitions": {
+      "Capital Appreciation": "Increase in the value of an investment over time."
+    }
+  },
+  {
+    "question": "What is a key difference between principal protected notes (PPNs) and traditional bonds?",
+    "options": [
+      "PPNs link their return to an underlying asset, while traditional bonds typically offer a fixed coupon rate.",
+      "PPNs are exclusively issued by governments, while traditional bonds can be issued by corporations.",
+      "PPNs mature in a shorter time frame compared to traditional bonds.",
+      "PPNs are traded on stock exchanges, while traditional bonds are traded over-the-counter."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "Unlike traditional bonds that pay a fixed interest rate (coupon), PPNs tie their returns to the performance of an underlying asset, such as a market index.",
+    "hint": "Consider how the return structure of each investment instrument differs.",
+    "definitions": {
+      "Coupon Rate": "The fixed annual interest rate paid on a bond.",
+      "Underlying Asset": "The financial instrument or index to which a PPN's return is linked."
+    }
+  },
+  {
+    "question": "Why might the return of an index fund slightly lag behind the return of the market index it tracks?",
+    "options": [
+      "Due to management fees and potential tracking errors.",
+      "Because index funds are only permitted to hold a limited number of securities.",
+      "Due to the requirement for index funds to distribute dividends to investors.",
+      "Because index funds prioritize capital preservation over matching index performance."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "Index funds incur management expenses, which can slightly reduce returns. Additionally, replicating an index perfectly might not always be feasible, leading to tracking errors.",
+    "hint": "Consider the factors that could create a difference in returns between an index fund and its benchmark index.",
+    "definitions": {
+      "Tracking Error": "The difference in performance between an index fund and the market index it aims to track.",
+      "Management Fees": "Charges levied by the fund manager for operating and managing the fund."
+    }
+  },
+  {
+    "question": "What is a distinguishing feature of segregated funds compared to mutual funds?",
+    "options": [
+      "Segregated funds offer a guarantee of a certain percentage of capital invested at maturity or death.",
+      "Segregated funds are directly invested in physical commodities, such as gold or oil.",
+      "Segregated funds are only available to accredited investors who meet certain financial thresholds.",
+      "Segregated funds are exempt from taxation on capital gains and dividend income."
+    ],
+    "correctAnswer": 0,
+    "expertAdvice": "Segregated funds, offered by insurance companies, provide a level of principal protection by guaranteeing the return of a portion of the investment at maturity or upon the death of the contract holder."
+    "hint": "Think about the feature that offers investors some downside protection in segregated funds.",
+    "definitions": {
+      "Maturity": "The date on which an investment contract expires."
+    }
+  }
+]
